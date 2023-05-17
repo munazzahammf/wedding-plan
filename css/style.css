@@ -107,7 +107,7 @@ section {
 }
 
 .home {
-      background-color: #bdbdbd;
+       background: linear-gradient(to right, #9796f0, #fbc7d4);
 }
 
 .home .content {
