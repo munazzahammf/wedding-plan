@@ -23,8 +23,7 @@
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/cal.css">
 
-   <!-- java script link -->
-    <script src="java-script/cal.js"></script>
+   
 
 </head>
 <body>
@@ -67,14 +66,14 @@
 
    <div class="row min-vh-100 align-items-center">
          <div class="content text-center text-md-left">
+            <br>
+            <br>
             <h3>Let's Make Your Special Day Unforgettable!</h3>
             <a href="#contact" class="link-btn">Book Now</a>
          </div>
-      </div>
-      
-   <!-- calender system start-->
+      <!-- calender section starts -->
 
-    <div class="contianer">
+   <div class="contianer">
       <div class="calendar">
         <div class="calendar-header">
           <span class="month-picker" id="month-picker"> May </span>
@@ -112,14 +111,9 @@
         <div class="month-list"></div>
       </div>
     </div>
-
-
-   <!-- calender system ends-->
-
-      
-
+      <!-- calender section ends -->
    </div>
-
+   </div>
 </section>
 
 <!-- home section ends -->
@@ -167,15 +161,30 @@
   
   <div class="column">
     <img src="images/floral.jpg" class="w-100 mb-5 mb-md-0" alt="floral" >
+         <p>We're honored to be a part of your special day and can't wait to 
+            bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful 
+            arrangements that will add a touch of elegance and romance to your celebration. We're here to make 
+            your wedding day blooming marvelous!</p>
   </div>
   <div class="column">
     <img src="images/catring.jpg" class="w-100 mb-5 mb-md-0" alt="catering" >
+         <p>We're delighted to be a part of your culinary journey and help create a delightful dining experience 
+            for you and your guests. Our dedicated catering team is committed to crafting a menu that reflects your 
+            tastes, satisfies your cravings, and leaves a lasting impression. Get ready to savor delectable flavors 
+            and enjoy exceptional service on your special day. </p>
   </div>
   <div class="column">
     <img src="images/deco.jpg" class="w-100 mb-5 mb-md-0" alt="decoration" >
+         <p>We're thrilled to be a part of your special day, adding the perfect touch of beauty and elegance 
+            to your wedding decor. Our team is dedicated to creating a breathtaking ambiance that will leave you 
+            and your guests in awe. Get ready to celebrate amidst stunning decorations that will make your wedding
+             day truly magical!</p>
   </div>
    <div class="column">
     <img src="images/photo.jpg" class="w-100 mb-5 mb-md-0" alt="photography" >
+         <p>We're honored to capture the precious moments of your special day through our photography. 
+            With our skilled team behind the lens, we'll preserve the joy, love, and beauty of your wedding in 
+            timeless images. Get ready to create memories that will last a lifetime. Let's make every click count!</p>
   </div>
  
 </div>
@@ -207,13 +216,13 @@
       <div class="box">
          <i class="fas fa-clock"></i>
          <h3>opening hours</h3>
-         <p>8.00am to 10:00pm</p>
+         <p>8.00am to 8.00pm</p>
       </div>
 
       <div class="box">
          <i class="fas fa-envelope"></i>
          <h3>email address</h3>
-         <p>munazzahammf@gmail.com</p>
+         <p>dreamday@gmail.com</p>
       </div>
 
    </div>
@@ -225,6 +234,7 @@
 <!-- footer section ends -->
 
 
-
+<!-- java script link -->
+    <script src="java-script/cal.js"></script>
 </body>
 </html>
