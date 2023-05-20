@@ -149,9 +149,9 @@
 <!-- service section starts -->
 
 <section class="services" id="services">
-
-
+     
    <div class="service-container">
+       <span>Services</span>
       <h1>
          Our Wedding Is <br> Your Priority. <br> Hope You Are <br> Together.
       </h1>

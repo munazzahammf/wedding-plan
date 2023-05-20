@@ -110,7 +110,7 @@ html{
 .delete-btn:hover,
 .option-btn:hover{
     background-color: var(--white);
-    color: var(--light-bg);
+    color: var(--light-text);
 }
 .flex-btn{
     display: flex;
@@ -131,7 +131,7 @@ html{
 .form__container form{
     width: 50rem;
     border-radius: .5rem;
-    background-color: var(--black);
+    background-color: var(--blue);
     padding: 2rem;
     text-align: center;
 }
@@ -148,7 +148,7 @@ html{
     padding: 1.2rem 1.4rem;
     font-size: 1.8rem;
     color: var(--white);
-    background-color: var(--light-bg);
+    background-color: var(--light-btn);
     margin: 1rem 0;
 }
 .form__container form p{
@@ -174,7 +174,7 @@ html{
 .profile__container .profile{
     width: 40rem;
     border-radius: .5rem;
-    background-color: var(--black);
+    background-color: var(--blue);
     padding: 2rem;
     text-align: center;
 }
@@ -201,7 +201,7 @@ html{
 .update__profile__container form{
     width: 70rem;
     border-radius: .5rem;
-    background-color: var(--black);
+    background-color: var(--blue);
     padding: 2rem;
     text-align: center;
 
@@ -219,7 +219,7 @@ html{
 }
 .update__profile__container form .flex .inputBox span{
     font-size: 1.7rem;
-    color: var(--light-color);
+    color: var(--white);
     display: block;
     padding-top: 1rem;
 }
@@ -230,33 +230,6 @@ html{
     font-size: 1.8rem;
     color: var(--white);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries*/
 @media(max-width:991px){
