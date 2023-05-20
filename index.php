@@ -48,8 +48,6 @@
 
          <a href="#contact" class="link-btn">Login</a>
 
-         <div id="menu-btn" class="fas fa-bars"></div>
-
       </div>
 
    </div>
