@@ -1,18 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Open+Sans:ital@1&family=Oswald:wght@300;400&family=Playfair+Display&family=Roboto+Slab:wght@100;200;300&family=Xanh+Mono:ital@1&display=swap");
 
 :root {
-  --dark-text: #f8fbff;
-  --light-body: #f3f8fe;
-  --light-main: #fdfdfd;
-  --light-second: #97969c;
-  --light-hover: #f0f0f0;
-  --light-text: #151426;
-  --light-btn: #9796f0;
-  --blue: #2929b5;
+  --orange: #b87200;
+  --black: #333;
   --white: #fff;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --light-color: #666;
+  --light-body: #eee;
+  --border: .2rem solid rgba(0, 0, 0, .1);
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
-
 * {
   font-family: "Instrument Serif", serif;
   font-size: large;
@@ -35,7 +31,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: var(--blue);
+  background-color: var(--orange);
 }
 
 html {
@@ -63,14 +59,14 @@ section {
   display: inline-block;
   padding: 1rem 3rem;
   border-radius: 0.5rem;
-  background-color: var(--blue);
+  background-color: var(--orange);
   cursor: pointer;
   font-size: 1.7rem;
   color: var(--white);
 }
 
 .link-btn:hover {
-  background-color: var(--light-text);
+  background-color: var(--light-body);
   color: var(--light-body);
   font-weight: bold;
 }
@@ -93,7 +89,7 @@ section {
 
 .header .logo span {
   font-weight: bold;
-  color: var(--blue);
+  color: var(--orange);
   font-size: 2.5rem;
 }
 
@@ -104,7 +100,7 @@ section {
 }
 
 .header .nav a:hover {
-  color: var(--blue);
+  color: var(--orange);
 }
 
 .menu-btn {
@@ -119,7 +115,7 @@ section {
 
 /* home start */
 .home {
-  background: linear-gradient(to right, #9796f0, #fbc7d4);
+  background: linear-gradient(to right,#b87200,#fdd79a, #ffe2b2 );
 }
 
 .home .content {
@@ -153,7 +149,7 @@ section {
 .about .content span {
   font-weight: bold;
   font-size: 2.7rem;
-  color: var(--blue);
+  color: var(--orange);
 }
 
 .about .content h3 {
@@ -170,10 +166,9 @@ section {
 }
 /* about end */
 
-
 /* footer start */
 .footer {
-  background: linear-gradient(to right, #9796f0, #fbc7d4);
+  background: linear-gradient(to right, #b87200, #fdd79a, #ffe2b2);
 }
 
 .footer .box-container {
@@ -192,7 +187,7 @@ section {
   border-radius: 50%;
   line-height: 5rem;
   font-size: 2rem;
-  background-color: var(--blue);
+  background-color: var(--orange);
   color: var(--white);
 }
 
@@ -218,42 +213,66 @@ section {
 }
 
 .footer .credit span {
-  color: var(--blue);
+  color: var(--orange);
   font-weight: bold;
 }
 /* footer end */
 
-
-
 /* service start */
-.service-container {
-  background-color: var(--light-bg);
-  width: 600px;
-  height: 500px;
-}
-.service-container h1 {
-  padding-top: 130px;
-  font-size: 50px;
-  color: var(--black);
-  text-align: center;
-}
-.service .img {
-  width: 75px;
-  height: 75px;
-}
-* {
-  box-sizing: border-box;
+.services {
+      background-color: var(--light-main);
 }
 
-.column {
-  float: left;
-  width: 20.33%;
-  padding: 20px;
+.services .box-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+      gap: 2rem;
 }
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+
+.services .box-container .box1 {
+  background-image: url(images/floral.jpg);
+  text-align: center;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+}
+.services .box-container .box2 {
+  background-image: url(images/floral.jpg);
+  text-align: center;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+}
+.services .box-container .box3 {
+  background-image: url(images/floral.jpg);
+  text-align: center;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+}
+.services .box-container .box4 {
+  background-image: url(images/floral.jpg);
+  text-align: center;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+}
+
+
+.services .box-container .box img {
+      margin: 1rem 0;
+      height: 4rem;
+}
+
+.services .box-container .box h3 {
+      font-size: 2rem;
+      padding: 1rem 0;
+      color: var(--black);
+}
+
+.services .box-container .box p {
+      font-size: 1.5rem;
+      color: var(--light-color);
+      line-height: 2;
 }
 /* service end */

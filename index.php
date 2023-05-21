@@ -68,19 +68,19 @@
                      <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#">About</a>
+                     <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#">Services</a>
+                     <a class="nav-link" href="#our-services">Services</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link">Packages</a>
+                     <a class="nav-link" href="#packages">Packages</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link">Contact Us</a>
+                     <a class="nav-link" href="#contact">Contact Us</a>
                   </li>
                   <li class="nav-item">
-                     <a href="#contact" class="link-btn">Login</a>
+                     <a  class="link-btn" href="#login">Login</a>
                   </li>
                </ul>
             </div>
@@ -191,53 +191,54 @@
 
    <!-- about section ends -->
 
-   <!-- service section starts -->
+   <!-- services section starts  -->
 
-   
-   <section class="services" id="services">
+<section class="services" id="services">
 
-      <div class="service-container">
-         <span>Services</span>
-         <h1>
-            Our Wedding Is <br> Your Priority. <br> Hope You Are <br> Together.
+   <h1 class="heading">
+            Our Wedding Is  Your Priority. <br> Hope You Are  Together.
          </h1>
-      </div>
 
-      <div class="row">
+   <div class="box-container container">
 
-         <div class="column">
-            <img src="images/floral.jpg" class="w-100 mb-5 mb-md-0" alt="floral">
-            <p>We're honored to be a part of your special day and can't wait to
+      <div class="box1">
+         <h3>FLORAL</h3>
+         <p>We're honored to be a part of your special day and can't wait to
                bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
                arrangements that will add a touch of elegance and romance to your celebration. We're here to make
                your wedding day blooming marvelous!</p>
-         </div>
-         <div class="column">
-            <img src="images/catring.jpg" class="w-100 mb-5 mb-md-0" alt="catering">
-            <p>We're delighted to be a part of your culinary journey and help create a delightful dining experience
+      </div>
+
+      <div class="box2">
+         <h3>CATERING</h3>
+         <p>We're delighted to be a part of your culinary journey and help create a delightful dining experience
                for you and your guests. Our dedicated catering team is committed to crafting a menu that reflects your
                tastes, satisfies your cravings, and leaves a lasting impression. Get ready to savor delectable flavors
-               and enjoy exceptional service on your special day. </p>
-         </div>
-         <div class="column">
-            <img src="images/deco.jpg" class="w-100 mb-5 mb-md-0" alt="decoration">
-            <p>We're thrilled to be a part of your special day, adding the perfect touch of beauty and elegance
+               and enjoy exceptional service on your special day.</p>
+      </div>
+
+      <div class="box3">
+         <h3>DECORATION</h3>
+         <p>We're thrilled to be a part of your special day, adding the perfect touch of beauty and elegance
                to your wedding decor. Our team is dedicated to creating a breathtaking ambiance that will leave you
                and your guests in awe. Get ready to celebrate amidst stunning decorations that will make your wedding
                day truly magical!</p>
-         </div>
-         <div class="column">
-            <img src="images/photo.jpg" class="w-100 mb-5 mb-md-0" alt="photography">
-            <p>We're honored to capture the precious moments of your special day through our photography.
-               With our skilled team behind the lens, we'll preserve the joy, love, and beauty of your wedding in
-               timeless images. Get ready to create memories that will last a lifetime. Let's make every click count!</p>
-         </div>
-
       </div>
 
-   </section>
+      <div class="box4">
+         <h3>PHOTOGRAPHY</h3>
+         <p>We're honored to capture the precious moments of your special day through our photography.
+               With our skilled team behind the lens, we'll preserve the joy, love, and beauty of your wedding in
+               timeless images. Get ready to create memories that will last a lifetime. Let's make every click count!</p>
+      </div>
 
-   <!-- service section ends -->
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+  
 
 
    <!-- footer section starts  -->
