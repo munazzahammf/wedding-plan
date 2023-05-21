@@ -113,6 +113,9 @@
                <h3>Let's Make Your Special Day Unforgettable!</h3>
                <a href="#contact" class="link-btn">Book Now</a>
             </div>
+
+
+            
             <!-- calender section starts -->
 
             <div class="contianer">

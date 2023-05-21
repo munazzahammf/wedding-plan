@@ -49,6 +49,7 @@ section {
   padding: 7rem 2rem;
 }
 
+/* header start */
 .heading {
   text-align: center;
   font-size: 3.8rem;
@@ -112,7 +113,11 @@ section {
   cursor: pointer;
   display: none;
 }
+/* header end */
 
+
+
+/* home start */
 .home {
   background: linear-gradient(to right, #9796f0, #fbc7d4);
 }
@@ -133,7 +138,11 @@ section {
   color: var(--light-color);
   padding: 1rem 0;
 }
+/* home end */
 
+
+
+/* about start */
 .about .image {
   background-color: #bdbdbd;
 }
@@ -159,7 +168,10 @@ section {
   color: var(--light-color);
   line-height: 2;
 }
+/* about end */
 
+
+/* footer start */
 .footer {
   background: linear-gradient(to right, #9796f0, #fbc7d4);
 }
@@ -209,7 +221,11 @@ section {
   color: var(--blue);
   font-weight: bold;
 }
+/* footer end */
 
+
+
+/* service start */
 .service-container {
   background-color: var(--light-bg);
   width: 600px;
@@ -240,3 +256,4 @@ section {
   clear: both;
   display: table;
 }
+/* service end */
