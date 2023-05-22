@@ -74,10 +74,10 @@
                      <a class="nav-link" href="#services">Services</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#package">Packages</a>
+                     <a class="nav-link" href="#packages">Packages</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#contact">Contact Us</a>
+                     <a class="nav-link" href="#contact-us">Contact Us</a>
                   </li>
                   <li class="nav-item">
                      <a  class="link-btn" href="#login">Login</a>
@@ -242,10 +242,10 @@
 
   <!-- packages section starts  -->
 
-  <section class="package">
+  <section class="packages">
+   <h1>Love is in the air! Welcome to our timeless wedding plan packages page.....</h1>
   <div class="container">
     <div class="package">
-      <img src="images/caro1.jpg" alt="Package 1">
       <div class="package-details">
         <h2>Silver Package</h2>
         <p>Wedding ceremony coordination</p>
@@ -258,7 +258,6 @@
     </div>
     
     <div class="package">
-      <img src="images/caro2.jpg" alt="Package 2">
       <div class="package-details">
        <h2>Gold Package</h2>
         <p>All features of the Silver Package</p>
@@ -271,7 +270,6 @@
     </div>
     
     <div class="package">
-      <img src="images/caro3.jpg" alt="Package 3">
       <div class="package-details">
        <h2>Platinum Package</h2>
         <p>All features of the Gold Package</p>
@@ -289,7 +287,7 @@
 
   <!-- contact us  ends  -->
 
-   <section class="contact">
+   <section class="contact-us">
       <header>
     <h1>Contact Us</h1>
   </header>

@@ -290,22 +290,24 @@ section {
 
 
 /* package start */
-.package{
+.packages{
   background-color: #333;
   color: #fff;
-  padding: 15px;
-  text-align: center;
+  padding: 8px;
+  text-align: right;
 }
 
-.package h1 {
+.packages h1 {
+  text-align: center;
+  color: var(--orange);
   margin: 0;
   font-size: 28px;
 }
 
 .pac-container {
-  max-width: 960px;
-  margin: 20px auto;
-  padding: 0 20px;
+  max-width: 940px;
+  margin: 18px auto;
+  padding: 0 18px;
 }
 
 .package {
@@ -339,19 +341,19 @@ section {
 
 
  /* contact us start */
- .contact header {
+ .contact-us header {
    background-color: #6d6fd3;
    color: #830a85;
    padding: 20px;
    text-align: center;
  }
 
- .contact h1 {
+ .contact-us h1 {
    margin: 0;
    font-size: 28px;
  }
 
- .contact container {
+ .contact-us container {
    max-width: 600px;
    margin: 20px auto;
    padding: 0 20px;
