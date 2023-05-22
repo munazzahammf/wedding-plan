@@ -37,19 +37,6 @@
 
    <header class="fixed-top">
 
-      <!-- <div class="container"> -->
-
-      <!-- <div class="d-flex align-items-center justify-content-between"> -->
-
-
-      <!-- <nav class="nav">
-               <a href="#home">Home</a>
-               <a href="#about">About</a>
-               <a href="#services">Services</a>
-               <a href="#packages">Packages</a>
-               <a href="#contact">contact</a>
-            </nav> -->
-
       <nav class="navbar navbar-expand-lg bg-body-tertiary header">
          <div class="w-100 d-flex justify-content-between">
 
@@ -108,8 +95,6 @@
 
          <div class="min-vh-100 d-flex align-items-center">
             <div class="content text-center text-md-left">
-               <br>
-               <br>
                <h3>Let's Make Your Special Day Unforgettable!</h3>
                <a href="#contact" class="link-btn">Book Now</a>
             </div>
@@ -203,6 +188,7 @@
       </div>
    <div class="box-container container">
 
+   <div class=" content d-flex">
       <div class="box1">
          <h3>FLORAL</h3>
          <p>We're honored to be a part of your special day and can't wait to
@@ -233,7 +219,7 @@
                With our skilled team behind the lens, we'll preserve the joy, love, and beauty of your wedding in
                timeless images. Get ready to create memories that will last a lifetime. Let's make every click count!</p>
       </div>
-
+</div>
    </div>
 
 </section>
@@ -242,9 +228,15 @@
 
   <!-- packages section starts  -->
 
+  <div class="text">
+   <h1 class="heading">
+           Love is in the air! Welcome to our timeless wedding plan packages page.....
+         </h1>
+      </div>
+      <br>
   <section class="packages">
-   <h1>Love is in the air! Welcome to our timeless wedding plan packages page.....</h1>
-  <div class="container">
+   
+  <div class="container d-flex">
     <div class="package">
       <div class="package-details">
         <h2>Silver Package</h2>
@@ -284,31 +276,6 @@
   </section>
 
   <!-- packages section ends  -->
-
-  <!-- contact us  ends  -->
-
-   <section class="contact-us">
-      <header>
-    <h1>Contact Us</h1>
-  </header>
-
-  <div class="container">
-    <form id="contact-form" method="POST" action="submit_form.php">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      
-      <input type="submit" value="Submit">
-    </form>
-  </div>
-   </section>
-   
-  <!-- contact us ends  -->
 
 
    <!-- footer section starts  -->
