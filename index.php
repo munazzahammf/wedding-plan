@@ -25,7 +25,7 @@
 
    <!--  css file link  -->
    <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/calendar.css">
+   <link rel="stylesheet" href="css/cal.css">
 
 
 
@@ -71,10 +71,10 @@
                      <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#our-services">Services</a>
+                     <a class="nav-link" href="#services">Services</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#packages">Packages</a>
+                     <a class="nav-link" href="#package">Packages</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="#contact">Contact Us</a>
@@ -195,10 +195,12 @@
 
 <section class="services" id="services">
 
+      <div class="text">
    <h1 class="heading">
-            Our Wedding Is  Your Priority. <br> Hope You Are  Together.
+            "We're here to sprinkle your special day with love, laughter, and unforgettable memories. 
+            Let's create the wedding of your dreams together!"
          </h1>
-
+      </div>
    <div class="box-container container">
 
       <div class="box1">
@@ -238,7 +240,77 @@
 
 <!-- services section ends -->
 
-  
+  <!-- packages section starts  -->
+
+  <section class="package">
+  <div class="container">
+    <div class="package">
+      <img src="images/caro1.jpg" alt="Package 1">
+      <div class="package-details">
+        <h2>Silver Package</h2>
+        <p>Wedding ceremony coordination</p>
+        <p>Venue selection assistance</p>
+        <p>Vendor recommendations and referrals</p>
+        <p>Wedding day timeline creation and management</p>
+        <p>Price: $1,500</p>
+        <a href="#package" class="link-btn">Book Now</a>
+      </div>
+    </div>
+    
+    <div class="package">
+      <img src="images/caro2.jpg" alt="Package 2">
+      <div class="package-details">
+       <h2>Gold Package</h2>
+        <p>All features of the Silver Package</p>
+        <p>Personalized wedding theme and design consultation</p>
+        <p>Full vendor coordination and management</p>
+        <p>Assistance with wedding invitations and stationery</p>
+        <p>Price: $3,000</p>
+        <a href="#package" class="link-btn">Book Now</a>
+      </div>
+    </div>
+    
+    <div class="package">
+      <img src="images/caro3.jpg" alt="Package 3">
+      <div class="package-details">
+       <h2>Platinum Package</h2>
+        <p>All features of the Gold Package</p>
+        <p>Complete wedding planning and design services from start to finish</p>
+        <p>Unlimited consultations and personalized guidance</p>
+        <p>Pre-wedding events coordination</p>
+        <p>Price: $00</p>
+        <a href="#package" class="link-btn">Book Now</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- packages section ends  -->
+
+  <!-- contact us  ends  -->
+
+   <section class="contact">
+      <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  <div class="container">
+    <form id="contact-form" method="POST" action="submit_form.php">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+   </section>
+   
+  <!-- contact us ends  -->
 
 
    <!-- footer section starts  -->
@@ -283,6 +355,7 @@
 
    <!-- java script link -->
    <script src="java-script/cal.js"></script>
+   <script src="java-script/script.js"></script>
 </body>
 
 </html>

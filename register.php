@@ -84,7 +84,6 @@ $cpass = filter_var($cpass, FILTER_SANITIZE_STRING);
          <textarea name="address" required placeholder="enter your address" class="box"></textarea>
          <input type="password" required placeholder="enter your password" class="box" name="password">
          <input type="password" required placeholder="confirm your password" class="box" name="cpass">
-         <input type="file" name="image" required class="box" accept="image/jpg,image/png,image/jpeg">
          <p>Already have an account?<a href ="login.php">Login Now</a> </p>
          <input type="submit" value="Register Now" class="btn" name="submit">
 
