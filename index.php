@@ -5,6 +5,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,37 +20,68 @@
    <!-- bootstrap link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
 
+   <!-- bootstrap edited classes -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+
    <!--  css file link  -->
-   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/cal.css">
+
+
 
 </head>
+
 <body>
 
    <!-- header section starts  -->
 
-   <header class="header fixed-top">
+   <header class="fixed-top">
 
-      <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary header">
+         <div class="w-100 d-flex justify-content-between">
 
-         <div class="row align-items-center justify-content-between">
 
             <a href="#home" class="logo">Dream<span>Day</span></a>
 
-            <nav class="nav">
-               <a href="#home">Home</a>
-               <a href="#about">About</a>
-               <a href="#services">Services</a>
-               <a href="#packages">Packages</a>
-               <a href="#contact">contact</a>
-            </nav>
 
-            <a href="login.php" class="link-btn">Login</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div id="menu-btn" class="fas fa-bars"></div>
+
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+               <ul class="navbar-nav align-items-center">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#packages">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact-us">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a  class="link-btn" href="#login">Login</a>
+                  </li>
+               </ul>
+            </div>
+
+
+
 
          </div>
+      </nav>
 
-      </div>
+
+      <!-- </div> -->
+
+      <!-- </div> -->
 
    </header>
 
@@ -61,15 +93,57 @@
 
       <div class="container">
 
-         <div class="row min-vh-100 align-items-center">
+         <div class="min-vh-100 d-flex align-items-center">
             <div class="content text-center text-md-left">
                <h3>Let's Make Your Special Day Unforgettable!</h3>
                <a href="#contact" class="link-btn">Book Now</a>
             </div>
+
+
+            
+            <!-- calender section starts -->
+
+            <div class="contianer">
+               <div class="calendar">
+                  <div class="calendar-header">
+                     <span class="month-picker" id="month-picker"> May </span>
+                     <div class="year-picker" id="year-picker">
+                        <span class="year-change" id="pre-year">
+                           <pre><</pre>
+                        </span>
+                        <span id="year">2020 </span>
+                        <span class="year-change" id="next-year">
+                           <pre>></pre>
+                        </span>
+                     </div>
+                  </div>
+
+                  <div class="calendar-body">
+                     <div class="calendar-week-days">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                     </div>
+                     <div class="calendar-days"></div>
+                  </div>
+                  <div class="calendar-footer"></div>
+                  <div class="date-time-formate">
+                     <div class="day-text-formate">TODAY</div>
+                     <div class="date-time-value">
+                        <div class="time-formate">02:51:20</div>
+                        <div class="date-formate">23 - july - 2022</div>
+                     </div>
+                  </div>
+                  <div class="month-list"></div>
+               </div>
+            </div>
+            <!-- calender section ends -->
          </div>
-
       </div>
-
    </section>
 
    <!-- home section ends -->
@@ -85,13 +159,8 @@
 
             <div class="col-md-6 content">
                <span>About Us</span>
-               <h3>We are thrilled that you have choosen to explore our platform and trust us with one of the most
-                  important days of your life.</h3>
-               <p>Our team of experienced wedding planners is committed to making your special day unforgettable. We
-                  understand that planning a wedding can be stressful and time-consuming, which is why we offer a
-                  comprehensive range of services to ensure that everything runs smoothly. Whether you need help with
-                  venue selection, catering, or entertainment, we have the expertise and resources to create a
-                  personalized plan that meets your unique needs and preferences.</p>
+               <h3>We are thrilled that you have choosen to explore our platform and trust us with one of the most important days of your life.</h3>
+               <p>Our team of experienced wedding planners is committed to making your special day unforgettable. We understand that planning a wedding can be stressful and time-consuming, which is why we offer a comprehensive range of services to ensure that everything runs smoothly. Whether you need help with venue selection, catering, or entertainment, we have the expertise and resources to create a personalized plan that meets your unique needs and preferences.</p>
                <a href="#contact" class="link-btn">Explore More</a>
             </div>
 
@@ -107,37 +176,106 @@
 
    <!-- about section ends -->
 
-   <!-- service section starts -->
+   <!-- services section starts  -->
 
-   <section class="services" id="services">
+<section class="services" id="services">
 
-
-      <div class="service-container">
-         <h1>
-            Our Wedding Is <br> Your Priority. <br> Hope You Are <br> Together.
+      <div class="text">
+   <h1 class="heading">
+            "We're here to sprinkle your special day with love, laughter, and unforgettable memories. 
+            Let's create the wedding of your dreams together!"
          </h1>
       </div>
+   <div class="box-container container">
 
-      <div class="row">
-
-         <div class="column">
-            <img src="images/floral.jpg" class="w-100 mb-5 mb-md-0" alt="floral">
-         </div>
-         <div class="column">
-            <img src="images/catring.jpg" class="w-100 mb-5 mb-md-0" alt="catering">
-         </div>
-         <div class="column">
-            <img src="images/deco.jpg" class="w-100 mb-5 mb-md-0" alt="decoration">
-         </div>
-         <div class="column">
-            <img src="images/photo.jpg" class="w-100 mb-5 mb-md-0" alt="photography">
-         </div>
-
+   <div class=" content d-flex">
+      <div class="box1">
+         <h3>FLORAL</h3>
+         <p>We're honored to be a part of your special day and can't wait to
+               bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
+               arrangements that will add a touch of elegance and romance to your celebration. We're here to make
+               your wedding day blooming marvelous!</p>
       </div>
 
-   </section>
+      <div class="box2">
+         <h3>CATERING</h3>
+         <p>We're delighted to be a part of your culinary journey and help create a delightful dining experience
+               for you and your guests. Our dedicated catering team is committed to crafting a menu that reflects your
+               tastes, satisfies your cravings, and leaves a lasting impression. Get ready to savor delectable flavors
+               and enjoy exceptional service on your special day.</p>
+      </div>
 
-   <!-- service section ends -->
+      <div class="box3">
+         <h3>DECORATION</h3>
+         <p>We're thrilled to be a part of your special day, adding the perfect touch of beauty and elegance
+               to your wedding decor. Our team is dedicated to creating a breathtaking ambiance that will leave you
+               and your guests in awe. Get ready to celebrate amidst stunning decorations that will make your wedding
+               day truly magical!</p>
+      </div>
+
+      <div class="box4">
+         <h3>PHOTOGRAPHY</h3>
+         <p>We're honored to capture the precious moments of your special day through our photography.
+               With our skilled team behind the lens, we'll preserve the joy, love, and beauty of your wedding in
+               timeless images. Get ready to create memories that will last a lifetime. Let's make every click count!</p>
+      </div>
+</div>
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+  <!-- packages section starts  -->
+
+  <div class="text">
+   <h1 class="heading">
+           Love is in the air! Welcome to our timeless wedding plan packages page.....
+         </h1>
+      </div>
+      <br>
+  <section class="packages">
+   
+  <div class="container d-flex">
+    <div class="package">
+      <div class="package-details">
+        <h2>Silver Package</h2>
+        <p>Wedding ceremony coordination</p>
+        <p>Venue selection assistance</p>
+        <p>Vendor recommendations and referrals</p>
+        <p>Wedding day timeline creation and management</p>
+        <p>Price: $1,500</p>
+        <a href="#package" class="link-btn">Book Now</a>
+      </div>
+    </div>
+    
+    <div class="package">
+      <div class="package-details">
+       <h2>Gold Package</h2>
+        <p>All features of the Silver Package</p>
+        <p>Personalized wedding theme and design consultation</p>
+        <p>Full vendor coordination and management</p>
+        <p>Assistance with wedding invitations and stationery</p>
+        <p>Price: $3,000</p>
+        <a href="#package" class="link-btn">Book Now</a>
+      </div>
+    </div>
+    
+    <div class="package">
+      <div class="package-details">
+       <h2>Platinum Package</h2>
+        <p>All features of the Gold Package</p>
+        <p>Complete wedding planning and design services from start to finish</p>
+        <p>Unlimited consultations and personalized guidance</p>
+        <p>Pre-wedding events coordination</p>
+        <p>Price: $00</p>
+        <a href="#package" class="link-btn">Book Now</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- packages section ends  -->
 
 
    <!-- footer section starts  -->
@@ -162,26 +300,27 @@
          <div class="box">
             <i class="fas fa-clock"></i>
             <h3>opening hours</h3>
-            <p>8.00am to 10:00pm</p>
+            <p>8.00am to 8.00pm</p>
          </div>
 
          <div class="box">
             <i class="fas fa-envelope"></i>
             <h3>email address</h3>
-            <p>munazzahammf@gmail.com</p>
+            <p>dreamday@gmail.com</p>
          </div>
 
       </div>
 
-      <div class="credit"> &copy; copyright @
-         <?php echo date('Y'); ?> by <span> Wedding-Plan</span>
-      </div>
+      <div class="credit"> &copy; copyright @ <?php echo date('Y'); ?> by <span> Wedding-Plan</span> </div>
 
    </section>
 
    <!-- footer section ends -->
 
 
-
+   <!-- java script link -->
+   <script src="java-script/cal.js"></script>
+   <script src="java-script/script.js"></script>
 </body>
+
 </html>

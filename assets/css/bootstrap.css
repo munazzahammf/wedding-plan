@@ -1,0 +1,8 @@
+
+.navbar-nav {
+  gap: 3rem;
+}
+.nav-link{
+  font-weight: bold;
+  color: var(--black);
+}
