@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Open+Sans:ital@1&family=Oswald:wght@300;400&family=Playfair+Display&family=Roboto+Slab:wght@100;200;300&family=Xanh+Mono:ital@1&display=swap");
 
 :root {
-  --dark-green:#04625a;
-  --green :#aadcd8;
-  --orange: #c59241;
+  --orange: #b87200;
   --black: #333;
   --white: #fff;
-  --light-color: #787777;
+  --light-color: #666;
   --light-body: #eee;
   --border: .2rem solid rgba(0, 0, 0, .1);
   --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -117,10 +115,10 @@ section {
 
 /* home start */
 .home {
-  background: linear-gradient(90deg,#d5fdfa,#87dcd5,#025c55);
+  background-color: var(--light-body);
 }
 .home nav-item{
-  color: var(--orange);
+  color: #b87200;
 }
 .home .content {
   padding: 2rem;
@@ -143,8 +141,8 @@ section {
 
 
 /* about start */
-.about {
-  padding-left: 15rem;
+.about .image {
+  background-color: #bdbdbd;
 }
 .about .row {
   min-height: 50vh;
@@ -230,47 +228,52 @@ section {
 .services .box-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
-      gap: 5rem;
+      gap: 2rem;
 }
 .services text {
+  background-color: #bdbdbd;
   border-radius: 30px;
 
 }
 .services .box-container .box1 {
-  background-image: url('images/login1.jpg');
+  background-image: url(images/floral.jpg);
   text-align: center;
   padding: 2rem;
   box-shadow: var(--box-shadow);
   border-radius: .5rem;
 }
 .services .box-container .box2 {
+  background-image: url(images/floral.jpg);
   text-align: center;
   padding: 2rem;
   box-shadow: var(--box-shadow);
   border-radius: .5rem;
 }
 .services .box-container .box3 {
+  background-image: url(images/floral.jpg);
   text-align: center;
   padding: 2rem;
   box-shadow: var(--box-shadow);
   border-radius: .5rem;
 }
 .services .box-container .box4 {
+  background-image: url(images/floral.jpg);
   text-align: center;
   padding: 2rem;
   box-shadow: var(--box-shadow);
   border-radius: .5rem;
 }
+
+
 .services .box-container .box img {
       margin: 1rem 0;
       height: 4rem;
 }
 
 .services .box-container .box h3 {
-      font-weight: bold;
-      font-size: 3rem;
+      font-size: 2rem;
       padding: 1rem 0;
-      color: var(--dark-green);
+      color: var(--black);
 }
 .services h1 {
     font-size: 3rem;
@@ -288,52 +291,40 @@ section {
 
 /* package start */
 .packages{
-  align-items: right;
-  width: 100%;
-  height: 100%;
   background-color: #333;
   color: #fff;
-  padding: 5px;
-  text-align: center;
-}
-.package link-btn{
-   display: inline-block;
-    padding: 1rem 3rem;
-    border-radius: 0.5rem;
-    background-color: var(--orange);
-    cursor: pointer;
-    font-size: 1.7rem;
-    color: var(--white);
-}
-.package link-btn:hover{
-  background-color: var(--dark-green);
-    color: var(--white);
-    font-weight: bold;
+  padding: 8px;
+  text-align: right;
 }
 
-.text h1 {
-  font-style: italic;
+.packages h1 {
   text-align: center;
   color: var(--orange);
   margin: 0;
-  font-size: 3rem ;
+  font-size: 28px;
 }
 
 .pac-container {
-  max-width: 500px;
+  max-width: 940px;
   margin: 18px auto;
-  padding: 2rem 18px;
+  padding: 0 18px;
 }
 
 .package {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ccc;
-  padding: 18px 0;
+  padding: 20px 0;
 }
+
+.package img {
+  max-width: 240px;
+  height: auto;
+}
+
 .package-details {
   flex-grow: 1;
-  margin-left: 18px;
+  margin-left: 20px;
 }
 
 .package-details h2 {
@@ -347,4 +338,61 @@ section {
   margin-top: 10px;
 }
  /* package end */
+
+
+ /* contact us start */
+ .contact-us header {
+   background-color: #6d6fd3;
+   color: #830a85;
+   padding: 20px;
+   text-align: center;
+ }
+
+ .contact-us h1 {
+   margin: 0;
+   font-size: 28px;
+ }
+
+ .contact-us container {
+   max-width: 600px;
+   margin: 20px auto;
+   padding: 0 20px;
+ }
+
+ form label {
+   display: block;
+   margin-top: 10px;
+ }
+
+ form input,
+ form textarea {
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   border: 1px solid #950808;
+   border-radius: 4px;
+ }
+
+ form input[type="submit"] {
+   background-color: #d87d7d;
+   color: #f02c2c;
+   border: none;
+   padding: 10px 20px;
+   margin-top: 20px;
+   cursor: pointer;
+ }
+
+ form input[type="submit"]:hover {
+   background-color: #44ac1b;
+ }
+
+ form input[type="submit"]:focus {
+   outline: none;
+ }
+
+ form textarea {
+   resize: vertical;
+   height: 150px;
+ }
+ /* contact us end */
 
