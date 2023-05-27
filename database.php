@@ -1,12 +1,12 @@
 <?php
-$dbInfo = "mysql:host=localhost;dbname=dreamday";
+$dbInfo = "mysql:host=localhost;dbname=mywed";
 $dbUser = "root";
 $dbPassword = "";
 try {
     //create a database connection with a PDO object
-    $db = new PDO( $dbInfo, $dbUser, $dbPassword );
+    $db = new PDO($dbInfo, $dbUser, $dbPassword);
 } catch (PDOException $e) {
-        $error_message = $e->getMessage();
-        exit();
-    }
-?>
+    $e = $e->getMessage();
+    echo $e;
+    exit();
+}
