@@ -21,7 +21,7 @@ $cpass = filter_var($cpass, FILTER_SANITIZE_STRING);
    $image_size = $_FILES['image']['size'];
    $image_folder = 'uploaded_img/'.$image;
 
-   $select = $conn->prepare("SELECT * FROM `user` WHERE user_email = ?");
+   $select = $conn->  <!-- prepare("SELECT * FROM `user` WHERE user_email = ?");
    $select->execute([$email]);
 
    if($select->rowCount() > 0){
@@ -42,7 +42,7 @@ $cpass = filter_var($cpass, FILTER_SANITIZE_STRING);
       }
    }
 
-}
+} -->
 
 
 
@@ -84,8 +84,7 @@ $cpass = filter_var($cpass, FILTER_SANITIZE_STRING);
          <textarea name="address" required placeholder="enter your address" class="box"></textarea>
          <input type="password" required placeholder="enter your password" class="box" name="password">
          <input type="password" required placeholder="confirm your password" class="box" name="cpass">
-         <input type="file" name="image" required class="box" accept="image/jpg,image/png,image/jpeg">
-         <p>Already have an account?<a href ="login.php">Login Now</a> </p>
+         <p>Already have an account? <a href ="login.php">Login Now</a> </p>
          <input type="submit" value="Register Now" class="btn" name="submit">
 
         </form>   
