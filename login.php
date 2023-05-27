@@ -35,32 +35,7 @@
 //    }
 
 // }
-<?php
-include_once 'database.php';
-include_once 'models/User.class.php';
-session_start();
-
-if (isset($_POST['submit'])) {
-
-   $email = $_POST['email'];
-   $email = filter_var($email, FILTER_SANITIZE_STRING);
-
-
-   $password = $_POST['password'];
-   $password = filter_var($password, FILTER_SANITIZE_STRING);
-
-   $userObj = new User($db);
-
-   $userObj->getUserByEmail($email);
-
-
-   if ($password == $userObj->getPassword()) {
-      header('location:index.php');
-   }
-}
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">

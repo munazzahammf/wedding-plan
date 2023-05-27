@@ -222,7 +222,7 @@
             Let's create the wedding of your dreams together!"
          </h1>
       </div>
-      <div class="box-container container">
+      <div class="box-container container d-flex">
 
          <div class="box1">
             <h3>FLORAL</h3>
@@ -314,77 +314,9 @@
 
    </section>
 
-   <!-- services section ends -->
+   <!-- packages section ends -->
 
-   <!-- packages section starts  -->
 
-   <section class="packages">
-      <h1>Love is in the air! Welcome to our timeless wedding plan packages page.....</h1>
-      <div class="container">
-         <div class="package">
-            <div class="package-details">
-               <h2>Silver Package</h2>
-               <p>Wedding ceremony coordination</p>
-               <p>Venue selection assistance</p>
-               <p>Vendor recommendations and referrals</p>
-               <p>Wedding day timeline creation and management</p>
-               <p>Price: $1,500</p>
-               <a href="#package" class="link-btn">Book Now</a>
-            </div>
-         </div>
-
-         <div class="package">
-            <div class="package-details">
-               <h2>Gold Package</h2>
-               <p>All features of the Silver Package</p>
-               <p>Personalized wedding theme and design consultation</p>
-               <p>Full vendor coordination and management</p>
-               <p>Assistance with wedding invitations and stationery</p>
-               <p>Price: $3,000</p>
-               <a href="#package" class="link-btn">Book Now</a>
-            </div>
-         </div>
-
-         <div class="package">
-            <div class="package-details">
-               <h2>Platinum Package</h2>
-               <p>All features of the Gold Package</p>
-               <p>Complete wedding planning and design services from start to finish</p>
-               <p>Unlimited consultations and personalized guidance</p>
-               <p>Pre-wedding events coordination</p>
-               <p>Price: $00</p>
-               <a href="#package" class="link-btn">Book Now</a>
-            </div>
-         </div>
-      </div>
-   </section>
-
-   <!-- packages section ends  -->
-
-   <!-- contact us  ends  -->
-
-   <section class="contact-us">
-      <header>
-         <h1>Contact Us</h1>
-      </header>
-
-      <div class="container">
-         <form id="contact-form" method="POST" action="submit_form.php">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <input type="submit" value="Submit">
-         </form>
-      </div>
-   </section>
-
-   <!-- contact us ends  -->
 
 
    <!-- footer section starts  -->
