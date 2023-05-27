@@ -20,6 +20,7 @@
          $_SESSION['user_id'] = $loginStatus['id'];
          $_SESSION['username'] = $loginStatus['username'];
 
+         // Redirecting to Home Page.
          header('Location: index.php');
       }
    } else {
