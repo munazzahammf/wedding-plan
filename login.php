@@ -1,40 +1,40 @@
-<?php
-include_once 'config.php';
+ <?php 
+// include_once 'config.php';
 
-session_start();
+// session_start();
 
-if(isset($_POST['submit'])){
+// if(isset($_POST['submit'])){
 
-   $email = $_POST['email'];
-   $email = filter_var($email, FILTER_SANITIZE_STRING);
-   $pass = md5($_POST['pass']);
-   $pass = filter_var($pass, FILTER_SANITIZE_STRING);
+//    $email = $_POST['email'];
+//    $email = filter_var($email, FILTER_SANITIZE_STRING);
+//    $pass = md5($_POST['pass']);
+//    $pass = filter_var($pass, FILTER_SANITIZE_STRING);
 
-   $select = $conn->prepare("SELECT * FROM `user` WHERE user_email = ? AND password = ?");
-   $select->execute([$email, $pass]);
-   $row = $select->fetch();
+//    $select = $conn->prepare("SELECT * FROM `user` WHERE user_email = ? AND password = ?");
+//    $select->execute([$email, $pass]);
+//    $row = $select->fetch();
 
-   if(mysql_num_rows($select) > 0){
+//    if(mysql_num_rows($select) > 0){
 
-      if($row['user_type'] == 'admin'){
+//       if($row['user_type'] == 'admin'){
 
-         $_SESSION['admin_id'] = $row['id'];
-         header('location:admin_page.php');
+//          $_SESSION['admin_id'] = $row['id'];
+//          header('location:admin_page.php');
 
-      }elseif($row['user_type'] == 'user'){
+//       }elseif($row['user_type'] == 'user'){
 
-         $_SESSION['user_id'] = $row['id'];
-         header('location:user_page.php');
+//          $_SESSION['user_id'] = $row['id'];
+//          header('location:user_page.php');
 
-      }else{
-         $message[] = 'no user found!';
-      }
+//       }else{
+//          $message[] = 'no user found!';
+//       }
       
-   }else{
-      $message[] = 'incorrect email or password!';
-   }
+//    }else{
+//       $message[] = 'incorrect email or password!';
+//    }
 
-}
+// }
 
 ?>
 

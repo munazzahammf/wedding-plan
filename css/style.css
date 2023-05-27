@@ -237,7 +237,6 @@ section {
 
 }
 .services .box-container .box1 {
-  background-image: url('images/login1.jpg');
   text-align: center;
   padding: 2rem;
   box-shadow: var(--box-shadow);
@@ -271,6 +270,7 @@ section {
       font-size: 3rem;
       padding: 1rem 0;
       color: var(--dark-green);
+      font-size: large;
 }
 .services h1 {
     font-size: 3rem;

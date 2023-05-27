@@ -64,7 +64,7 @@
                      <a class="nav-link" href="#packages">Packages</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#contact-us">Contact Us</a>
+                     <a class="nav-link" href="#"></a>
                   </li>
                   <li class="nav-item">
                      <a  class="link-btn" href="#login">Login</a>
@@ -228,6 +228,7 @@
 
   <!-- packages section starts  -->
 
+  
   <div class="text">
    <h1 class="heading">
            Love is in the air! Welcome to our timeless wedding plan packages page.....
@@ -273,6 +274,7 @@
       </div>
     </div>
   </div>
+  <br>
   </section>
 
   <!-- packages section ends  -->

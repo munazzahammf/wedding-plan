@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Open+Sans:ital@1&family=Oswald:wght@300;400&family=Playfair+Display&family=Roboto+Slab:wght@100;200;300&family=Xanh+Mono:ital@1&display=swap");
 
 :root {
-      --dark-text: #f8fbff;
-      --light-body: #f3f8fe;
-      --light-main: #fdfdfd;
-      --light-second: #97969c;
-      --light-hover: #f0f0f0;
-      --light-text: #151426;
-      --light-btn: #f0c396;
-      --blue: #b87200;
-      --white: #fff;
-      --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-      
+    --dark-green: #04625a;
+    --green: #aadcd8;
+    --orange: #c59241;
+    --black: #333;
+    --white: #fff;
+    --light-color: #787777;
+    --light-body: #eee;
+    --border: .2rem solid rgba(0, 0, 0, .1);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
+
 * {
     font-family: "Instrument Serif", serif;
+    font-size: large;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,12 +33,12 @@
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: var(--light-btn);
+    background-color: var(--green);
 }
 html{
-    font-size: 62.5%;
+    background-image: url('images/login.jpg');
+    font-size: 64%;
     overflow: hidden;
-    background-image: url('images/login1.jpg');
     background-size: cover;
     background-position: center;
       
@@ -46,23 +46,22 @@ html{
 .message{
     position: sticky;
     top: 0;
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 1.5rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1.5rem;
     z-index: 1000;
-    background-color: var(--blue);
     margin: 0 auto;
 }
 .message span{
-    color: var(--white);
+    color: var(--black);
     font-size: 2rem;
 
 }
 .message i{
-    color: var(--red);
+    color: var(--dark-green);
     font-size: 2.5rem;
     cursor: pointer;
 
@@ -73,20 +72,20 @@ html{
 .title{
     padding:1.5rem 1rem;
     text-align: center;
-    background-color: var(--blue);
+    background-color: var(--green);
     text-transform: uppercase;
     font-size: 3rem;
     color: var(--white);
 
 }
 .title span{
-    color: var(--red);
+    color: var(--light-color);
 }
 .btn,
 .delete-btn,
 .option-btn{
     display: block;
-    width: 100%;
+    width: 35%;
     border-radius: 5rem;
     color: var(--white);
     font-size: 1.5rem;
@@ -97,20 +96,18 @@ html{
     margin-top: 1rem;
 
 }
-.btn{
-    background-color: var(--blue);
-}
+.btn,
 .delete-btn{
-    background-color: var(--red);
+    background-color: var(--orange);
 }
 .option-btn{
-    background-color: var(--light-color);
+    background-color: var(--light-body);
 }
 .btn:hover,
 .delete-btn:hover,
 .option-btn:hover{
     background-color: var(--white);
-    color: var(--light-text);
+    color: var(--black);
 }
 .flex-btn{
     display: flex;
@@ -126,18 +123,19 @@ html{
     align-self: center;
     justify-content: center;
     padding: 2rem ;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 .form__container form{
-    width: 50rem;
+    width: 40rem;
     border-radius: .5rem;
-    background-color: var(--blue);
+    background: linear-gradient(90deg,  #0a7067, #188e84 , #3fbcb4);
     padding: 2rem;
     text-align: center;
 }
 .form__container form h3{
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    padding-top: 4rem;
     color: var(--white);
     text-transform: uppercase;
 
@@ -147,21 +145,26 @@ html{
     border-radius: 5rem;
     padding: 1.2rem 1.4rem;
     font-size: 1.8rem;
-    color: var(--white);
-    background-color: var(--light-btn);
+    color: var(--black);
+    background-color: var(--white);
     margin: 1rem 0;
 }
 .form__container form p{
     font-size: 2.3rem;
-    color: var(--light-color);
+    color: var(--white);
     padding: 1rem 0;
 }
 .form__container form p a{
-    color: blue;
+    font-weight: bold;
+    color: var(--black);
+    width: 35%;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    text-transform: capitalize;
+    text-align: center;
 }
 .form__container form p a:hover{
-    color: red ;
-    background-color: var(--white);
+    color: red;
 }
 .profile__container{
     display: flex;
@@ -174,7 +177,7 @@ html{
 .profile__container .profile{
     width: 40rem;
     border-radius: .5rem;
-    background-color: var(--blue);
+    background-color: var(--dark-green);
     padding: 2rem;
     text-align: center;
 }
@@ -201,7 +204,7 @@ html{
 .update__profile__container form{
     width: 70rem;
     border-radius: .5rem;
-    background-color: var(--blue);
+    background-color: var(--dark-green);
     padding: 2rem;
     text-align: center;
 
@@ -219,7 +222,7 @@ html{
 }
 .update__profile__container form .flex .inputBox span{
     font-size: 1.7rem;
-    color: var(--white);
+    color: var(--light-color);
     display: block;
     padding-top: 1rem;
 }
@@ -228,7 +231,7 @@ html{
     padding: 1.2rem 1.4rem;
     border-radius: .5rem;
     font-size: 1.8rem;
-    color: var(--white);
+    color: var(--light-color);
 }
 
 /* media queries*/

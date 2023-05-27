@@ -166,8 +166,8 @@
       position: relative;
       left: 0;
       top: -42px;
-      background-color: #ebebeb;
-      color: var(--light-text);
+      background-color: #07776d;
+      color: var(--white);
       display: grid;
       grid-template-columns: repeat(3, auto);
       gap: 4.5px;
@@ -224,7 +224,7 @@
 .day-text-formate {
       font-family: Microsoft JhengHei UI;
       font-size: 1.4rem;
-      padding-right: 5%;
+      padding-right: 15%;
       border-right: 3px solid #2e2be2;
       position: absolute;
       left: -1rem;
