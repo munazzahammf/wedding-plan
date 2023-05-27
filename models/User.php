@@ -2,13 +2,6 @@
 
 class User
 {
-    private int $id;
-    private string $firstname;
-    private string $lastname;
-    private string $username;
-    private string $password;
-    private string $email;
-
     private $db;
 
     public function __construct($dbConnection)
@@ -16,44 +9,39 @@ class User
         $this->db = $dbConnection;
     }
 
-    public function getPassword()
+    public function getUserByUsername($username)
     {
-        return $this->password;
-    }
-
-    public function getFullName()
-    {
-        return $this->firstname;
-    }
-
-    public function getUserByUsernameAndEmail($email, $username)
-    {
-        $sql = "SELECT * FROM user WHERE email = :email AND username = :username";
+        $sql = "SELECT * FROM user WHERE username = :username";
 
         $stmt = $this->db->prepare($sql);
-        $stmt->execute(['email'=>$email, 'username'=> $username]);
+        $stmt->execute(['username' => $username]);
 
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
-    public function getUserByEmail($email): User
+    public function getUserByUsernameAndEmail($email, $username)
+    {
+        $sql = "SELECT * FROM user WHERE email = :email OR username = :username";
+
+        $stmt = $this->db->prepare($sql);
+        $stmt->bindParam(':username', $username);
+        $stmt->bindParam(':email', $email);
+        $stmt->execute();
+
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function getUserByEmail($email)
     {
         $sql = "SELECT * FROM `user` WHERE email = :email";
 
         $stmt = $this->db->prepare($sql);
-        $stmt->execute(['email' => $email]);
+        $stmt->bindParam(':email', $email);
+        $stmt->execute();
 
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
-        if ($row) {
-            $this->id = $row['id'];
-            $this->firstname = $row['firstname'];
-            $this->lastname = $row['lastname'];
-            $this->username = $row['username'];
-            $this->password = $row['password'];
-            $this->email = $row['email'];
-        }
-        return $this;
+        return $row;
     }
 
     public function verifyUser($email, $password)
@@ -61,7 +49,7 @@ class User
         $sql = "SELECT email, password FROM user WHERE email = :email LIMIT 1";
 
         $stmt = $this->db->prepare($sql);
-        $stmt->execute(['email'=> $email, 'password'=>$password]);
+        $stmt->execute(['email' => $email, 'password' => $password]);
 
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
@@ -75,11 +63,11 @@ class User
 
         $stmt = $this->db->prepare($sql);
         $stmt->execute([
-            'firstname'=>$firstname,
-            'lastname'=>$lastname,
-            'username'=>$username,
-            'password'=>$password,
-            'email'=>$email
+            'firstname' => $firstname,
+            'lastname' => $lastname,
+            'username' => $username,
+            'password' => $password,
+            'email' => $email
         ]);
 
         return $stmt->fetch(PDO::FETCH_ASSOC);
