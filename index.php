@@ -31,22 +31,7 @@
 
 <body>
 
-   <!-- header section starts  -->
-
    <header class="fixed-top">
-
-      <!-- <div class="container"> -->
-
-      <!-- <div class="d-flex align-items-center justify-content-between"> -->
-
-
-      <!-- <nav class="nav">
-               <a href="#home">Home</a>
-               <a href="#about">About</a>
-               <a href="#services">Services</a>
-               <a href="#packages">Packages</a>
-               <a href="#contact">contact</a>
-            </nav> -->
 
       <nav class="navbar navbar-expand-lg bg-body-tertiary header">
          <div class="w-100 d-flex justify-content-between">
@@ -74,12 +59,21 @@
                   <li class="nav-item">
                      <a class="nav-link" href="#packages">Packages</a>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#"></a>
-                  </li>
+
                   <?php
 
-                  $loggedIn = true;
+                  session_start();
+                  $isloggedIn = $_SESSION["user_id"];
+
+                  if (isset($isloggedIn)) {
+                     $loggedIn = true;
+                  }
+
+                  // $isloggedOut = $_GET["login"];
+
+                  // if (isset($isloggedOut) & $isloggedOut == 'false') {
+                  //    $loggedIn = false;
+                  // }
 
                   if ($loggedIn) {
                      // echo '<i class="bi bi-person-circle" style="font-size:2.5rem;"></i>';
@@ -88,14 +82,14 @@
             <i class="bi bi-person-circle"></i>
           </a>
           <ul class="dropdown-menu dropdown-menu-right" style="right:0;">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Dashboard</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">LOG OUT</a></li>
+            <li><a class="dropdown-item log-out-btn" href="logout.php">Log out</a></li>
           </ul>
         </li>';
                   } else {
-                     echo '<a href="#contact" class="link-btn">Login</a>';
+                     echo '<a href="login.php" class="link-btn">Login</a>';
                   }
                   ?>
                </ul>
