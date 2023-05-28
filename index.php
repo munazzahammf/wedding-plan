@@ -61,11 +61,14 @@
                   </li>
 
                   <?php
-
+                  ini_set('display_errors', 1);
+                  ini_set('display_startup_errors', 1);
+                  error_reporting(E_ALL);
                   session_start();
-                  $isloggedIn = $_SESSION["user_id"];
 
-                  if (isset($isloggedIn)) {
+                  $loggedIn = false;
+
+                  if ($_SESSION) {
                      $loggedIn = true;
                   }
 
