@@ -37,7 +37,7 @@
          <div class="w-100 d-flex justify-content-between">
 
 
-            <a href="#home" class="logo">Dream<span>Day</span></a>
+            <a href="/wedding-plan" class="logo">Dream<span>Day</span></a>
 
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,11 +134,11 @@
                      <span class="month-picker" id="month-picker"> May </span>
                      <div class="year-picker" id="year-picker">
                         <span class="year-change" id="pre-year">
-                           <pre><</pre>
+                           <i class="bi bi-caret-left-fill"></i>
                         </span>
                         <span id="year">2020 </span>
                         <span class="year-change" id="next-year">
-                           <pre>></pre>
+                           <i class="bi bi-caret-right-fill"></i>
                         </span>
                      </div>
                   </div>
@@ -195,7 +195,7 @@
             </div>
 
             <div class="col-md-4 image">
-               <img src="images/about-img.jpg" class="w-100 mb-5 mb-md-0" alt="">
+               <img src="assets/images/about-img.jpg" class="w-100 mb-5 mb-md-0" alt="">
             </div>
 
          </div>
