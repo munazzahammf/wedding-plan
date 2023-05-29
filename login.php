@@ -43,18 +43,12 @@
  </head>
 
  <body>
+
+
     <section class="form__container">
-       <form action="" method="post" enctype="multipart/form-data">
-          <h3>Login now</h3>
-
-
-          <input type="email" required placeholder="enter your email" class="box" name="email">
-          <input type="password" required placeholder="enter your password" class="box" name="password">
-          <p>Don't have an account?<a href="register.php">Register Now</a> </p>
-          <input type="submit" value="login Now" class="btn" name="submit">
-
-       </form>
+       
     </section>
+
  </body>
 
  </html>

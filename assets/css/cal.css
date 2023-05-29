@@ -5,12 +5,17 @@
       --light-second: #c3c2c8;
       --light-hover: #f0f0f0;
       --light-text: #151426;
-      --light-btn: rgb(104, 104, 104);
-      --orange: #b87200;
+      --orange: #743333;
+      --hover:#be8888;
+      --black: #333;
       --white: #fff;
-      --shadow: rgba(95, 95, 104, 0.2) 0px 7px 29px 0px;
+      --light-color: #8a8a8a;
+      --light-body: #d8cdcd;
+      --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+      --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
       --font-family: consolas;
 }
+      
 .contianer {
       width: max-content;
       height: max-content;
@@ -164,7 +169,7 @@
       position: relative;
       left: 0;
       top: -42px;
-      background-color: #07776d;
+      background-color: var(--hover);
       color: var(--white);
       display: grid;
       grid-template-columns: repeat(3, auto);

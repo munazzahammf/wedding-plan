@@ -3,7 +3,7 @@ $host = 'localhost';
 $dbname = 'mywed';
 $dbUser = "root";
 $dbPassword = "";
-$dbPort = 3306;
+$dbPort = 4309;
 
 $dbInfo = "mysql:host=$host;dbname=$dbname;port=$dbPort";
 try {

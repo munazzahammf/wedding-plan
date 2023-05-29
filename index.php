@@ -60,6 +60,7 @@
                      <a class="nav-link" href="#packages">Packages</a>
                   </li>
 
+
                   <?php
                   ini_set('display_errors', 1);
                   ini_set('display_startup_errors', 1);
@@ -92,7 +93,7 @@
           </ul>
         </li>';
                   } else {
-                     echo '<a href="login.php" class="link-btn">Login</a>';
+                     echo '<a href="register.php" class="link-btn">Login</a>';
                   }
                   ?>
                </ul>
@@ -124,7 +125,7 @@
                <br>
                <br>
                <h3>Let's Make Your Special Day Unforgettable!</h3>
-               <a href="#contact" class="link-btn">Book Now</a>
+              
             </div>
 
 
@@ -198,7 +199,7 @@
             </div>
 
             <div class="col-md-4 image">
-               <img src="assets/images/about-img.jpg" class="w-100 mb-5 mb-md-0" alt="">
+               <img src="images/about-img.jpg" class="w-100 mb-5 mb-md-0" alt="">
             </div>
 
          </div>
@@ -209,110 +210,131 @@
 
    <!-- about section ends -->
 
-   <!-- services section starts  -->
 
-   <section class="services" id="services">
+   <!-- service section start -->
 
-      <div class="text">
+   <section class="services">
+      <div class="hero">
          <h1 class="heading">
             "We're here to sprinkle your special day with love, laughter, and unforgettable memories.
             Let's create the wedding of your dreams together!"
          </h1>
-      </div>
-      <div class="box-container container d-flex">
 
-         <div class="box1">
-            <h3>FLORAL</h3>
-            <p>We're honored to be a part of your special day and can't wait to
+         <div class="service-container">
+            <div class="indicator">
+               <span class="btn" action="active"></span>
+               <span class="btn"></span>
+               <span class="btn"></span>
+               <span class="btn"></span>
+            </div>
+            <div class="section">
+                  <div class="slide-row" id="slide">
+            <div class="slide-col">
+               <div class="user-text">
+                  <h3>FLORAL</h3>
+                  <p>We're honored to be a part of your special day and can't wait to
                bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
                arrangements that will add a touch of elegance and romance to your celebration. We're here to make
                your wedding day blooming marvelous!</p>
-         </div>
-
-         <div class="box2">
-            <h3>CATERING</h3>
-            <p>We're delighted to be a part of your culinary journey and help create a delightful dining experience
-               for you and your guests. Our dedicated catering team is committed to crafting a menu that reflects your
-               tastes, satisfies your cravings, and leaves a lasting impression. Get ready to savor delectable flavors
-               and enjoy exceptional service on your special day.</p>
-         </div>
-
-         <div class="box3">
-            <h3>DECORATION</h3>
-            <p>We're thrilled to be a part of your special day, adding the perfect touch of beauty and elegance
+               
+               </div>
+               <div class="user-image">
+                     <img src="images/floral.jpg" alt="">
+               </div>
+            </div>
+            <div class="slide-col">
+               <div class="user-text">
+                  <h3>CATERING</h3>
+                  <p>We're honored to be a part of your special day and can't wait to
+               bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
+               arrangements that will add a touch of elegance and romance to your celebration. We're here to make
+               your wedding day blooming marvelous!</p>
+               
+               </div>
+               <div class="user-image">
+                     <img src="images/floral.jpg" alt="">
+               </div>
+            </div>
+            <div class="slide-col">
+               <div class="user-text">
+                  <h3>DECORATION</h3>
+                  <p>We're thrilled to be a part of your special day, adding the perfect touch of beauty and elegance
                to your wedding decor. Our team is dedicated to creating a breathtaking ambiance that will leave you
                and your guests in awe. Get ready to celebrate amidst stunning decorations that will make your wedding
                day truly magical!</p>
-         </div>
-
-         <div class="box4">
-            <h3>PHOTOGRAPHY</h3>
-            <p>We're honored to capture the precious moments of your special day through our photography.
+               
+               </div>
+               <div class="user-image">
+                     <img src="images/floral.jpg" alt="">
+               </div>
+            </div>
+            <div class="slide-col">
+               <div class="user-text">
+                  <h3>PHOTOGRAPHY</h3>
+                   <p>We're honored to capture the precious moments of your special day through our photography.
                With our skilled team behind the lens, we'll preserve the joy, love, and beauty of your wedding in
                timeless images. Get ready to create memories that will last a lifetime. Let's make every click count!
             </p>
-         </div>
-
-   </section>
-
-   <!-- services section ends -->
-
-   <!-- packages section starts  -->
-
-
-   <div class="text">
-      <h1 class="heading">
-         Love is in the air! Welcome to our timeless wedding plan packages page.....
-      </h1>
-   </div>
-   <br>
-   <section class="packages">
-
-      <div class="container d-flex">
-         <div class="package">
-            <div class="package-details">
-               <h2>Silver Package</h2>
-               <p>Wedding ceremony coordination</p>
-               <p>Venue selection assistance</p>
-               <p>Vendor recommendations and referrals</p>
-               <p>Wedding day timeline creation and management</p>
-               <p>Price: $1,500</p>
-               <a href="#package" class="link-btn">Book Now</a>
+               
+               </div>
+               <div class="user-image">
+                     <img src="images/floral.jpg" alt="">
+               </div>
+            </div>
             </div>
          </div>
-
-         <div class="package">
-            <div class="package-details">
-               <h2>Gold Package</h2>
-               <p>All features of the Silver Package</p>
-               <p>Personalized wedding theme and design consultation</p>
-               <p>Full vendor coordination and management</p>
-               <p>Assistance with wedding invitations and stationery</p>
-               <p>Price: $3,000</p>
-               <a href="#package" class="link-btn">Book Now</a>
-            </div>
-         </div>
-
-         <div class="package">
-            <div class="package-details">
-               <h2>Platinum Package</h2>
-               <p>All features of the Gold Package</p>
-               <p>Complete wedding planning and design services from start to finish</p>
-               <p>Unlimited consultations and personalized guidance</p>
-               <p>Pre-wedding events coordination</p>
-               <p>Price: $00</p>
-               <a href="#package" class="link-btn">Book Now</a>
-            </div>
          </div>
       </div>
-      <br>
-   </section>
-   </div>
-
    </section>
 
-   <!-- packages section ends -->
+   
+   <!-- service section end -->
 
+   
+   
+   <!-- packages section starts  -->
+   <section class="packages">
+      <h2>Choose Your Plan</h2>
+      <div class="price-row">
+         <div class="price-col">
+            <p>Silver Package</p>
+            <h3>Price: $1,500</h3>
+            <ul>
+               <li>Wedding ceremony coordination</li>
+               <li>Venue selection assistance</li>
+               <li>Vendor recommendations and referrals</li>
+               <li>Wedding day timeline creation and management</li>
+               <li>Wedding day timeline creation and management</li>
+            </ul>
+            <button>BOOK NOW</button>
+         </div>
+         <div class="price-col">
+            <p>Gold Package</p>
+            <h3>Price: $3,000</h3>
+            <ul>
+               <li>All features of the Silver Package</li>
+               <li>Personalized wedding theme and design consultation</li>
+               <li>Full vendor coordination and management</li>
+               <li>Assistance with wedding invitations and stationery</li>
+               <li>Assistance with wedding invitations and stationery</li>
+            </ul>
+            <button>BOOK NOW</button>
+         </div>
+         <div class="price-col">
+            <p>Platinum Package</p>
+            <h3>Price: $1,500</h3>
+            <ul>
+               <li>All features of the Gold Package</li>
+               <li>Complete wedding planning and design services from start to finish</li>
+               <li>Unlimited consultations and personalized guidance</li>
+               <li>Pre-wedding events coordination</li>
+               <li>Pre-wedding events coordination</li>
+            </ul>
+            <button>BOOK NOW</button>
+         </div>
+      </div>
+   </section>
+   <!-- packages section Ends  -->
 
 
 
@@ -359,12 +381,14 @@
 
 
    <!-- java script link -->
+   <script src="java-script/service.js"></script>
    <script src="java-script/cal.js"></script>
-   <<<<<<< HEAD <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
       </script>
-      =======
       <script src="java-script/script.js"></script>
-      >>>>>>> refs/remotes/origin/main
+      
+
+
 </body>
 
 </html>
