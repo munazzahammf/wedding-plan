@@ -177,6 +177,36 @@
 
    <!-- home section ends -->
 
+   <div class="sidenav">
+      <nav>
+         <ul>
+            <li><a href="decoration.php">Decoration</a></li>
+            <li><a href="photography.php">Photography</a></li>
+            <li><a href="catering.php">Catering</a></li>
+         </ul>
+      </nav>
+   </div>
+
+   <div id="menubtn">
+      <img src="images/menu.png" alt="" id="menu">
+   </div>
+
+   <script>
+      var menubtn = document.getElementById("menubtn")
+      var sidenav = document.getElementById("sidenav")
+      var menu = document.getElementById("menu")
+
+      menubtn.onClick = function name() {
+         if (sidenav.style.right == "-250px"){
+            sidenav.style.right = "0";
+         }
+         else {
+            sidenav.style.right = "-250px";
+         }
+      }
+
+   </script>
+
 
    <!-- about section starts  -->
 
@@ -213,7 +243,7 @@
 
    <!-- service section start -->
 
-   <section class="services">
+   <section class="services" id="services">
       <div class="hero">
          <h1 class="heading">
             "We're here to sprinkle your special day with love, laughter, and unforgettable memories.
@@ -293,7 +323,7 @@
    
    
    <!-- packages section starts  -->
-   <section class="packages">
+   <section class="packages" id="packages">
       <h2>Choose Your Plan</h2>
       <div class="price-row">
          <div class="price-col">

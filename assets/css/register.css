@@ -19,7 +19,7 @@
 .hero {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/background.jpg);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -64,23 +64,8 @@
     border-radius: 30px;
     transition: .5s;
 }
-
-.social-icon {
-  text-align: center;
-}
-
-.social-icon i {
-  height: 2.5rem;
-  width: 2.5rem;
-  border-radius: 50%;
-  line-height: 2.5rem;
-  font-size: 1.5rem;
-  background-color: var(--orange);
-  color: white;
-}
-
 .input-groups {
-  top: 140px;
+  top: 100px;
   position: absolute;
   width: 280px;
   transition: 0.5s;
@@ -110,6 +95,12 @@
     outline: none;
     border-radius: 30px;
 }
+.input-groups .btn:hover{
+    font-weight: bold;
+    color: var(--black);
+    background-color: var(--light-color);
+}
+
 .pswd {
   padding-left: 4.5rem;
 }
