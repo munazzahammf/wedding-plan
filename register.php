@@ -34,7 +34,7 @@
             <div class="form-box">
                   <div class="button-box d-flex">
                         <!-- <div id="btn"></div> -->
-                        <button id="login-btn" style="flex-grow: 1;" type="button" class="toggle-btn" onclick="login()"> Log In </button>
+                        <button id="login-btn" style="flex-grow: 1;" type="button" class="toggle-btn active" onclick="login()"> Log In </button>
                         <button id="register-btn" style="flex-grow: 1;" type="button" class="toggle-btn" onclick="register()">Register</button>
                   </div>
 
@@ -70,6 +70,9 @@
 
             let registerBtn = document.getElementById("register-btn")
             let loginBtn = document.getElementById("login-btn")
+
+            x.style.opacity = 1
+            y.style.opacity = 0
 
             function register() {
 
