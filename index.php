@@ -304,7 +304,6 @@
                <li>Venue selection assistance</li>
                <li>Vendor recommendations and referrals</li>
                <li>Wedding day timeline creation and management</li>
-               <li>Wedding day timeline creation and management</li>
             </ul>
             <button>BOOK NOW</button>
          </div>
@@ -316,18 +315,16 @@
                <li>Personalized wedding theme and design consultation</li>
                <li>Full vendor coordination and management</li>
                <li>Assistance with wedding invitations and stationery</li>
-               <li>Assistance with wedding invitations and stationery</li>
             </ul>
             <button>BOOK NOW</button>
          </div>
          <div class="price-col">
             <p>Platinum Package</p>
-            <h3>Price: $1,500</h3>
+            <h3>Price: $4,500</h3>
             <ul>
                <li>All features of the Gold Package</li>
                <li>Complete wedding planning and design services from start to finish</li>
                <li>Unlimited consultations and personalized guidance</li>
-               <li>Pre-wedding events coordination</li>
                <li>Pre-wedding events coordination</li>
             </ul>
             <button>BOOK NOW</button>

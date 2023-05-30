@@ -54,14 +54,15 @@
 }
 
 #btn {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 110px;
-  height: 100%;
-  background-color: var(--orange);
-  border-radius: 30px;
-  transition: 0.5s;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 30px;
+    transition: .5s;
 }
 
 .social-icon {
@@ -98,17 +99,17 @@
 }
 
 .input-groups .btn {
-  width: 65%;
-  padding: 10px 30px;
-  cursor: pointer;
-  display: block;
-  margin: auto;
-  background-color: var(--orange);
-  border: 0;
-  outline: none;
-  border-radius: 30px;
+    width: 65%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: var(--orange);
+    color: var(--white);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
 }
-
 .pswd {
   padding-left: 4.5rem;
 }
