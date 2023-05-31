@@ -22,6 +22,9 @@
 </head>
 <body>
             
+      
+
+          <div class="one">
       <div class="photography">
             <p>Welcome to Our Photography Wonderland!</p>
             <h2>Capturing Moments</h2>
@@ -94,9 +97,14 @@
                         </button>
                         </div>
                   </div>
-                
             </div>
-
+</div>
+</div>
+</div>
+            
+            <div class="two">
+            <div class="photography">
+                        <div class="row">
             <div class="col-mod-6">
                   <div class="photo">
                   <img src="images/photo5.jpg" alt="">
@@ -135,24 +143,6 @@
 
             <div class="col-mod-6">
                   <div class="photo">
-                  <img src="images/photo8.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                 
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
                   <img src="images/photo7.jpg" alt="">
                         <div class="overlay">
                         <button type="button" class="btn btn-secondary" title="quick shop">
@@ -166,10 +156,31 @@
                         </button>
                         </div>
                   </div>
-                 
+                
             </div>
+
+            <div class="col-mod-6">
+                  <div class="photo">
+                  <img src="images/photo8.jpg" alt="">
+                        <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="quick shop">
+                        <i class="fa-sharp fa-solid fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="quick shop">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="quick shop">
+                        <i class="fa-solid fa-star"></i>
+                        </button>
+                        </div>
+                  </div>
+            </div>
+</div>
+</div>
+</div>
+
             
-            </div>
+      </div>
       </div>
             
 </body>

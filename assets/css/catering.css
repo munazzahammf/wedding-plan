@@ -12,6 +12,7 @@
 
 body {
       background: linear-gradient(to left, #743333, #f6b7b7, #fddada);
+      padding-bottom: 4rem;
 }
 
 .catering p {
@@ -52,7 +53,7 @@ body {
 
 }
 
-.overlay {
+.one .overlay {
       display: block;
       opacity: 0;
       position: absolute;
@@ -61,10 +62,42 @@ body {
       width: 70px;
 }
 
-.photo:hover .overlay {
+.one .photo:hover .overlay {
       opacity: 1;
       margin-left: 3%;
       margin-top: 20%;
+      transition: 0.5s;
+}
+
+.two .overlay {
+      display: block;
+      opacity: 0;
+      position: absolute;
+      top: 20%;
+      margin-left: 0;
+      width: 70px;
+}
+
+.two .photo:hover .overlay {
+      opacity: 1;
+      margin-left: 3%;
+      margin-top: 55%;
+      transition: 0.5s;
+}
+
+.three .overlay {
+      display: block;
+      opacity: 0;
+      position: absolute;
+      top: 10%;
+      margin-left: 0;
+      width: 70px;
+}
+
+.three .photo:hover .overlay {
+      opacity: 1;
+      margin-left: 3%;
+      margin-top: 100%;
       transition: 0.5s;
 }
 

@@ -21,6 +21,7 @@
    <link rel="stylesheet" href="assets/css/decoration.css">
 </head>
 <body>
+      <div class="one">
       <div class="decoration">
             <p>Welcome to our world of timeless elegance. Discover the art of refined décor.</p>
             <h2>FLORAL</h2>
@@ -100,10 +101,11 @@
             
             </div>
       </div>
-      <div class="decoration">
-            
-            <h2>LIGHTNING</h2>
+      </div>
 
+      <div class="two">
+      <div class="decoration">
+            <h2>LIGHTNING</h2>
             <div class="row">
             <div class="col-mod-6">
                   <div class="photo">
@@ -176,7 +178,10 @@
             </div>
 </div>
 </div>
+</div>
 
+
+            <div class="three">
             <div class="decoration">
                   <h2>HALL</h2>
                         <div class="row">
@@ -250,6 +255,7 @@
                         </div>
                   </div>
             </div>
+</div>
 </div>
 </div>
 
