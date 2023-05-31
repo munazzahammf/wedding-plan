@@ -22,7 +22,9 @@ if (isset($_POST['submit'])) {
 
         // Redirecting to Home Page.
         header('Location: index.php');
+    } else {
+        header('Location: register.php');
     }
 } else {
-    $message[] = 'incorrect email or password!';
+    header('Location: register.php');
 }
