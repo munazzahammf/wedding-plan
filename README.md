@@ -10,7 +10,7 @@ If you have made any changes to your code base.
 3. Add the changes to that branch.
     `git add .`
 4. Commit the changes to the branch.
-    `git commit -m "<commit messsage>"
+    `git commit -m "<commit messsage>"`
 5. After committing select the main branch.
     `git checkout main`
 6. Then pull the changes from the remote repository
