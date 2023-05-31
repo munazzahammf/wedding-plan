@@ -110,6 +110,13 @@ section {
   display: none;
 }
 
+.login-btn {
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 1rem 3rem;
+  font-size: larger;
+}
+
 .log-out-btn {
   color: red;
 }
@@ -117,7 +124,7 @@ section {
 
 /* home start */
 .home {
-  background: linear-gradient(to left, #743333, #f6b7b7 , #fddada);
+  background: linear-gradient(to left, #743333, #f6b7b7, #fddada);
 }
 .home nav-item {
   color: #b87200;
@@ -220,8 +227,6 @@ section {
 }
 /* footer end */
 
-
-
 /* service start */
 .hero {
   background: var(--light-body);
@@ -229,14 +234,14 @@ section {
   position: relative;
   height: 100%;
 }
-.hero h1{
+.hero h1 {
   font-style: italic;
   text-align: center;
   padding-bottom: 520px;
   font-size: 30px;
   color: #743333;
 }
-.slide-row{
+.slide-row {
   display: flex;
   width: 3200px;
   transition: 0.5s;
@@ -270,18 +275,18 @@ section {
   box-sizing: border-box;
   z-index: 2;
 }
-.user-text h3{
+.user-text h3 {
   font-size: larger;
   text-align: center;
   font-style: inherit;
 }
-.service-container{
+.service-container {
   width: 1000px;
   height: 500px;
   position: absolute;
   top: 60%;
   left: 60%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
 }
 .indicator {
   position: absolute;
@@ -289,7 +294,7 @@ section {
   transform: translateX(-50%);
   bottom: -10%;
 }
-.btn {
+.btn-service {
   display: inline-block;
   height: 15px;
   width: 15px;
@@ -302,28 +307,27 @@ section {
 .active {
   width: 45px;
 }
-.section{
+.section {
   overflow: hidden;
   height: 100%;
   width: 100%;
 }
 /* service end */
 
-
 /* package start */
 
-.packages h2{
+.packages h2 {
   color: var(--orange);
   font-size: 32px;
   padding: 50px 0;
   text-align: center;
 }
-.packages .price-row{
+.packages .price-row {
   width: 90%;
   max-width: 1100px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 25px;
 }
 .price-col {
@@ -333,30 +337,30 @@ section {
   color: var(--white);
   text-align: center;
 }
-.price-col p{
+.price-col p {
   font-size: 22px;
 }
-.price-col h3{
+.price-col h3 {
   font-size: 34px;
   margin: 20px 0 40px;
   font-weight: 500;
 }
-.price-col ul{
+.price-col ul {
   text-align: left;
   margin: 20px 0;
-  color: ;
+  /* color: ; */
   list-style: none;
 }
-.price-col ul li{
+.price-col ul li {
   margin: 15px 0;
 }
-.price-col ul li::before{
-  content: '\2022';
+.price-col ul li::before {
+  content: "\2022";
   color: var(--white);
   font-weight: bold;
   margin-right: 8px;
 }
-.price-col button{
+.price-col button {
   width: 100%;
   padding: 12px 0;
   background: transparent;
@@ -368,12 +372,10 @@ section {
   cursor: pointer;
   transition: background 0.5s;
 }
-.price-col button:hover{
+.price-col button:hover {
   font-weight: bold;
   background: var(--white);
   color: var(--orange);
 }
 
 /* package end */
-
-

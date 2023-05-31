@@ -87,7 +87,7 @@
           </ul>
         </li>';
                   } else {
-                     echo '<a href="register.php" class="link-btn">Login</a>';
+                     echo '<a href="register.php" class="btn btn-lg login-btn" role="button" aria-disabled="true">Login</a>';
                   }
                   ?>
                </ul>
@@ -216,20 +216,22 @@
 
          <div class="service-container">
             <div class="indicator">
-               <span class="btn"></span>
-               <span class="btn" action="active"></span>
-               <span class="btn"></span>
-               <span class="btn"></span>
+               <span class="btn-service"></span>
+               <span class="btn-service" action="active"></span>
+               <span class="btn-service"></span>
+               <span class="btn-service"></span>
             </div>
             <div class="section">
                <div class="slide-row" id="slide">
                   <div class="slide-col">
                      <div class="user-text">
                         <h3>FLORAL</h3>
-                        <p>We're honored to be a part of your special day and can't wait to
+                        <p>
+                           We're honored to be a part of your special day and can't wait to
                            bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
                            arrangements that will add a touch of elegance and romance to your celebration. We're here to make
-                           your wedding day blooming marvelous!</p>
+                           your wedding day blooming marvelous!
+                        </p>
 
                      </div>
                      <div class="user-image">
