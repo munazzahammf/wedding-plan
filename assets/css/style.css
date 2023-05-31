@@ -19,6 +19,7 @@
   border: none;
   text-decoration: none !important;
   text-transform: capitalize;
+  
 }
 
 *::-webkit-scrollbar {
@@ -35,6 +36,7 @@
 }
 
 html {
+  background-color: var(--light-body);
   font-size: 69.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -190,7 +192,7 @@ nav ul li a {
 
 /* about start */
 .about .container {
-  padding-left: 10rem;
+  padding-left: 14rem;
 }
 .about .row {
   min-height: 50vh;

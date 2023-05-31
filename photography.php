@@ -104,10 +104,11 @@
             
             <div class="two">
             <div class="photography">
+                  <h2>DRON SHOT</h2>
                         <div class="row">
             <div class="col-mod-6">
                   <div class="photo">
-                  <img src="images/photo5.jpg" alt="">
+                  <img src="images/dron1.jpg" alt="">
                         <div class="overlay">
                         <button type="button" class="btn btn-secondary" title="quick shop">
                         <i class="fa-sharp fa-solid fa-heart"></i>
@@ -125,7 +126,7 @@
 
             <div class="col-mod-6">
                   <div class="photo">
-                  <img src="images/photo6.jpg" alt="">
+                  <img src="images/dron2.jpg" alt="">
                         <div class="overlay">
                         <button type="button" class="btn btn-secondary" title="quick shop">
                         <i class="fa-sharp fa-solid fa-heart"></i>
@@ -143,7 +144,7 @@
 
             <div class="col-mod-6">
                   <div class="photo">
-                  <img src="images/photo7.jpg" alt="">
+                  <img src="images/dron9.jpg" alt="">
                         <div class="overlay">
                         <button type="button" class="btn btn-secondary" title="quick shop">
                         <i class="fa-sharp fa-solid fa-heart"></i>
@@ -161,7 +162,7 @@
 
             <div class="col-mod-6">
                   <div class="photo">
-                  <img src="images/photo8.jpg" alt="">
+                  <img src="images/dron6.jpg" alt="">
                         <div class="overlay">
                         <button type="button" class="btn btn-secondary" title="quick shop">
                         <i class="fa-sharp fa-solid fa-heart"></i>

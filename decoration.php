@@ -144,7 +144,7 @@
 
             <div class="col-mod-6">
                   <div class="photo">
-                  <img src="images/light3.jpg" alt="">
+                  <img src="images/deco2.jpg" alt="">
                         <div class="overlay">
                         <button type="button" class="btn btn-secondary" title="quick shop">
                         <i class="fa-sharp fa-solid fa-heart"></i>
@@ -187,7 +187,7 @@
                         <div class="row">
             <div class="col-mod-6">
                   <div class="photo">
-                  <img src="images/deco2.jpg" alt="">
+                  <img src="images/wed2.jpg" alt="">
                         <div class="overlay">
                         <button type="button" class="btn btn-secondary" title="quick shop">
                         <i class="fa-sharp fa-solid fa-heart"></i>
@@ -205,7 +205,7 @@
 
             <div class="col-mod-6">
                   <div class="photo">
-                  <img src="images/deco3.jpg" alt="">
+                  <img src="images/wed3.jpg" alt="">
                         <div class="overlay">
                         <button type="button" class="btn btn-secondary" title="quick shop">
                         <i class="fa-sharp fa-solid fa-heart"></i>
@@ -223,7 +223,7 @@
 
             <div class="col-mod-6">
                   <div class="photo">
-                  <img src="images/deco4.jpg" alt="">
+                  <img src="images/wed4.jpg" alt="">
                         <div class="overlay">
                         <button type="button" class="btn btn-secondary" title="quick shop">
                         <i class="fa-sharp fa-solid fa-heart"></i>
@@ -241,7 +241,7 @@
 
             <div class="col-mod-6">
                   <div class="photo">
-                  <img src="images/deco5.jpg" alt="">
+                  <img src="images/wed5.jpg" alt="">
                         <div class="overlay">
                         <button type="button" class="btn btn-secondary" title="quick shop">
                         <i class="fa-sharp fa-solid fa-heart"></i>

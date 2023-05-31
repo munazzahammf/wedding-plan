@@ -78,7 +78,7 @@ body{
 .two .photo:hover .overlay {
       opacity: 1;
       margin-left: 3%;
-      margin-top: 58%;
+      margin-top: 62%;
       transition: 0.5s;
 }
 .overlay i{
