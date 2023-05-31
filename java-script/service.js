@@ -1,4 +1,4 @@
-var btn = document.getElementsByClassName("btn");
+var btn = document.getElementsByClassName("btn-service");
 var slide = document.getElementById("slide");
 
 btn[0].onclick = function () {
