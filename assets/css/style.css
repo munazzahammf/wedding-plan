@@ -147,10 +147,9 @@ section {
 }
 /* home end */
 
-
 /*slide nav start */
 
-.sidenav{
+.sidenav {
   width: 200px;
   height: 100vh;
   position: fixed;
@@ -160,16 +159,15 @@ section {
   z-index: 2;
   transition: 0.5s;
 }
-nav ul li{
+nav ul li {
   list-style: none;
-  margin: 50px 20px;
 }
 nav ul li a {
   text-decoration: none;
   color: var(--orange);
   font-weight: bold;
 }
-#menubtn{
+#menubtn {
   width: 50px;
   height: 50px;
   background: var(--light-body);
@@ -181,11 +179,10 @@ nav ul li a {
   z-index: 3;
   cursor: pointer;
 }
-#menubtn img{
+#menubtn img {
   width: 20px;
   margin-top: 15px;
 }
-
 
 /*slide nav end*/
 

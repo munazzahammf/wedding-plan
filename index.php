@@ -171,7 +171,7 @@
 
    <!-- home section ends -->
 
-   <div class="sidenav">
+   <!-- <div class="sidenav">
       <nav>
          <ul>
             <li><a href="decoration.php">Decoration</a></li>
@@ -199,7 +199,7 @@
          }
       }
 
-   </script>
+   </script> -->
 
 
    <!-- about section starts  -->
