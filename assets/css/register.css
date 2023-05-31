@@ -54,15 +54,15 @@
 }
 
 #btn {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 110px;
-    height: 100%;
-    background-color: var(--orange);
-    color: var(--white);
-    border-radius: 30px;
-    transition: .5s;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 30px;
+  transition: 0.5s;
 }
 .input-groups {
   top: 100px;
@@ -84,21 +84,21 @@
 }
 
 .input-groups .btn {
-    width: 65%;
-    padding: 10px 30px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    background-color: var(--orange);
-    color: var(--white);
-    border: 0;
-    outline: none;
-    border-radius: 30px;
+  width: 65%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background-color: var(--orange);
+  color: var(--white);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
 }
-.input-groups .btn:hover{
-    font-weight: bold;
-    color: var(--black);
-    background-color: var(--light-color);
+.input-groups .btn:hover {
+  font-weight: bold;
+  color: var(--black);
+  background-color: var(--light-color);
 }
 
 .pswd {

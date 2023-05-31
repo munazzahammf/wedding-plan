@@ -46,6 +46,11 @@ section {
 }
 
 /* header start */
+
+nav.navbar-down {
+  background-color: white;
+}
+
 .heading {
   text-align: center;
   font-size: 3.8rem;
@@ -71,8 +76,7 @@ section {
   font-weight: bold;
 }
 
-.header {
-  padding: 2rem;
+nav.navbar {
   border-bottom: var(--border);
 }
 
@@ -82,7 +86,7 @@ section {
   border: 0;
 }
 
-.header .logo {
+.logo {
   font-size: 2.3rem;
   color: var(--black);
 }
@@ -93,13 +97,11 @@ section {
   font-size: 2.5rem;
 }
 
-.header .nav a {
-  margin: 0 1rem;
-  font-size: 1.9rem;
+.navbar a {
   color: var(--light-color);
 }
 
-.header .nav a:hover {
+.navbar a:hover {
   color: var(--orange);
 }
 
@@ -112,8 +114,8 @@ section {
 
 .login-btn {
   background-color: var(--orange);
-  color: var(--white);
-  padding: 1rem 3rem;
+  color: var(--white) !important;
+  padding: 0.5rem 2rem;
   font-size: larger;
 }
 
@@ -124,7 +126,7 @@ section {
 
 /* home start */
 .home {
-  background: linear-gradient(to left, #743333, #f6b7b7, #fddada);
+  /* background: linear-gradient(to left, #743333, #f6b7b7, #fddada); */
 }
 .home nav-item {
   color: #b87200;
@@ -268,7 +270,7 @@ nav ul li a {
 
 /* service start */
 .hero {
-  background: var(--light-body);
+  /* background: var(--light-body); */
   width: 100%;
   position: relative;
   height: 100%;
