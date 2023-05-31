@@ -73,12 +73,6 @@
                      $loggedIn = true;
                   }
 
-                  // $isloggedOut = $_GET["login"];
-
-                  // if (isset($isloggedOut) & $isloggedOut == 'false') {
-                  //    $loggedIn = false;
-                  // }
-
                   if ($loggedIn) {
                      // echo '<i class="bi bi-person-circle" style="font-size:2.5rem;"></i>';
                      echo '        <li class="nav-item dropdown">
@@ -125,7 +119,7 @@
                <br>
                <br>
                <h3>Let's Make Your Special Day Unforgettable!</h3>
-              
+
             </div>
 
 
@@ -252,76 +246,76 @@
 
          <div class="service-container">
             <div class="indicator">
-               <span class="btn" action="active"></span>
                <span class="btn"></span>
+               <span class="btn" action="active"></span>
                <span class="btn"></span>
                <span class="btn"></span>
             </div>
             <div class="section">
-                  <div class="slide-row" id="slide">
-            <div class="slide-col">
-               <div class="user-text">
-                  <h3>FLORAL</h3>
-                  <p>We're honored to be a part of your special day and can't wait to
-               bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
-               arrangements that will add a touch of elegance and romance to your celebration. We're here to make
-               your wedding day blooming marvelous!</p>
-               
-               </div>
-               <div class="user-image">
-                     <img src="images/floral.jpg" alt="">
+               <div class="slide-row" id="slide">
+                  <div class="slide-col">
+                     <div class="user-text">
+                        <h3>FLORAL</h3>
+                        <p>We're honored to be a part of your special day and can't wait to
+                           bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
+                           arrangements that will add a touch of elegance and romance to your celebration. We're here to make
+                           your wedding day blooming marvelous!</p>
+
+                     </div>
+                     <div class="user-image">
+                        <img src="images/floral.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="slide-col">
+                     <div class="user-text">
+                        <h3>CATERING</h3>
+                        <p>We're honored to be a part of your special day and can't wait to
+                           bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
+                           arrangements that will add a touch of elegance and romance to your celebration. We're here to make
+                           your wedding day blooming marvelous!</p>
+
+                     </div>
+                     <div class="user-image">
+                        <img src="images/floral.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="slide-col">
+                     <div class="user-text">
+                        <h3>DECORATION</h3>
+                        <p>We're thrilled to be a part of your special day, adding the perfect touch of beauty and elegance
+                           to your wedding decor. Our team is dedicated to creating a breathtaking ambiance that will leave you
+                           and your guests in awe. Get ready to celebrate amidst stunning decorations that will make your wedding
+                           day truly magical!</p>
+
+                     </div>
+                     <div class="user-image">
+                        <img src="images/floral.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="slide-col">
+                     <div class="user-text">
+                        <h3>PHOTOGRAPHY</h3>
+                        <p>We're honored to capture the precious moments of your special day through our photography.
+                           With our skilled team behind the lens, we'll preserve the joy, love, and beauty of your wedding in
+                           timeless images. Get ready to create memories that will last a lifetime. Let's make every click count!
+                        </p>
+
+                     </div>
+                     <div class="user-image">
+                        <img src="images/floral.jpg" alt="">
+                     </div>
+                  </div>
                </div>
             </div>
-            <div class="slide-col">
-               <div class="user-text">
-                  <h3>CATERING</h3>
-                  <p>We're honored to be a part of your special day and can't wait to
-               bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
-               arrangements that will add a touch of elegance and romance to your celebration. We're here to make
-               your wedding day blooming marvelous!</p>
-               
-               </div>
-               <div class="user-image">
-                     <img src="images/floral.jpg" alt="">
-               </div>
-            </div>
-            <div class="slide-col">
-               <div class="user-text">
-                  <h3>DECORATION</h3>
-                  <p>We're thrilled to be a part of your special day, adding the perfect touch of beauty and elegance
-               to your wedding decor. Our team is dedicated to creating a breathtaking ambiance that will leave you
-               and your guests in awe. Get ready to celebrate amidst stunning decorations that will make your wedding
-               day truly magical!</p>
-               
-               </div>
-               <div class="user-image">
-                     <img src="images/floral.jpg" alt="">
-               </div>
-            </div>
-            <div class="slide-col">
-               <div class="user-text">
-                  <h3>PHOTOGRAPHY</h3>
-                   <p>We're honored to capture the precious moments of your special day through our photography.
-               With our skilled team behind the lens, we'll preserve the joy, love, and beauty of your wedding in
-               timeless images. Get ready to create memories that will last a lifetime. Let's make every click count!
-            </p>
-               
-               </div>
-               <div class="user-image">
-                     <img src="images/floral.jpg" alt="">
-               </div>
-            </div>
-            </div>
-         </div>
          </div>
       </div>
    </section>
 
-   
+
    <!-- service section end -->
 
-   
-   
+
+
    <!-- packages section starts  -->
    <section class="packages" id="packages">
       <h2>Choose Your Plan</h2>
@@ -411,9 +405,9 @@
    <script src="java-script/service.js"></script>
    <script src="java-script/cal.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-      </script>
-      <script src="java-script/script.js"></script>
-      
+   </script>
+   <script src="java-script/script.js"></script>
+
 
 
 </body>
