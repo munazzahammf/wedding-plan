@@ -22,9 +22,10 @@
    
 </head>
 <body>
+      <div class="one">
       <div class="catering">
             <p>Welcome to Our Delectable Catering Services!</p>
-            <h2>CaKES</h2>
+            <h2>CAKES</h2>
             <div class="row">
             <div class="col-mod-6">
                   <div class="photo">
@@ -97,7 +98,9 @@
             </div>
 </div>
 </div>
-
+</div>
+            
+            <div class="two">
             <div class="catering">
                   <h2>FOOD</h2>
                         <div class="row">
@@ -173,7 +176,9 @@
             </div>
 </div>
 </div>
+</div>
 
+            <div class="three">
             <div class="catering">
             <h2>DESSERTS</h2>
                   <div class="row">
@@ -251,6 +256,7 @@
             </div>
             
             </div>
+      </div>
       </div>
 </body>
 </html>
