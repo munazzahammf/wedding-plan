@@ -2,6 +2,8 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
+session_start();
 require_once 'database.php';
 require_once 'controllers/UserController.php';
 
@@ -19,5 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $result = $controller->registerUser($firstname, $lastname, $username, $password, $email);
 
-    echo "$result";
+    if ($result == true) {
+        $_SESSION['username'] = $username;
+        header('Location: index.php');
+    }
+
+    header('Location: index.php');
 }
