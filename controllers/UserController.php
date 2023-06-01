@@ -29,11 +29,11 @@ class UserController
 
 
         if ($existingUser) {
-            return "User already exists.";
+            return false;
         }
 
-        $this->userModel->createUser($firstname, $lastname, $username, $password, $email);
+        $response = $this->userModel->createUser($firstname, $lastname, $username, $password, $email);
 
-        return "Success.!";
+        return true;
     }
 }

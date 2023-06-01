@@ -52,8 +52,15 @@
                   <li class="nav-item">
                      <a class="nav-link" href="#about">About</a>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#services">Services</a>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="book-now.php">Venue</a></li>
+                        <li><a class="dropdown-item" href="catering.php">Catering</a></li>
+                        <li><a class="dropdown-item" href="decoration.php">Decoration</a></li>
+                     </ul>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="#packages">Packages</a>
@@ -245,7 +252,6 @@
 
          <div class="service-container">
             <div class="indicator">
-               <span class="btn-service"></span>
                <span class="btn-service" action="active"></span>
                <span class="btn-service"></span>
                <span class="btn-service"></span>
@@ -254,27 +260,12 @@
                <div class="slide-row" id="slide">
                   <div class="slide-col">
                      <div class="user-text">
-                        <h3>FLORAL</h3>
-                        <p>
-                           We're honored to be a part of your special day and can't wait to
-                           bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
-                           arrangements that will add a touch of elegance and romance to your celebration. We're here to make
-                           your wedding day blooming marvelous!
-                        </p>
-
-                     </div>
-                     <div class="user-image">
-                        <img src="images/floral.jpg" alt="">
-                     </div>
-                  </div>
-                  <div class="slide-col">
-                     <div class="user-text">
                         <h3>CATERING</h3>
                         <p>We're honored to be a part of your special day and can't wait to
                            bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
                            arrangements that will add a touch of elegance and romance to your celebration. We're here to make
                            your wedding day blooming marvelous!</p>
-
+                        <a class="btn btn-primary transparent-button px-3" href="catering.php" role="button">EXPLORE MORE</a>
                      </div>
                      <div class="user-image">
                         <img src="images/floral.jpg" alt="">
@@ -287,7 +278,7 @@
                            to your wedding decor. Our team is dedicated to creating a breathtaking ambiance that will leave you
                            and your guests in awe. Get ready to celebrate amidst stunning decorations that will make your wedding
                            day truly magical!</p>
-
+                        <a class="btn btn-primary transparent-button px-3" href="decoration.php" role="button">EXPLORE MORE</a>
                      </div>
                      <div class="user-image">
                         <img src="images/floral.jpg" alt="">
@@ -300,7 +291,7 @@
                            With our skilled team behind the lens, we'll preserve the joy, love, and beauty of your wedding in
                            timeless images. Get ready to create memories that will last a lifetime. Let's make every click count!
                         </p>
-
+                        <a class="btn btn-primary transparent-button px-3" href="#" role="button">EXPLORE MORE</a>
                      </div>
                      <div class="user-image">
                         <img src="images/floral.jpg" alt="">
@@ -330,7 +321,7 @@
                <li>Vendor recommendations and referrals</li>
                <li>Wedding day timeline creation and management</li>
             </ul>
-            <button>BOOK NOW</button>
+            <button class="transparent-button">BOOK NOW</button>
          </div>
          <div class="price-col">
             <p>Gold Package</p>
@@ -341,7 +332,7 @@
                <li>Full vendor coordination and management</li>
                <li>Assistance with wedding invitations and stationery</li>
             </ul>
-            <button>BOOK NOW</button>
+            <button class="transparent-button">BOOK NOW</button>
          </div>
          <div class="price-col">
             <p>Platinum Package</p>
@@ -352,7 +343,7 @@
                <li>Unlimited consultations and personalized guidance</li>
                <li>Pre-wedding events coordination</li>
             </ul>
-            <button>BOOK NOW</button>
+            <button class="transparent-button">BOOK NOW</button>
          </div>
       </div>
    </section>

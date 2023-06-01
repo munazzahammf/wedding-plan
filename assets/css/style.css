@@ -129,9 +129,6 @@ nav.navbar {
 /* header end */
 
 /* home start */
-.home {
-  /* background: linear-gradient(to left, #743333, #f6b7b7, #fddada); */
-}
 .home nav-item {
   color: #b87200;
 }
@@ -309,7 +306,6 @@ footer .credit span {
 .user-text {
   background: var(--orange);
   width: 520px;
-  height: 270px;
   color: var(--white);
   position: absolute;
   left: 0;
@@ -405,19 +401,21 @@ footer .credit span {
   font-weight: bold;
   margin-right: 8px;
 }
-.price-col button {
-  width: 100%;
+
+.transparent-button {
   padding: 12px 0;
   background: transparent;
   color: var(--white);
   font-size: 18px;
   border: 1px solid var(--white);
   border-radius: 6px;
-  margin-top: 30px;
   cursor: pointer;
   transition: background 0.5s;
 }
-.price-col button:hover {
+.price-col button {
+  width: 100%;
+}
+.transparent-button:hover {
   font-weight: bold;
   background: var(--white);
   color: var(--orange);
