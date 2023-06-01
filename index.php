@@ -277,7 +277,7 @@
 
                      </div>
                      <div class="user-image">
-                        <img src="images/floral.jpg" alt="">
+                        <img src="images/food3.jpg" alt="">
                      </div>
                   </div>
                   <div class="slide-col">
@@ -290,7 +290,7 @@
 
                      </div>
                      <div class="user-image">
-                        <img src="images/floral.jpg" alt="">
+                        <img src="images/deco1.jpg" alt="">
                      </div>
                   </div>
                   <div class="slide-col">
@@ -303,7 +303,7 @@
 
                      </div>
                      <div class="user-image">
-                        <img src="images/floral.jpg" alt="">
+                        <img src="images/photo4.jpg" alt="" id="img">
                      </div>
                   </div>
                </div>
@@ -362,33 +362,33 @@
 
    <!-- footer section starts  -->
 
-   <section class="footer">
+   <footer class="p-5">
 
       <div class="box-container container">
 
          <div class="box">
             <i class="fas fa-phone"></i>
-            <h3>phone number</h3>
+            <h3>Contact Number</h3>
             <p>0761434955</p>
             <p>0327913020</p>
          </div>
 
          <div class="box">
             <i class="fas fa-map-marker-alt"></i>
-            <h3>our address</h3>
+            <h3>Address</h3>
             <p> no-155/A , Kurunegala</p>
          </div>
 
          <div class="box">
             <i class="fas fa-clock"></i>
-            <h3>opening hours</h3>
+            <h3>Opening Hours</h3>
             <p>8.00am to 8.00pm</p>
          </div>
 
          <div class="box">
             <i class="fas fa-envelope"></i>
-            <h3>email address</h3>
-            <p>dreamday@gmail.com</p>
+            <h3>Email Address</h3>
+            <p><a href="mailto:dreamday@gmail.com">dreamday@gmail.com</a></p>
          </div>
 
       </div>
@@ -397,7 +397,7 @@
          <?php echo date('Y'); ?> by <span> Wedding-Plan</span>
       </div>
 
-   </section>
+   </footer>
 
    <!-- footer section ends -->
 

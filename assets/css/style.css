@@ -18,8 +18,6 @@
   outline: none;
   border: none;
   text-decoration: none !important;
-  text-transform: capitalize;
-  
 }
 
 *::-webkit-scrollbar {
@@ -51,6 +49,11 @@ section {
 
 nav.navbar-down {
   background-color: white;
+}
+
+nav .bi-person-circle {
+  font-size: 2.5rem;
+  color: var(--orange);
 }
 
 .heading {
@@ -190,6 +193,10 @@ nav ul li a {
 
 /*slide nav end*/
 
+#img {
+  width: 350px;
+  height: 390px;
+}
 /* about start */
 .about .container {
   padding-left: 14rem;
@@ -219,21 +226,21 @@ nav ul li a {
 /* about end */
 
 /* footer start */
-.footer {
+footer {
   background: rgb(215, 215, 215);
 }
 
-.footer .box-container {
+footer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 3rem;
 }
 
-.footer .box-container .box {
+footer .box-container .box {
   text-align: center;
 }
 
-.footer .box-container .box i {
+footer .box-container .box i {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
@@ -243,19 +250,19 @@ nav ul li a {
   color: var(--white);
 }
 
-.footer .box-container .box h3 {
+footer .box-container .box h3 {
   font-size: 2rem;
   margin: 2rem 0;
   color: var(--black);
 }
 
-.footer .box-container .box p {
+footer .box-container .box p {
   font-size: 1.5rem;
   color: var(--light-color);
   text-transform: none;
 }
 
-.footer .credit {
+footer .credit {
   text-align: center;
   border-top: var(--border);
   padding-top: 2rem;
@@ -264,7 +271,7 @@ nav ul li a {
   color: var(--light-color);
 }
 
-.footer .credit span {
+footer .credit span {
   color: var(--orange);
   font-weight: bold;
 }
