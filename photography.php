@@ -127,8 +127,7 @@
                         <div class="card">
                            <div class="card-inner">
                               <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
+                                 <img src="images/photo1.jpg" alt="">
                                  <button>Hover Me</button>
                               </div>
                                  <div class="back">
@@ -160,8 +159,8 @@
                          <div class="card">
                            <div class="card-inner">
                               <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
+                                 <img src="images/photo2.jpg" alt="">
+                                 
                                  <button>Hover Me</button>
                               </div>
                                  <div class="back">
@@ -193,8 +192,8 @@
                         <div class="card">
                            <div class="card-inner">
                               <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
+                                 <img src="images/photo3.jpg" alt="">
+                              
                                  <button>Hover Me</button>
                               </div>
                                  <div class="back">
@@ -226,8 +225,8 @@
                         <div class="card">
                            <div class="card-inner">
                               <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
+                                 <img src="images/photo4.jpg" alt="">
+                               
                                  <button>Hover Me</button>
                               </div>
                                  <div class="back">
@@ -262,8 +261,8 @@
                         <div class="card">
                            <div class="card-inner">
                               <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
+                                 <img src="images/dron6.jpg" alt="">
+                             
                                  <button>Hover Me</button>
                               </div>
                                  <div class="back">
@@ -295,8 +294,8 @@
                          <div class="card">
                            <div class="card-inner">
                               <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
+                                 <img src="images/dron1.jpg" alt="">
+                                
                                  <button>Hover Me</button>
                               </div>
                                  <div class="back">
@@ -328,8 +327,8 @@
                         <div class="card">
                            <div class="card-inner">
                               <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
+                                 <img src="images/dron2.jpg" alt="">
+                              
                                  <button>Hover Me</button>
                               </div>
                                  <div class="back">
@@ -361,8 +360,8 @@
                         <div class="card">
                            <div class="card-inner">
                               <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
+                                 <img src="images/dron9.jpg" alt="">
+                               
                                  <button>Hover Me</button>
                               </div>
                                  <div class="back">

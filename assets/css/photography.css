@@ -81,12 +81,8 @@ body {
       justify-content: flex-end;
       color: var(--black);
 }
-.front h2 {
-      font-weight: 500;
-}
-.front p{
-      color: #4A148C;
-      font-size: 13px;
+.front img{
+      object-fit: cover;
 }
 .front button {
       width: 120px;
