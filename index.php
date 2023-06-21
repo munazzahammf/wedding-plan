@@ -124,9 +124,9 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/one.jpeg" class="d-block w-100"  alt="...">
+      <img src="images/cover/one.jpeg" class="d-block w-100"  alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h3>Welcome to our wedding planning haven! 
+        <h3>Welcome to our wedding planning heaven! 
                   <br><span class="auto-type"></span></h3>
       </div>
     </div>
@@ -244,10 +244,6 @@
             </div>
 
             <div class="col-md-2 image d-flex">
-               <video width="1000" height="500" autoplay loop muted>
-  <source src="images/video2.mp4" type="video/mp4" class="back-video">
-  Your browser does not support the video tag.
-</video>
             </div>
 
          </div>
@@ -366,7 +362,7 @@
    <div class="box-container container">
 
       <div class="box">
-         <img src="images/lightning.png" alt="">
+         <img src="images/services/lightning.png" alt="">
          <h3>Decoration & Lightning</h3>
          <p>Step into a world of enchantment and let us illuminate your love story with our exquisite 
             decoration and lighting services. Welcome to our "DreamDay", where dreams are transformed 
@@ -376,7 +372,7 @@
       </div>
 
       <div class="box">
-         <img src="images/camera.png" alt="">
+         <img src="images/services/camera.png" alt="">
          <h3>Photography</h3>
          <p>Capture the love, the joy, and the cherished memories with our wedding photography services. 
             Our talented photographers are dedicated to preserving every beautiful moment of your special day. 
@@ -385,7 +381,7 @@
       </div>
 
       <div class="box">
-         <img src="images/dinner.png" alt="">
+         <img src="images/services/dinner.png" alt="">
          <h3>Catering</h3>
          <p>Delight your senses and savor the flavors of love with our exquisite wedding catering services.
              Welcome to our "DreamDay", where culinary artistry meets passion, creating a feast that reflects 
@@ -395,7 +391,7 @@
       </div>
 
       <div class="box">
-         <img src="images/wedding-cake.png" alt="">
+         <img src="images/services/wedding-cake.png" alt="">
          <h3>Wedding Cakes</h3>
          <p>Indulge in a symphony of flavors and artistry with our divine wedding cakes. Welcome to our "DreamDay", 
             where sweetness takes center stage and dreams are sculpted into edible masterpieces. Let us create 
@@ -404,7 +400,7 @@
       </div>
 
       <div class="box">
-         <img src="images/wedding-invitation.png" alt="">
+         <img src="images/services/wedding-invitation.png" alt="">
          <h3>Invitation</h3>
          <p>Elevate the anticipation and set the tone for your perfect day with our exquisite wedding invitations. 
             Welcome to our "DreamDay", where elegance meets personalization, creating invitations that reflect your
@@ -413,7 +409,7 @@
       </div>
 
       <div class="box">
-         <img src="images/music.png" alt="">
+         <img src="images/services/music.png" alt="">
          <h3>Entertainment</h3>
          <p>Ignite the spark of celebration with our captivating wedding entertainment services. 
             Welcome to our "DreamDay", where joy fills the air and moments of bliss come alive. 
@@ -424,7 +420,7 @@
 
 
       <div class="box">
-         <img src="images/bride-dress.png" alt="">
+         <img src="images/services/bride-dress.png" alt="">
          <h3>Dress & Make-up</h3>
          <p>Enhance your natural beauty and radiate confidence on your special day with our impeccable 
             dress and makeup services. Welcome to our "DreamDay", where dreams are adorned and inner beauty
@@ -434,7 +430,7 @@
       </div>
 
       <div class="box">
-         <img src="images/car-wash.png" alt="">
+         <img src="images/services/car-wash.png" alt="">
          <h3>Transport</h3>
          <p>Embark on a journey of love and elegance with our exceptional wedding transport services. 
             Welcome to our "DreamDay", where we ensure your arrival is as remarkable as your love story. 
@@ -442,7 +438,7 @@
       <a class="btn btn-primary transparent-button px-3" href="transport.php" role="button">EXPLORE MORE</a>
       </div>
       <div class="box">
-         <img src="images/wedding-photos.png" alt="">
+         <img src="images/services/wedding-photos.png" alt="">
          <h3>Free Wedding Album</h3>
          <p>We are delighted to offer a complimentary wedding album as part of 
             our package. Our talented photographers will skillfully capture the emotions, joy, and love shared
@@ -467,7 +463,7 @@
       <div id="slider">
       <div class="card">
          <div class="profile">
-               <img src="images/pic2.jpg" alt="">
+               <img src="images/reviews/pic1.jpg" alt="">
             <div>
                <h3>Emily and James</h3>
                <p>Satisfied Client</p>
@@ -477,7 +473,7 @@
       </div>   
       <div class="card">
          <div class="profile">
-               <img src="images/pic2.jpg" alt="">
+               <img src="images/reviews/pic2.jpg" alt="">
             <div>
                <h3>Hardik Ali</h3>
                <p>Satisfied Client</p>
@@ -487,7 +483,7 @@
       </div>   
       <div class="card">
          <div class="profile">
-               <img src="images/pic2.jpg" alt="">
+               <img src="images/reviews/pic3.jpg" alt="">
             <div>
                <h3>Jessica and David</h3>
                <p>Satisfied Client</p>
@@ -497,7 +493,7 @@
       </div>   
       <div class="card">
          <div class="profile">
-               <img src="images/pic2.jpg" alt="">
+               <img src="images/reviews/pic4.jpg" alt="">
             <div>
                <h3>Jennifer and Mark</h3>
                <p>Satisfied Client</p>
@@ -507,8 +503,13 @@
       </div>   
  </div>
       <div class="sidebar">
-         <img src="images/up-img.png" alt="" id="upArrow">
-         <img src="images/down-img.png" alt="" id="downArrow">
+         <!-- <img src="images/up-img.jpeg" alt="" id="upArrow"> -->
+         <div class="img-container d-flex align-items-center justify-content-center" id="upArrow">
+            <i class="bi bi-caret-up d-block h1"></i>
+         </div>
+         <div class="img-container d-flex align-items-center justify-content-center" id="downArrow">
+            <i class="bi bi-caret-down d-block pt-4 h1"></i>
+         </div>
       </div>
 
    </div>
@@ -584,14 +585,14 @@
 
    </script>
 
-   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
    <script>
-      var typed = new Typed (".auto-type" , {
-         strings:["Let's Make Your Special Day Unforgettable!"],
-         typeSpeed: 80,
-         backSpeed: 80,
-         loop: true
-      })
+      // var typed = new Typed (".auto-type" , {
+      //    strings:["Let's Make Your Special Day Unforgettable!"],
+      //    typeSpeed: 80,
+      //    backSpeed: 80,
+      //    loop: false
+      // })
    </script>
    <script src="scripts/service.js"></script>
    <script src="scripts/cal.js"></script>
