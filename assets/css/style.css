@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Open+Sans:ital@1&family=Oswald:wght@300;400&family=Playfair+Display&family=Roboto+Slab:wght@100;200;300&family=Xanh+Mono:ital@1&display=swap");
 
 :root {
-  --orange : #4A148C;
+  --orange: #4A148C;
   --black: #333;
   --white: #fff;
   --light-color: #8a8a8a;
@@ -9,6 +9,7 @@
   --border: 0.2rem solid rgba(0, 0, 0, 0.1);
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
+
 * {
   font-family: "Instrument Serif", serif;
   font-size: large;
@@ -43,22 +44,27 @@ html {
 section {
   padding: 3.5rem 1rem;
 }
-body{
- background: linear-gradient(to left,rgb(255, 0, 115),#a862ff,rgb(227, 66, 255),rgb(233, 3, 233));
- background-size: 300% , 300%;
- animation: color 12s ease-in-out infinite;
+
+body {
+  background: linear-gradient(to left, rgb(255, 0, 115), #a862ff, rgb(227, 66, 255), rgb(233, 3, 233));
+  background-size: 300%, 300%;
+  animation: color 12s ease-in-out infinite;
 }
-@keyframes color{
-  0%{
+
+@keyframes color {
+  0% {
     background-position: 0 50%;
   }
-    50% {
-      background-position: 100% 50%;
-    }
-        100% {
-          background-position: 0 50%;
-        }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
 }
+
 /* 
 
 
@@ -67,11 +73,12 @@ body{
 
 
 /* header start */
-.navbar img{
+.navbar img {
   width: 55px;
   height: 50px;
 }
-nav{
+
+nav {
   background-color: var(--white);
 }
 
@@ -130,7 +137,8 @@ nav.navbar {
   color: var(--orange);
   font-weight: 800;
 }
-.navbar .logo{
+
+.navbar .logo {
   color: var(--black);
   font-weight: 800;
 }
@@ -156,20 +164,23 @@ nav.navbar {
 .log-out-btn {
   color: red;
 }
-.nav-item button{
-    padding: 1rem 2rem;
-      background: var(--orange);
-      color: var(--white);
-      font-size: 18px;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background 0.5s;
+
+.nav-item button {
+  padding: 1rem 2rem;
+  background: var(--orange);
+  color: var(--white);
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.5s;
 }
-.nav-item button:hover{
+
+.nav-item button:hover {
   font-weight: bold;
-    background: #ea73ff;
-    color: black;
+  background: #ea73ff;
+  color: black;
 }
+
 .navbar ul li {
   position: relative;
 }
@@ -188,16 +199,19 @@ nav.navbar {
 .navbar ul li:hover::after {
   width: 100%;
 }
+
 /* header end */
 
 /* about start */
 .about {
   background: var(--white);
 }
+
 .about .container {
   padding-left: 8rem;
   padding-right: 5rem;
 }
+
 .about .row {
   min-height: 60vh;
 }
@@ -260,20 +274,23 @@ nav.navbar {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .services .btn {
   display: inline-block;
-    padding: 1rem 3rem;
-    border-radius: 0.5rem;
-    background-color: #a357ff;
-    cursor: pointer;
-    font-size: 1.8rem;
-    color:var(--black);
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  background-color: #a357ff;
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: var(--black);
 }
-.services .btn:hover{
+
+.services .btn:hover {
   background-color: var(--orange);
-    color: var(--white);
-    font-weight: bold;
+  color: var(--white);
+  font-weight: bold;
 }
+
 .services {
   background-color: var(--light-bg);
 }
@@ -309,6 +326,7 @@ nav.navbar {
   color: var(--black);
   line-height: 2;
 }
+
 /* service end */
 
 
@@ -319,22 +337,22 @@ footer {
   padding-top: 3rem;
   margin: 0;
   background: linear-gradient(to left, rgb(255, 0, 115), #a862ff, rgb(227, 66, 255), rgb(233, 3, 233));
-    background-size: 300%, 300%;
-    animation: color 12s ease-in-out infinite;
+  background-size: 300%, 300%;
+  animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
   }
-  
-  @keyframes color {
-    0% {
-      background-position: 0 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0 50%;
-    }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 footer .box-container {
@@ -368,9 +386,11 @@ footer .box-container .box p {
   color: var(--white);
   text-transform: none;
 }
-footer .box-container .box a{
+
+footer .box-container .box a {
   color: var(--white);
 }
+
 footer .credit {
   text-align: center;
   border-top: var(--border);
@@ -384,6 +404,7 @@ footer .credit span {
   color: var(--white);
   font-weight: bold;
 }
+
 /* footer end */
 
 
@@ -473,6 +494,7 @@ footer .credit span {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .packages .price-row {
   width: 90%;
   max-width: 1100px;
@@ -481,6 +503,7 @@ footer .credit span {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 25px;
 }
+
 .price-col {
   background: var(--white);
   padding: 8% 15%;
@@ -488,24 +511,29 @@ footer .credit span {
   color: var(--orange);
   text-align: center;
 }
+
 .price-col p {
   font-size: 22px;
   font-weight: bold;
 }
+
 .price-col h3 {
   font-size: 36px;
   margin: 20px 0 40px;
   font-weight: 500;
 }
+
 .price-col ul {
   text-align: left;
   margin: 20px 0;
   /* color: ; */
   list-style: none;
 }
+
 .price-col ul li {
   margin: 15px 0;
 }
+
 .price-col ul li::before {
   content: "\2022";
   color: var(--orange);
@@ -523,9 +551,11 @@ footer .credit span {
   cursor: pointer;
   transition: background 0.5s;
 }
+
 .price-col button {
   width: 100%;
 }
+
 .transparent-button:hover {
   font-weight: bold;
   background: var(--white);
@@ -536,16 +566,17 @@ footer .credit span {
 
 
 /* rewieve start */
-.review{
-     width: 100%;
-     height: 85vh;
-    background: #f6fbff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  
+.review {
+  width: 100%;
+  height: 85vh;
+  background: #f6fbff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
+
 .review h1 {
   font-size: 30px;
   font-weight: 600;
@@ -564,6 +595,7 @@ footer .credit span {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .review-box {
   width: 90%;
   max-width: 700px;
@@ -573,6 +605,7 @@ footer .credit span {
   position: relative;
   overflow: hidden;
 }
+
 .review-box .card {
   height: 300px;
   padding: 40px;
@@ -583,22 +616,26 @@ footer .credit span {
   position: relative;
   z-index: 1;
 }
+
 .review .profile {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
 }
+
 .review .profile img {
   width: 70px;
   border-radius: 50%;
   margin-right: 20px;
 }
-.review .profile h3{
+
+.review .profile h3 {
   font-size: 26px;
   color: var(--orange);
   margin-bottom: 8px;
 }
-#slider{
+
+#slider {
   width: 100%;
   padding-left: 60px;
   box-sizing: border-box;
@@ -607,7 +644,8 @@ footer .credit span {
   left: 0;
   transition: 0.5s;
 }
-.sidebar{
+
+.sidebar {
   width: 60px;
   height: 100%;
   padding: 15px 0;
@@ -621,14 +659,12 @@ footer .credit span {
   justify-content: space-between;
   align-items: center;
 }
-.sidebar img{
-  width: 25px;
-  padding: 25px;
-  background-color: #fff;
-  border-radius: 50%;
-  cursor: pointer;
+
+.sidebar img {
+  object-fit: cover;
 }
-.review .card::before{
+
+.review .card::before {
   content: '';
   width: 110px;
   height: 110px;
@@ -639,10 +675,12 @@ footer .credit span {
   left: 0;
   z-index: -1;
 }
-::selection{
+
+::selection {
   background: var(--orange);
   color: #fff;
 }
+
 /* review end */
 
 
@@ -667,14 +705,16 @@ footer .credit span {
   left: 50%;
   transform: translateX(-50%);
 }
-.appoinment-page{
+
+.appoinment-page {
   padding-top: 8rem;
   padding-bottom: 8rem;
   padding-left: 100px;
   padding-right: 100px;
   background: transparent;
 }
-.appoinment-form-box{
+
+.appoinment-form-box {
   position: relative;
   margin: 2% auto;
   background: #fff;
@@ -686,10 +726,12 @@ footer .credit span {
   padding: 1rem;
   padding-bottom: 1.5rem;
 }
-.input-grp{
+
+.input-grp {
   margin: 1rem;
   top: 100px;
 }
+
 .input-field {
   width: 100%;
   padding: 5px 5px;
@@ -701,6 +743,7 @@ footer .credit span {
   outline: none;
   background: transparent;
 }
+
 .appoinment-form .btn {
   width: 150px;
   height: 50px;
@@ -708,7 +751,7 @@ footer .credit span {
   cursor: pointer;
   display: block;
   margin: auto;
-  background-color:#a357ff;
+  background-color: #a357ff;
   color: var(--black);
   border: 0;
   outline: none;
@@ -722,6 +765,7 @@ footer .credit span {
   color: var(--white);
   background-color: var(--orange);
 }
+
 /* carousel end */
 
 
@@ -754,14 +798,15 @@ footer .credit span {
 
 .carousel-caption h3 {
   text-shadow: black -2px -2px;
-    color: #fff;
+  color: #fff;
   text-align: center;
   padding-top: 20rem;
   font-variant: small-caps;
   font-weight: 900;
   font-size: 48px;
 }
-.carousel-caption .auto-type{
+
+.carousel-caption .auto-type {
   text-shadow: black -2px -2px;
   color: #fff;
   text-align: center;
@@ -770,7 +815,21 @@ footer .credit span {
   font-weight: 900;
   font-size: 25px;
 }
+
 .carousel-inner {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
+
 /* carousel end */
+
+.img-container {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bi {
+  line-height: 1 !important;
+}

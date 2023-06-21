@@ -48,7 +48,7 @@
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
                <ul class="navbar-nav align-items-center">
                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">Home</a>
+                     <a class="nav-link active" aria-current="page" href="/wedding-plan">Home</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="#about">About</a>
@@ -261,8 +261,14 @@
                         <div class="card">
                            <div class="card-inner">
                               <div class="front">
+<<<<<<< HEAD
                                  <img src="images/dron6.jpg" alt="">
                              
+=======
+                                 <img src="images/photo1.jpg" alt="">
+                                 <h2>Romantic Image</h2>
+                                 <p>By : Mr.Robat Hardik</p>
+>>>>>>> a818a0b84eba0d3397527ec9cdf2d32a650d955f
                                  <button>Hover Me</button>
                               </div>
                                  <div class="back">
@@ -397,8 +403,8 @@
    <!-- photography end -->
 
 
-   <!--
-   <section class="photo">
+   
+   <!-- <section class="photo">
           <div class="one">
       <div class="photography">
             <p>Welcome to Our Photography Wonderland!</p>
