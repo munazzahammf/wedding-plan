@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Open+Sans:ital@1&family=Oswald:wght@300;400&family=Playfair+Display&family=Roboto+Slab:wght@100;200;300&family=Xanh+Mono:ital@1&display=swap");
 :root {
-  --orange: #964646;
+  --orange :#4A148C;
   --black: #333;
   --white: #fff;
   --light-color: #8a8a8a;
@@ -15,14 +15,24 @@
   font-weight: bold;
   font-size: medium;
 }
+body {
+  background: linear-gradient(to left, rgb(255, 0, 115), #a862ff, rgb(227, 66, 255), rgb(233, 3, 233));
+  background-size: 300%, 300%;
+  animation: color 12s ease-in-out infinite;
+}
 
-.hero {
-  height: 100%;
-  width: 100%;
-  background-color: var(--light-body);
-  background-position: center;
-  background-size: cover;
-  position: absolute;
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .form-box {
@@ -130,5 +140,5 @@ span {
 }
 
 .active {
-  background-color: #964646;
+  background-color: var(--orange);
 }
