@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Open+Sans:ital@1&family=Oswald:wght@300;400&family=Playfair+Display&family=Roboto+Slab:wght@100;200;300&family=Xanh+Mono:ital@1&display=swap");
 
 :root {
-  --orange: #4A148C;
+  --orange: #de0000;
   --black: #333;
   --white: #fff;
-  --light-color: #8a8a8a;
+  --blue:#021626;
+  --light-color :#606060;
   --light-body: #d8cdcd;
   --border: 0.2rem solid rgba(0, 0, 0, 0.1);
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -46,24 +47,10 @@ section {
 }
 
 body {
-  background: linear-gradient(to left, rgb(255, 0, 115), #a862ff, rgb(227, 66, 255), rgb(233, 3, 233));
-  background-size: 300%, 300%;
-  animation: color 12s ease-in-out infinite;
+  background: var(--white);
+  
 }
 
-@keyframes color {
-  0% {
-    background-position: 0 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0 50%;
-  }
-}
 
 /* 
 
@@ -74,23 +61,24 @@ body {
 
 /* header start */
 .navbar img {
-  width: 55px;
+  padding-right: 1rem;
+  width: 68px;
   height: 50px;
 }
 
 nav {
-  background-color: var(--white);
+  background-color: #021626;
 }
 
 nav .bi-person-circle {
   font-size: 2.5rem;
-  color: var(--orange);
+  color: var(--white);
 }
 
 .heading {
   text-align: center;
   font-size: 3.8rem;
-  color: var(--black);
+  color: var(--orange);
   text-transform: uppercase;
   font-weight: bolder;
   margin-bottom: 2.8rem;
@@ -100,10 +88,10 @@ nav .bi-person-circle {
   display: inline-block;
   padding: 1rem 3rem;
   border-radius: 0.5rem;
-  background-color: var(--orange);
+  background-color: var(--white);
   cursor: pointer;
   font-size: 1.8rem;
-  color: var(--white);
+  color: var(--orange);
 }
 
 .link-btn:hover {
@@ -134,17 +122,17 @@ nav.navbar {
 }
 
 .navbar a {
-  color: var(--orange);
+  color: var(--white);
   font-weight: 800;
 }
 
 .navbar .logo {
-  color: var(--black);
+  color: var(--white);
   font-weight: 800;
 }
 
 .navbar a:hover {
-  color: var(--black);
+  color: var(--white);
 }
 
 .menu-btn {
@@ -189,7 +177,7 @@ nav.navbar {
   content: '';
   height: 3px;
   width: 0;
-  background: black;
+  background: var(--white);
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -202,10 +190,98 @@ nav.navbar {
 
 /* header end */
 
+
+/* appoinment start */
+
+.appoinment-page h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 80px;
+  position: relative;
+  color: var(--black);
+}
+
+.appoinment-page h1::after {
+  content: '';
+  width: 150px;
+  height: 3px;
+  background: linear-gradient(to right, #ff0000, black);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.appoinment-page {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: transparent;
+}
+
+.appoinment-form-box {
+  color: var(--white);
+  position: relative;
+  margin: 2% auto;
+  background: #021626;
+  padding: 5px;
+  width: 100%;
+  height: 70%;
+  border: 2px solid var(--orange);
+  border-radius: 15px;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.input-grp {
+  margin: 1rem;
+  top: 100px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 2px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.appoinment-form .btn {
+  width: 150px;
+  height: 50px;
+  padding: 10px 10px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background-color: var(--orange);
+  color: var(--white);
+  border: 0;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.appoinment-form .btn:hover {
+  font-weight: bold;
+  color: var(--blue);
+  background-color: var(--white);
+}
+/* appoinment end */
+
+
+
 /* about start */
 .about {
   background: var(--white);
 }
+
 
 .about .container {
   padding-left: 8rem;
@@ -213,7 +289,7 @@ nav.navbar {
 }
 
 .about .row {
-  min-height: 60vh;
+  min-height: 70vh;
 }
 
 .about h1 {
@@ -229,7 +305,7 @@ nav.navbar {
   content: '';
   width: 150px;
   height: 3px;
-  background: linear-gradient(to right, #ff0000, #0022ff);
+  background: linear-gradient(to right, #ff0000, black);
   position: absolute;
   bottom: -20px;
   left: 50%;
@@ -238,14 +314,14 @@ nav.navbar {
 
 .about .content h3 {
   font-size: 2.5rem;
-  color: var(--orange);
+  color: var(--light-color);
   margin-top: 1rem;
 }
 
 .about .content p {
   padding: 1rem 0;
   font-size: 1.7rem;
-  color: var(--light-color);
+  color: var(--black);
   line-height: 2;
   font-weight: 600;
 }
@@ -256,7 +332,37 @@ nav.navbar {
 
 
 /* service start */
+.services {
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../../images/about_bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.bootstrap-datetimepicker-widget.bottom {
+  top: auto !important;
+}
+
+.bootstrap-datetimepicker-widget .table * {
+  border-bottom-width: 0px;
+}
+
+.bootstrap-datetimepicker-widget .table th {
+  font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+  padding: 5px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+  background: var(--primary);
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+  border-bottom-color: var(--primary);
+}
 .services h1 {
+  padding-top: 5rem;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 80px;
@@ -268,7 +374,7 @@ nav.navbar {
   content: '';
   width: 150px;
   height: 3px;
-  background: linear-gradient(to right, #ff0000, #0022ff);
+  background: linear-gradient(to right, #ff0000, black);
   position: absolute;
   bottom: -20px;
   left: 50%;
@@ -279,15 +385,15 @@ nav.navbar {
   display: inline-block;
   padding: 1rem 3rem;
   border-radius: 0.5rem;
-  background-color: #a357ff;
+  background-color: var(--orange);
   cursor: pointer;
   font-size: 1.8rem;
-  color: var(--black);
+  color: var(--white);
 }
 
 .services .btn:hover {
-  background-color: var(--orange);
-  color: var(--white);
+  background-color: var(--blue);
+  color: var(--orange);
   font-weight: bold;
 }
 
@@ -307,6 +413,7 @@ nav.navbar {
   background-color: var(--white);
   box-shadow: var(--box-shadow);
   border-radius: .5rem;
+  border-color: var(--box-shadow);
 }
 
 .services .box-container .box img {
@@ -329,166 +436,39 @@ nav.navbar {
 
 /* service end */
 
-
-
-
-/* footer start */
-footer {
-  padding-top: 3rem;
-  margin: 0;
-  background: linear-gradient(to left, rgb(255, 0, 115), #a862ff, rgb(227, 66, 255), rgb(233, 3, 233));
-  background-size: 300%, 300%;
-  animation: color 12s ease-in-out infinite;
+/*** Facts ***/
+.fact {
+  padding-top: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../../images/four.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@keyframes color {
-  0% {
-    background-position: 0 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0 50%;
-  }
-}
-
-footer .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-}
-
-footer .box-container .box {
-  text-align: center;
-}
-
-footer .box-container .box i {
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
-  line-height: 5rem;
-  font-size: 2rem;
-  background-color: var(--white);
-  color: var(--orange);
-}
-
-footer .box-container .box h3 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 2rem 0;
-  color: var(--orange);
-}
-
-footer .box-container .box p {
-  font-size: 1.6rem;
-  color: var(--white);
-  text-transform: none;
-}
-
-footer .box-container .box a {
-  color: var(--white);
-}
-
-footer .credit {
-  text-align: center;
-  border-top: var(--border);
-  padding-top: 2rem;
-  margin-top: 2rem;
-  font-size: 2rem;
-  color: black;
-}
-
-footer .credit span {
-  color: var(--white);
-  font-weight: bold;
-}
-
-/* footer end */
 
 
-/* service start 
-  width: 100%;
-  position: relative;
-  height: 100%;
-}
-.hero h1 {
-  font-style: italic;
-  text-align: center;
-  padding-bottom: 520px;
-  font-size: 30px;
-  color: var(--orange);
-}
-.slide-row {
-  display: flex;
-  width: 3200px;
-  transition: 0.5s;
-}
-.slide-col {
-  width: 800px;
-  height: 400px;
-  position: relative;
-}
-.user-text {
-  background: var(--orange);
-  width: 520px;
-  color: var(--white);
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  border-radius: 10px;
-  padding: 45px;
-  box-sizing: border-box;
-  z-index: 2;
-}
-.user-text h3 {
-  font-size: larger;
-  text-align: center;
-  font-style: inherit;
-}
-.service-container {
-  width: 1000px;
-  height: 500px;
-  position: absolute;
-  top: 60%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-}
-.indicator {
-  position: absolute;
-  left: 35%;
-  transform: translateX(-50%);
-  bottom: -0.5%;
-}
-.btn-service {
-  display: inline-block;
-  height: 15px;
-  width: 15px;
-  margin: 4px;
-  border-radius: 15px;
-  background: var(--orange);
-  cursor: pointer;
-  transition: 0.5s;
-}
- */
 
 /* package start */
+.packages {
+  background: url(../../images/about_bg.jpg);
+  width: 100%;
+  height: 170vh;
+}
 .packages h1 {
+  padding-top: 18rem;
   text-align: center;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 80px;
   position: relative;
-  color: var(--white);
+  color: var(--black);
 }
 
 .packages h1::after {
   content: '';
   width: 150px;
   height: 3px;
-  background: linear-gradient(to right, #ff0000, #0022ff);
+  background: linear-gradient(to right, #ff0000, black);
   position: absolute;
   bottom: -20px;
   left: 50%;
@@ -496,6 +476,7 @@ footer .credit span {
 }
 
 .packages .price-row {
+  padding-top: 5rem;
   width: 90%;
   max-width: 1100px;
   margin: auto;
@@ -505,7 +486,7 @@ footer .credit span {
 }
 
 .price-col {
-  background: var(--white);
+  background: #021626;
   padding: 8% 15%;
   border-radius: 10px;
   color: var(--orange);
@@ -515,15 +496,18 @@ footer .credit span {
 .price-col p {
   font-size: 22px;
   font-weight: bold;
+  color: var(--white);
 }
 
 .price-col h3 {
   font-size: 36px;
   margin: 20px 0 40px;
   font-weight: 500;
+  color: var(--orange);
 }
 
 .price-col ul {
+  color: var(--white);
   text-align: left;
   margin: 20px 0;
   /* color: ; */
@@ -536,7 +520,7 @@ footer .credit span {
 
 .price-col ul li::before {
   content: "\2022";
-  color: var(--orange);
+  color: var(--white);
   font-weight: bold;
   margin-right: 8px;
 }
@@ -568,13 +552,11 @@ footer .credit span {
 /* rewieve start */
 .review {
   width: 100%;
-  height: 85vh;
-  background: #f6fbff;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .review h1 {
@@ -589,7 +571,7 @@ footer .credit span {
   content: '';
   width: 150px;
   height: 3px;
-  background: linear-gradient(to right, #ff0000, #0022ff);
+  background: linear-gradient(to right, #ff0000, black);
   position: absolute;
   bottom: -20px;
   left: 50%;
@@ -609,7 +591,7 @@ footer .credit span {
 .review-box .card {
   height: 300px;
   padding: 40px;
-  color: #777;
+  color: var(--light-color);
   line-height: 22px;
   box-sizing: border-box;
   background-color: #fff;
@@ -650,10 +632,10 @@ footer .credit span {
   height: 100%;
   padding: 15px 0;
   box-sizing: border-box;
-  background: var(--orange);
+  background: #021626;
   position: relative;
-  top: 0;
   right: 0;
+  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -669,7 +651,7 @@ footer .credit span {
   width: 110px;
   height: 110px;
   border-bottom-right-radius: 100%;
-  background: var(--orange);
+  background: #021626;
   position: absolute;
   top: 0;
   left: 0;
@@ -684,91 +666,72 @@ footer .credit span {
 /* review end */
 
 
-/* appoinment start */
+/* footer start */
+footer {
+  background-color: #021626;
+}
 
-.appoinment-page h1 {
+footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+footer .box-container .box {
   text-align: center;
-  font-size: 30px;
-  font-weight: 600;
-  margin-bottom: 80px;
-  position: relative;
-  color: var(--white);
 }
 
-.appoinment-page h1::after {
-  content: '';
-  width: 150px;
-  height: 3px;
-  background: linear-gradient(to right, #ff0000, #0022ff);
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
+footer .box-container .box i {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  font-size: 2rem;
+  background-color: var(--white);
+  color: var(--orange);
 }
 
-.appoinment-page {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  padding-left: 100px;
-  padding-right: 100px;
-  background: transparent;
-}
-
-.appoinment-form-box {
-  position: relative;
-  margin: 2% auto;
-  background: #fff;
-  padding: 5px;
-  width: 100%;
-  height: 70%;
-  border: 2px solid var(--white);
-  border-radius: 15px;
-  padding: 1rem;
-  padding-bottom: 1.5rem;
-}
-
-.input-grp {
-  margin: 1rem;
-  top: 100px;
-}
-
-.input-field {
-  width: 100%;
-  padding: 5px 5px;
-  margin: 2px 0;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border: 1px solid #999;
-  outline: none;
-  background: transparent;
-}
-
-.appoinment-form .btn {
-  width: 150px;
-  height: 50px;
-  padding: 10px 10px;
-  cursor: pointer;
-  display: block;
-  margin: auto;
-  background-color: #a357ff;
-  color: var(--black);
-  border: 0;
-  outline: none;
-  border-radius: 0.5rem;
+footer .box-container .box h3 {
   font-size: 2rem;
   font-weight: 600;
+  margin: 2rem 0;
+  color: #606060;
 }
-
-.appoinment-form .btn:hover {
-  font-weight: bold;
+footer .box-container .box h6 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
   color: var(--white);
-  background-color: var(--orange);
 }
 
-/* carousel end */
+footer .box-container .box p {
+  font-size: 1.6rem;
+  color: var(--white);
+  text-transform: none;
+}
+
+footer .box-container .box a {
+  color: var(--white);
+}
+
+footer .credit {
+  text-align: center;
+  border-top: var(--border);
+  padding-top: 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: var(--light-color);
+}
+
+footer .credit span {
+  color: var(--white);
+  font-weight: bold;
+}
+footer .link i{
+  color: var(--blue);
+}
 
 
+/* footer end */
 
 
 /* carousel start */
@@ -799,8 +762,8 @@ footer .credit span {
 .carousel-caption h3 {
   text-shadow: black -2px -2px;
   color: #fff;
-  text-align: center;
-  padding-top: 20rem;
+  text-align:left;
+  padding-top: 15rem;
   font-variant: small-caps;
   font-weight: 900;
   font-size: 48px;
@@ -832,4 +795,154 @@ footer .credit span {
 
 .bi {
   line-height: 1 !important;
+}
+
+/** couple **/
+
+.couple {
+  background: #021626;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  margin-top: 80px;
+}
+
+.couple .titlepage {
+  max-width: 667px;
+  width: 100%;
+  float: right;
+  padding-bottom: 0;
+}
+
+.couple .titlepage h2 {
+  padding-top: 5rem;
+  font-size: 40px;
+  color: var(--orange);
+  display: block;
+}
+
+.couple .titlepage p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  padding: 45px 0px;
+}
+
+.whitebg {
+  color: #000000;
+  background: #fff;
+}
+
+.doi {
+  text-align: center;
+}
+
+.doi figure {
+  margin: 0;
+}
+
+.doi figure img {
+  max-width: 50%;
+  height: 50%;
+}
+
+
+/** end couple **/
+.book_section h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 80px;
+  position: relative;
+  color: var(--black);
+  padding-top: 3rem;
+}
+
+.book_section h1::after {
+  content: '';
+  width: 150px;
+  height: 3px;
+  background: linear-gradient(to right, #ff0000, black);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.book_section form {
+  padding: 35px 45px;
+  background-color: var(--blue);
+  border-radius: 15px;
+}
+
+.book_section form label {
+  color: var(--white);
+}
+
+.book_section form .form-control {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid var(--orange);
+  height: 45px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+.book_section .date_icon {
+  right: 10px;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--orange);
+}
+
+.book_section .nice-select:after {
+  content: "\f107";
+  font-family: FontAwesome;
+  border: none;
+  width: auto;
+  height: auto;
+  -webkit-transform: none;
+  transform: none;
+  top: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.book_section .nice-select.open:after {
+  content: "\f106";
+}
+.btn-box .btn {
+  display: inline-block;
+  padding: 0.8rem 2.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 2rem;
+  
+  background-color: var(--white);
+    color: var(--orange);
+}
+
+.btn-box .btn:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  font-weight: bold;
+}
+.btn-box {
+  padding-left: 430px;
+  padding-top: 2rem;
 }

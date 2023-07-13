@@ -1,131 +1,347 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Open+Sans:ital@1&family=Oswald:wght@300;400&family=Playfair+Display&family=Roboto+Slab:wght@100;200;300&family=Xanh+Mono:ital@1&display=swap");
 
 :root {
-      --orange: #4A148C;
+      --orange: #de0000;
       --black: #333;
       --white: #fff;
-      --light-color: #8a8a8a;
+      --blue: #021626;
+      --light-color: #606060;
       --light-body: #d8cdcd;
       --border: 0.2rem solid rgba(0, 0, 0, 0.1);
       --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
+
+* {
+      font-family: "Instrument Serif", serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
 body {
-      background: linear-gradient(to left, rgb(255, 0, 115), #a862ff, rgb(227, 66, 255), rgb(233, 3, 233));
-      background-size: 300%, 300%;
-      animation: color 12s ease-in-out infinite;
+      background: var(--white);
+
 }
 
-@keyframes color {
-      0% {
-            background-position: 0 50%;
-      }
-
-      50% {
-            background-position: 100% 50%;
-      }
-
-      100% {
-            background-position: 0 50%;
-      }
-}
-.photography p {
-      padding-left: 22rem;
-      padding-bottom: 2rem;
+.photography .para p {
+      text-align: center;
       font-size: 40px;
       font-style: italic;
       font-weight: 200;
+      color: var(--white);
 }
 
 .photography {
-      padding-left: 12rem;
-      width: 100%;
-      margin-top: 5%;
-      font-family: "Instrument Serif", serif;
-      letter-spacing: 1px;
+      margin: 8rem;
 }
 
-.photography h2 {
-      border-top-left-radius: 30px;
-      border-bottom-right-radius: 30px;
-      text-align: center;
-      background: var(--orange);
-      color: #fff;
-      width: 250px;
-      font-size: 24px;
-      padding: 6px;
-      height: 40px;
+.containers {
+      display: flex;
+      width: 100%;
+      min-height: 20vh;
+}
+
+.photography .card {
+      width: 270px;
+      height: 460px;
+      margin: 50px auto 0;
+      background: var(--blue);
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      perspective: 1000px;
+}
+
+.photography .card-inner {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      backface-visibility: hidden;
+      transition: transform 1s;
+      transform-style: preserve-3d;
+}
+
+.front1,
+.back {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+      border: 1px solid var(--white);
+      border-radius: 15px;
+}
+
+.front1 {
+      background: url("../../images/car2.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front2,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front2 {
+      background: url("../../images/car7.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front3,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front3 {
+      background: url("../../images/car4.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front4,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front4 {
+      background: url("../../images/car8.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front5,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front5 {
+      background: url("../../images/car6.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front6,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front6 {
+      background: url("../../images/car7.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front7,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front7 {
+      background: url("../../images/car8.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front8,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front8 {
+      background: url("../../images/car9.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.back {
+      background: var(--blue);
+      color: var(--white);
+      padding: 20px 40px;
+      transform: rotateY(180deg);
+}
+
+.back h1 {
+      font-size: 30px;
+      line-height: 55px;
+      margin-bottom: 10px;
+}
+
+.back h1 span {
+      font-weight: 350;
+}
+
+.back p {
+      font-size: 14px;
+}
+
+.back p span {
+      font-weight: 600;
+}
+
+.back img {
+      width: 100px;
+      max-height: 150px;
 }
 
 .row {
-      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
 }
 
-.photo img {
-      border-radius: 15px;
-      margin: 2.5rem;
-      width: 250px;
-      height: 400px;
-
+.col {
+      flex: 1;
+      text-align: center;
+      color: var(--orange);
+      font-size: 15px;
+      position: relative;
 }
 
-.one .overlay {
-      display: block;
-      opacity: 0;
-      position: absolute;
-      top: 10%;
-      margin-left: 0;
-      width: 70px;
-}
-
-.one .photo:hover .overlay {
-      opacity: 1;
-      margin-left: 3%;
-      margin-top: 23%;
-      transition: 0.5s;
-}
-
-.two .overlay {
-      display: block;
-      opacity: 0;
-      position: absolute;
-      top: 20%;
-      margin-left: 0;
-      width: 70px;
-}
-
-.two .photo:hover .overlay {
-      opacity: 1;
-      margin-left: 3%;
-      margin-top: 62%;
-      transition: 0.5s;
-}
-
-.overlay i {
-      cursor: pointer;
-      background-color: var(--orange);
-      color: var(--white);
-      height: 35px;
-      width: 35px;
+.col h2 {
       font-size: 20px;
-      padding: 7px;
-      margin: 5%;
-      margin-bottom: 5%;
 }
 
-.overlay .btn-secondary {
-      background: transparent !important;
-      border: none !important;
-      box-shadow: none !important;
+.col::after {
+      content: '';
+      width: 1.5px;
+      height: 20px;
+      background: var(--white);
+      position: absolute;
+      top: 5px;
+      right: 0;
 }
 
+.col:last-child::after {
+      display: none;
+}
+
+.col p {
+      margin-top: 5px;
+}
+
+.back button {
+      background: var(--white);
+      color: var(--orange);
+      font-weight: bold;
+      border: 0;
+      outline: 0;
+      padding: 8px 25px;
+      border-radius: 30px;
+      font-size: 14px;
+      margin-right: 15px;
+      box-shadow: 0 8px 10px reba(120, 0, 173, 0.3);
+}
+
+.back a {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 5px;
+      background-color: var(--white);
+}
+
+.back a img {
+      width: 50%;
+}
+
+.card:hover .card-inner {
+      transform: rotateY(180deg);
+}
+
+
+
+/* our team start */
 @font-face {
       font-family: Exo;
       src: url(./fonts/Exo2.0-Medium.otf);
 }
 
+.our-team {
+      background-color: var(--white);
+}
+
 .main {
       width: 100%;
-      height: 80vh;
+      height: 60vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -133,9 +349,9 @@ body {
 
 .profile-card {
       position: relative;
-      width: 250px;
-      height: 330px;
-      background: var(--orange);
+      width: 240px;
+      height: 310px;
+      background: var(--blue);
       padding: 40px;
       border-radius: 100%;
       box-shadow: 0 0 22px var(--light-color);
@@ -162,9 +378,9 @@ body {
 
 .img img {
       width: 100%;
-      border-radius: 100%;
+      border-radius: 50%;
       box-shadow: 0 0 22px var(--light-color);
-      transition: .6s;
+      transition: .5s;
 }
 
 .profile-card:hover img {
@@ -183,8 +399,9 @@ body {
 }
 
 .caption h3 {
-      font-size: 21px;
+      font-size: 25px;
       color: var(--white);
+      font-weight: 800;
 }
 
 .caption p {
@@ -193,79 +410,65 @@ body {
       margin: 2px 0 9px 0;
 }
 
-.caption .social-links a {
-      color: var(--white);
-      margin-right: 8px;
-      font-size: 21px;
-      transition: .6s;
-}
-
-.social-links a:hover {
-      color: var(--white);
-}
-
-.title h2 {
+.our-team h1 {
+      padding-top: 5rem;
       text-align: center;
-      padding-bottom: 2rem;
-      font-size: 40px;
-      font-style: italic;
-      font-weight: 200;
-      color: var(--orange);
-      font-family: "Instrument Serif", serif;
-      letter-spacing: 1px;
-}
-
-/* footer start */
-
-footer .box-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-      gap: 3rem;
-}
-
-footer .box-container .box {
-      text-align: center;
-}
-
-footer .box-container .box i {
-      height: 5rem;
-      width: 5rem;
-      border-radius: 50%;
-      line-height: 5rem;
-      font-size: 2rem;
-      background-color: var(--orange);
-      color: var(--white);
-}
-
-footer .box-container .box h3 {
-      font-size: 2rem;
+      font-size: 30px;
       font-weight: 600;
-      margin: 2rem 0;
-      color: var(--black);
+      margin-bottom: 60px;
+      position: relative;
+      color: var(--blue);
 }
 
-footer .box-container .box p {
-      font-size: 1.6rem;
-      color: black;
-      text-transform: none;
+.our-team h1::after {
+      content: '';
+      width: 150px;
+      height: 3px;
+      background: linear-gradient(to right, #ff0000, black);
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
 }
 
-footer .box-container .box a {
-      color: black;
-}
-
-footer .credit {
+.our-team h5 {
+      padding-left: 30rem;
+      padding-right: 30rem;
       text-align: center;
-      border-top: var(--border);
-      padding-top: 2rem;
-      margin-top: 2rem;
-      font-size: 2rem;
-      color: black;
-}
-
-footer .credit span {
+      font-size: 1.8rem;
       color: var(--orange);
       font-weight: bold;
+      margin-top: 2rem;
 }
 
-/* footer end */
+/* our team end */
+
+body {
+      background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../../images/about_bg.jpg) center center no-repeat;
+      background-size: cover;
+}
+
+.bootstrap-datetimepicker-widget.bottom {
+      top: auto !important;
+}
+
+.bootstrap-datetimepicker-widget .table * {
+      border-bottom-width: 0px;
+}
+
+.bootstrap-datetimepicker-widget .table th {
+      font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+      padding: 5px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+      background: var(--primary);
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+      border-bottom-color: var(--primary);
+}

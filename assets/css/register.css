@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Open+Sans:ital@1&family=Oswald:wght@300;400&family=Playfair+Display&family=Roboto+Slab:wght@100;200;300&family=Xanh+Mono:ital@1&display=swap");
+
 :root {
-  --orange :#4A148C;
+  --orange: #de0000;
   --black: #333;
   --white: #fff;
-  --light-color: #8a8a8a;
+  --blue: #021626;
+  --light-color: #606060;
   --light-body: #d8cdcd;
   --border: 0.2rem solid rgba(0, 0, 0, 0.1);
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -16,23 +18,33 @@
   font-size: medium;
 }
 body {
-  background: linear-gradient(to left, rgb(255, 0, 115), #a862ff, rgb(227, 66, 255), rgb(233, 3, 233));
-  background-size: 300%, 300%;
-  animation: color 12s ease-in-out infinite;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../../images/about_bg.jpg) center center no-repeat;
+  background-size: cover;
 }
 
-@keyframes color {
-  0% {
-    background-position: 0 50%;
-  }
+.bootstrap-datetimepicker-widget.bottom {
+  top: auto !important;
+}
 
-  50% {
-    background-position: 100% 50%;
-  }
+.bootstrap-datetimepicker-widget .table * {
+  border-bottom-width: 0px;
+}
 
-  100% {
-    background-position: 0 50%;
-  }
+.bootstrap-datetimepicker-widget .table th {
+  font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+  padding: 5px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+  background: var(--primary);
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+  border-bottom-color: var(--primary);
 }
 
 .form-box {
@@ -107,8 +119,8 @@ body {
 }
 .input-groups .btn:hover {
   font-weight: bold;
-  color: var(--black);
-  background-color: var(--light-color);
+  color: var(--orange);
+  background-color: var(--blue);
 }
 
 .pswd {

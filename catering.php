@@ -35,7 +35,7 @@
       <nav class="navbar navbar-expand-lg header fixed-top py-4 px-5">
          <div class="w-100 d-lg-flex justify-content-between align-items-center">
 
-            <img src="images/logo.png" alt="">
+            <img src="images/Dream-Day.png" alt="">
             <a href="/wedding-plan" class="logo">Dream<span>Day</span></a>
             
 
@@ -48,20 +48,20 @@
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
                <ul class="navbar-nav align-items-center">
                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">Home</a>
+                     <a class="nav-link active" aria-current="page" href="/wedding-plan">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#about">About</a>
+                     <a class="nav-link" href="/wedding-plan/#about">About</a>
                   </li>
                   
                   <li class="nav-item">
-                     <a class="nav-link" href="#packages">Packages</a>
+                     <a class="nav-link" href="/wedding-plan/#packages">Packages</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#services">Services</a>
+                     <a class="nav-link" href="/wedding-plan/#services">Services</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#review">Reviews</a>
+                     <a class="nav-link" href="/wedding-plan/#review">Reviews</a>
                   </li>
 
                   
@@ -121,15 +121,13 @@
 
                  <section class="photography">
                   <div class="para">
-                  <p>Welcome to Our Photography Wonderland!</p>
+                  <p>Welcome to the world of exquisite flavors and culinary delights!</p>
                   </div>
                      <div class="containers">
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
-                                 <button>Hover Me</button>
+                              <div class="front1">
+                              
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -159,10 +157,8 @@
                         </div>
                          <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
-                                 <button>Hover Me</button>
+                              <div class="front2">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -192,10 +188,8 @@
                         </div>
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
-                                 <button>Hover Me</button>
+                              <div class="front3">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -225,10 +219,8 @@
                         </div>
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
-                                 <button>Hover Me</button>
+                              <div class="front4">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -261,10 +253,8 @@
                      <div class="containers">
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
-                                 <button>Hover Me</button>
+                              <div class="front5">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -294,10 +284,8 @@
                         </div>
                          <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
-                                 <button>Hover Me</button>
+                              <div class="front6">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -327,10 +315,8 @@
                         </div>
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
-                                 <button>Hover Me</button>
+                              <div class="front7">
+                               
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -360,10 +346,8 @@
                         </div>
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
-                                 <button>Hover Me</button>
+                              <div class="front8">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -398,179 +382,18 @@
    <!-- photography end -->
 
 
-   <!--
-   <section class="photo">
-          <div class="one">
-      <div class="photography">
-            <p>Welcome to Our Photography Wonderland!</p>
-            <h2>Capturing Moments</h2>
-            <div class="row">
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo1.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                  
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo2.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo3.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo4.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-            </div>
-</div>
-</div>
-</div>
-            
-            <div class="two">
-            <div class="photography">
-                  <h2>DRONE SHOT</h2>
-                        <div class="row">
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron1.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                 
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron2.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron9.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron6.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-            </div>
-</div>
-</div>
-</div>
-
-            
-      </div>
-      </div>
-            </section> -->
-
+<!-- team start -->
             
 <section class="our-team">
         <div class="title">
-                   <h2>Catering Team</h2>
+                   <h1>Catering Team</h1>
                    <h5>Welcome to the world of our talented catering team! With their passion for gastronomy 
                      and commitment to excellence, they are here to create a culinary experience that will leave 
                      a lasting impression on you and your guests.Each member of our catering team brings a wealth 
                      of culinary expertise and a love for creating delicious and visually stunning dishes. From 
                      delectable appetizers to mouthwatering main courses and irresistible desserts, they are 
                      dedicated to crafting a menu that satisfies your palate and reflects your unique tastes.</h5>
+
                    </div>
             <div class="main">
         <div class="profile-card">
@@ -616,6 +439,7 @@
     </div>
 
 </section> 
+<!-- team end -->
 
  <!-- footer section starts  -->
 

@@ -35,7 +35,7 @@
       <nav class="navbar navbar-expand-lg header fixed-top py-4 px-5">
          <div class="w-100 d-lg-flex justify-content-between align-items-center">
 
-            <img src="images/logo.png" alt="">
+            <img src="images/Dream-Day.png" alt="">
             <a href="/wedding-plan" class="logo">Dream<span>Day</span></a>
             
 
@@ -124,9 +124,9 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/cover/one.jpeg" class="d-block w-100"  alt="...">
+      <img src="images/cover/banner1.jpg" class="d-block w-100"  alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h3>Welcome to our wedding planning heaven! 
+        <h3>Welcome to our love-filled world!
                   <br><span class="auto-type"></span></h3>
       </div>
     </div>
@@ -135,96 +135,49 @@
 </div>
 
 
+ <!-- book section -->
 
-<!-- Appoinment start  -->
-
-<section class="appoinment-page">
+  <section class="book_section layout_padding">
    <h1>MAKE AN APPOINMENT</h1>
-  <div class="row align-items-start">
-        <div class="col-md-12 content">
-      <div class="appoinment-form-box">
-                  <div class="appoinment-form">
-                     <div class="one d-flex">
-                  <div class="input-grp">
-                        <label for="">Bride Groom's Name: 
-                        <input type="name" id="booking_date" name="booking_date" class="input-field" placeholder="Enter Bride Groom's Name">
-                        </label>
-                  </div>
-                  
-                  <div class="input-grp">
-                        <label for="">Bride's Name:
-                        <input type="name" id="booking_date" name="booking_date" class="input-field" placeholder="Enter Bride's Name">
-                        </label>
-                  </div>
-                  
-                  <div class="input-grp">
-                        <label for="">Bride Groom's Number:
-                        <input type="text" placeholder="+941234567" class="input-field" name="groom-number">
-                        </label>
-                  </div>
-                  <div class="input-grp">
-                        <label for="">Bride's Number:
-                        <input type="text" placeholder="+941234567" class="input-field" name="bride-groom-number">
-                        </label>
-                  </div>
-                  </div>
-                 
-                  <div class="two d-flex">
-                  <div class="input-grp">  
-                        <label for="">Bride Groom's Email:      
-                        <input type="text" name="email" placeholder="Enter Your Address" class="input-field">
-                        </label>
-                  </div>
-
-                  <div class="input-grp">
-                        <label for="">Bride's Email:         
-                        <input type="text" name="email" placeholder="Enter Your Address" class="input-field">
-                        </label>
-                  </div>
-
-                  <div class="input-grp">
-                        <label for="booking_date">Wedding Date: 
-                        <input type="date" id="wedding_date" name="wedding_date" class="input-field" placeholder="Select Your Wedding Date">
-                        </label>
-                  </div>
-                  
-                  <div class="input-grp">
-                        <label for="">Wedding Venue:
-                        <input type="text" placeholder="Select Your Wedding Place" class="input-field" name="venue">
-                        </label>
-                  </div>
-                  </div>
-
-                  
-                  <div class="three d-flex">
-                 
-                  
-                  <div class="input-grp">
-                        <label for=""> Message:                             
-                        <textarea name="message" placeholder="enter your message" required cols="20" rows="1" class="input-field" ></textarea>
-                        </label>
-                  </div>
-                   <div class="input-grp">
-                      <label for="package">Appoinment Type:
-                      Face to face <input type="radio"  class="input-field" name="venue" checked>
-                      Phone call<input type="radio"  class="input-field" name="venue">                
-                      </label>
-                  </div>
-                  
-                        </div>
-      <button class="btn" type="submit">send</button>
-
-      
-                  </div></div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form>
+            <div class="form-row ">
+              <div class="form-group col-lg-6">
+                <label for="inputPatientName">Name: </label>
+                <input type="text" class="form-control" id="inputPatientName" placeholder="">
+              </div>
+              <div class="form-group col-lg-6">
+                <label for="inputPatientName">Contact Number: </label>
+                <input type="text" class="form-control" id="inputPatientName" placeholder="">
+              </div>
+            </div>
+            <div class="form-row ">
+              <div class="form-group col-lg-6">
+                <label for="inputPatientName">E-Mail: </label>
+                <input type="text" class="form-control" id="inputPatientName" placeholder="">
+              </div>
+              <div class="form-group col-lg-6">
+                <label for="inputPatientName">Booking Date: </label>
+                <input type="text" class="form-control" id="inputPatientName" placeholder="">
+              </div>
+            </div>
+            <div class="btn-box">
+              <button type="submit" class="btn ">Submit Now</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-    
-  </div>
-      </section>
+  </section>
 
-       <!-- Appoinment end  -->
 
-   <!-- about section starts  -->
+  <!-- end book section -->
+
+
+
+    <!-- about section starts  -->
 
    <section class="about" id="about">
 
@@ -244,6 +197,7 @@
             </div>
 
             <div class="col-md-2 image d-flex">
+               <video src="images/video2.mp4" width="500px" height="500px" autoplay muted></video>
             </div>
 
          </div>
@@ -254,63 +208,35 @@
 
    <!-- about section ends -->
 
-   
-<!-- 
-   <section class="services" id="services">
-      <div class="hero">
-         <h1 class="heading">
-            "We're here to sprinkle your special day with love, laughter, and unforgettable memories.
-            Let's create the wedding of your dreams together!"
-         </h1>
+ <!-- couple -->
+    <div class="couple">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="titlepage text_align_left">
+             <h2>Your Gateway to Timeless Weddings................</h2>
+              <p>
+                Welcome to our "DreamDay", where dreams come true and love takes center stage!
 
-         <div class="service-container">
-            <div class="indicator">
-               <span class="btn-service" action="active"></span>
-               <span class="btn-service"></span>
-               <span class="btn-service"></span>
+               We are thrilled to have you here as we embark on this enchanting journey filled with love, joy, and 
+               unforgettable memories. Whether you are a soon-to-be bride, groom, or a cherished guest, this is the 
+               perfect place to discover everything you need to create the wedding of your dreams.
+
+               At our "DreamDay", we believe that every love story deserves to be celebrated in its own unique way. 
+               From intimate gatherings to grand celebrations, we are here to guide you through the process, 
+               providing you with inspiration, ideas, and expert advice to make your special day truly extraordinary.
+                           </p>
             </div>
-            <div class="section">
-               <div class="slide-row" id="slide">
-                  <div class="slide-col">
-                     <div class="user-text">
-                        <h3>CATERING</h3>
-                        <p>We're honored to be a part of your special day and can't wait to
-                           bring your floral dreams to life. Our team of talented florists is dedicated to creating beautiful
-                           arrangements that will add a touch of elegance and romance to your celebration. We're here to make
-                           your wedding day blooming marvelous!</p>
-                        <a class="btn btn-primary transparent-button px-3" href="catering.php" role="button">EXPLORE MORE</a>
-                     </div>
-                  </div>
-                  <div class="slide-col">
-                     <div class="user-text">
-                        <h3>DECORATION</h3>
-                        <p>We're thrilled to be a part of your special day, adding the perfect touch of beauty and elegance
-                           to your wedding decor. Our team is dedicated to creating a breathtaking ambiance that will leave you
-                           and your guests in awe. Get ready to celebrate amidst stunning decorations that will make your wedding
-                           day truly magical!</p>
-                        <a class="btn btn-primary transparent-button px-3" href="decoration.php" role="button">EXPLORE MORE</a>
-                     </div>
-                  </div>
-                  <div class="slide-col">
-                     <div class="user-text">
-                        <h3>PHOTOGRAPHY</h3>
-                        <p>We're honored to capture the precious moments of your special day through our photography.
-                           With our skilled team behind the lens, we'll preserve the joy, love, and beauty of your wedding in
-                           timeless images. Get ready to create memories that will last a lifetime. Let's make every click count!
-                        </p>
-                        <a class="btn btn-primary transparent-button px-3" href="photography.php" role="button">EXPLORE MORE</a>
-                     </div>
-                  </div>
-               </div>
+          </div>
+          <div class="col-md-5">
+            <div class="doi">
+              <figure><img src="images/photo5.jpg" alt="#" /></figure>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-   </section>
-
-
-   service section end -->
-
-
+    </div>
+    <!-- couple -->
 
    <!-- packages section starts  -->
    <section class="packages" id="packages">
@@ -352,6 +278,12 @@
       </div>
    </section>
    <!-- packages section Ends  -->
+
+
+  
+
+
+
 
 <!-- services section starts  -->
 
@@ -454,9 +386,39 @@
 <!-- services section ends -->
 
 
+<!-- Fact Start -->
+    <div class="container-fluid fact bg-dark my-5 py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <i class="fa fa-check fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">28</h2>
+                    <p class="text-white mb-0">Years Experience</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                   <i class="fa fa-users fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">120</h2>
+                    <p class="text-white mb-0">Expert Team Members</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <i class="fa fa-users fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">120</h2>
+                    <p class="text-white mb-0">Satisfied Clients</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                    <i class="fa fa-ring fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">120</h2>
+                    <p class="text-white mb-0">Compleate Projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+
  <!-- rewiev start -->
 
-
+<section class="cus-review">
  <div class="review" id="review">
    <h1>CUSTOMER REVIEWS</h1>
    <div class="review-box">
@@ -514,6 +476,7 @@
 
    </div>
  </div>
+ </section>
 
  <!-- rewieve end -->
 
@@ -539,7 +502,10 @@
          <div class="box">
             <i class="fas fa-clock"></i>
             <h3>Opening Hours</h3>
-            <p>8.00am to 8.00pm</p>
+            <h6>Monday - Friday :</h6>
+            <p>09.00 AM - 09.00 PM</p>
+            <h6>Saturday - Sunday :</h6>
+            <p>09.00 AM - 12.00 PM</p>
          </div>
 
          <div class="box">
@@ -585,14 +551,14 @@
 
    </script>
 
-   <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> 
    <script>
-      // var typed = new Typed (".auto-type" , {
-      //    strings:["Let's Make Your Special Day Unforgettable!"],
-      //    typeSpeed: 80,
-      //    backSpeed: 80,
-      //    loop: false
-      // })
+       var typed = new Typed (".auto-type" , {
+          strings:["Let's Make Your Special Day Unforgettable!"],
+          typeSpeed: 80,
+          backSpeed: 80,
+          loop: true
+       })
    </script>
    <script src="scripts/service.js"></script>
    <script src="scripts/cal.js"></script>

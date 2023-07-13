@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Open+Sans:ital@1&family=Oswald:wght@300;400&family=Playfair+Display&family=Roboto+Slab:wght@100;200;300&family=Xanh+Mono:ital@1&display=swap");
 
 :root {
-      --orange: #4A148C;
+      --orange: #de0000;
       --black: #333;
       --white: #fff;
-      --light-color: #8a8a8a;
+      --blue: #021626;
+      --light-color: #606060;
       --light-body: #d8cdcd;
       --border: 0.2rem solid rgba(0, 0, 0, 0.1);
       --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -18,23 +19,8 @@
 }
 
 body {
-      background: linear-gradient(to left, rgb(255, 0, 115), #a862ff, rgb(227, 66, 255), rgb(233, 3, 233));
-      background-size: 300%, 300%;
-      animation: color 12s ease-in-out infinite;
-}
+      background: var(--white);
 
-@keyframes color {
-      0% {
-            background-position: 0 50%;
-      }
-
-      50% {
-            background-position: 100% 50%;
-      }
-
-      100% {
-            background-position: 0 50%;
-      }
 }
 
 .photography .para p {
@@ -42,7 +28,7 @@ body {
       font-size: 40px;
       font-style: italic;
       font-weight: 200;
-      color: var(--orange);
+      color: var(--white);
 }
 
 .photography {
@@ -56,10 +42,12 @@ body {
 }
 
 .photography .card {
-      width: 280px;
-      height: 490px;
+      width: 270px;
+      height: 460px;
       margin: 50px auto 0;
-      background: var(--white);
+      background: var(--blue);
+      border: 1px solid var(--white);
+      border-radius: 15px;
       perspective: 1000px;
 }
 
@@ -72,17 +60,18 @@ body {
       transform-style: preserve-3d;
 }
 
-.front,
+.front1,
 .back {
       width: 100%;
       height: 100%;
-      border-radius: 15px;
       position: absolute;
       backface-visibility: hidden;
+      border: 1px solid var(--white);
+      border-radius: 15px;
 }
 
-.front {
-      background: url(images/floral.jpg);
+.front1 {
+      background: url("../../images/invi1.jpg");
       background-size: cover;
       background-position: center;
       padding: 60px 40px;
@@ -92,41 +81,168 @@ body {
       color: var(--black);
 }
 
-.front h2 {
-      font-weight: 500;
+.front2,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
 }
 
-.front p {
-      color: #4A148C;
-      font-size: 13px;
+.front2 {
+      background: url("../../images/invi2.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
 }
 
-.front button {
-      width: 120px;
-      border: 1px solid var(--orange);
-      background: transparent;
-      border-radius: 50px;
-      padding: 6px 15px;
-      cursor: pointer;
-      margin-top: 15px;
-      color: var(--orange);
+.front3,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front3 {
+      background: url("../../images/invi3.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front4,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front4 {
+      background: url("../../images/invi4.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front5,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front5 {
+      background: url("../../images/invi5.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front6,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front6 {
+      background: url("../../images/invi6.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front7,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front7 {
+      background: url("../../images/invi7.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
+}
+
+.front8,
+.back {
+      border: 1px solid var(--white);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.front8 {
+      background: url("../../images/invi8.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: var(--black);
 }
 
 .back {
-      background: var(--orange);
+      background: var(--blue);
       color: var(--white);
       padding: 20px 40px;
       transform: rotateY(180deg);
 }
 
 .back h1 {
-      font-size: 40px;
+      font-size: 30px;
       line-height: 55px;
       margin-bottom: 10px;
 }
 
 .back h1 span {
-      font-weight: 400;
+      font-weight: 350;
 }
 
 .back p {
@@ -138,20 +254,20 @@ body {
 }
 
 .back img {
-      width: 120px;
+      width: 100px;
       max-height: 150px;
 }
 
 .row {
       display: flex;
       align-items: center;
-      margin-top: 30px;
+      margin-top: 20px;
 }
 
 .col {
       flex: 1;
       text-align: center;
-      color: #ea73ff;
+      color: var(--orange);
       font-size: 15px;
       position: relative;
 }
@@ -220,12 +336,12 @@ body {
 }
 
 .our-team {
-      background: #fff;
+      background-color: var(--white);
 }
 
 .main {
       width: 100%;
-      height: 65vh;
+      height: 60vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -235,7 +351,7 @@ body {
       position: relative;
       width: 240px;
       height: 310px;
-      background: var(--orange);
+      background: var(--blue);
       padding: 40px;
       border-radius: 100%;
       box-shadow: 0 0 22px var(--light-color);
@@ -294,25 +410,65 @@ body {
       margin: 2px 0 9px 0;
 }
 
-.title h2 {
+.our-team h1 {
+      padding-top: 5rem;
       text-align: center;
-      padding-bottom: 2rem;
-      font-size: 40px;
-      font-style: italic;
-      font-weight: 200;
-      color: var(--orange);
-      font-family: "Instrument Serif", serif;
-      letter-spacing: 1px;
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 60px;
+      position: relative;
+      color: var(--blue);
+}
+
+.our-team h1::after {
+      content: '';
+      width: 150px;
+      height: 3px;
+      background: linear-gradient(to right, #ff0000, black);
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
 }
 
 .our-team h5 {
-      padding-left: 25rem;
-      padding-right: 25rem;
+      padding-left: 30rem;
+      padding-right: 30rem;
       text-align: center;
       font-size: 1.8rem;
       color: var(--orange);
-      margin-top: 1rem;
-      font-weight: 600;
+      font-weight: bold;
+      margin-top: 2rem;
 }
 
 /* our team end */
+
+body {
+      background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../../images/about_bg.jpg) center center no-repeat;
+      background-size: cover;
+}
+
+.bootstrap-datetimepicker-widget.bottom {
+      top: auto !important;
+}
+
+.bootstrap-datetimepicker-widget .table * {
+      border-bottom-width: 0px;
+}
+
+.bootstrap-datetimepicker-widget .table th {
+      font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+      padding: 5px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+      background: var(--primary);
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+      border-bottom-color: var(--primary);
+}

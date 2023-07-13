@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>photography</title>
-      <!-- font awesome link  -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Wedding Plan</title>
+
+
+
+   <!-- font awesome link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- bootstrap link  -->
@@ -18,16 +22,22 @@
    <link rel="stylesheet" href="assets/css/bootstrap.css">
 
    <!--  css file link  -->
+   <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="assets/css/transport.css">
-   <link rel="stylesheet" href="assets/css/transport.css">
+
+
+
 </head>
+
 <body>
-            <header>
+
+   <header>
       <nav class="navbar navbar-expand-lg header fixed-top py-4 px-5">
          <div class="w-100 d-lg-flex justify-content-between align-items-center">
 
-
+            <img src="images/Dream-Day.png" alt="">
             <a href="/wedding-plan" class="logo">Dream<span>Day</span></a>
+            
 
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,23 +48,20 @@
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
                <ul class="navbar-nav align-items-center">
                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">Home</a>
+                     <a class="nav-link active" aria-current="page" href="/wedding-plan">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#about">About</a>
+                     <a class="nav-link" href="/wedding-plan/#about">About</a>
                   </li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services
-                     </a>
-                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="photography.php">Photography</a></li>
-                        <li><a class="dropdown-item" href="catering.php">Catering</a></li>
-                        <li><a class="dropdown-item" href="decoration.php">Decoration</a></li>
-                     </ul>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link" href="/wedding-plan/#packages">Packages</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#packages">Packages</a>
+                     <a class="nav-link" href="/wedding-plan/#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="/wedding-plan/#review">Reviews</a>
                   </li>
 
                   
@@ -106,174 +113,280 @@
    </header>
 
    <!-- header section ends -->
-      
 
-   <section class="photo">
-          <div class="one">
-      <div class="photography">
-            <p>Welcome to Our Photography Wonderland!</p>
-            <h2>Capturing Moments</h2>
-            <div class="row">
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo1.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
+
+
+
+   <!-- photography section start -->
+
+                 <section class="photography">
+                  <div class="para">
+                  <p>Welcome to our exquisite world of wedding transport!</p>
                   </div>
+                     <div class="containers">
+                        <div class="card">
+                           <div class="card-inner">
+                              <div class="front1">
+                              
+                              </div>
+                                 <div class="back">
+                                    <img src="images/waving-hand.png" alt="">
+                                    <h1>Robat Hardik<span>Photographer</span></h1>
+                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <div class="row">
+                                       <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                       <div class="col">
+                                          <h2>3 Years</h2>
+                                          <p>Experience</p>
+                                       </div>
+                                        <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <button>follow</button>
+                                       <a href="#"><img src="images/instagram.png" alt=""></a>
+                                       <a href="#"><img src="images/pinterest.png" alt=""></a>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                         <div class="card">
+                           <div class="card-inner">
+                              <div class="front2">
+                                
+                              </div>
+                                 <div class="back">
+                                    <img src="images/waving-hand.png" alt="">
+                                    <h1>Robat Hardik<span>Photographer</span></h1>
+                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <div class="row">
+                                       <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                       <div class="col">
+                                          <h2>3 Years</h2>
+                                          <p>Experience</p>
+                                       </div>
+                                        <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <button>follow</button>
+                                       <a href="#"><img src="images/instagram.png" alt=""></a>
+                                       <a href="#"><img src="images/pinterest.png" alt=""></a>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-inner">
+                              <div class="front3">
+                                
+                              </div>
+                                 <div class="back">
+                                    <img src="images/waving-hand.png" alt="">
+                                    <h1>Robat Hardik<span>Photographer</span></h1>
+                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <div class="row">
+                                       <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                       <div class="col">
+                                          <h2>3 Years</h2>
+                                          <p>Experience</p>
+                                       </div>
+                                        <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <button>follow</button>
+                                       <a href="#"><img src="images/instagram.png" alt=""></a>
+                                       <a href="#"><img src="images/pinterest.png" alt=""></a>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-inner">
+                              <div class="front4">
+                                
+                              </div>
+                                 <div class="back">
+                                    <img src="images/waving-hand.png" alt="">
+                                    <h1>Robat Hardik<span>Photographer</span></h1>
+                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <div class="row">
+                                       <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                       <div class="col">
+                                          <h2>3 Years</h2>
+                                          <p>Experience</p>
+                                       </div>
+                                        <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <button>follow</button>
+                                       <a href="#"><img src="images/instagram.png" alt=""></a>
+                                       <a href="#"><img src="images/pinterest.png" alt=""></a>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+
+                     </div>
+                     <div class="containers">
+                        <div class="card">
+                           <div class="card-inner">
+                              <div class="front5">
+                                
+                              </div>
+                                 <div class="back">
+                                    <img src="images/waving-hand.png" alt="">
+                                    <h1>Robat Hardik<span>Photographer</span></h1>
+                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <div class="row">
+                                       <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                       <div class="col">
+                                          <h2>3 Years</h2>
+                                          <p>Experience</p>
+                                       </div>
+                                        <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <button>follow</button>
+                                       <a href="#"><img src="images/instagram.png" alt=""></a>
+                                       <a href="#"><img src="images/pinterest.png" alt=""></a>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                         <div class="card">
+                           <div class="card-inner">
+                              <div class="front6">
+                                
+                              </div>
+                                 <div class="back">
+                                    <img src="images/waving-hand.png" alt="">
+                                    <h1>Robat Hardik<span>Photographer</span></h1>
+                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <div class="row">
+                                       <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                       <div class="col">
+                                          <h2>3 Years</h2>
+                                          <p>Experience</p>
+                                       </div>
+                                        <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <button>follow</button>
+                                       <a href="#"><img src="images/instagram.png" alt=""></a>
+                                       <a href="#"><img src="images/pinterest.png" alt=""></a>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-inner">
+                              <div class="front7">
+                               
+                              </div>
+                                 <div class="back">
+                                    <img src="images/waving-hand.png" alt="">
+                                    <h1>Robat Hardik<span>Photographer</span></h1>
+                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <div class="row">
+                                       <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                       <div class="col">
+                                          <h2>3 Years</h2>
+                                          <p>Experience</p>
+                                       </div>
+                                        <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <button>follow</button>
+                                       <a href="#"><img src="images/instagram.png" alt=""></a>
+                                       <a href="#"><img src="images/pinterest.png" alt=""></a>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-inner">
+                              <div class="front8">
+                                
+                              </div>
+                                 <div class="back">
+                                    <img src="images/waving-hand.png" alt="">
+                                    <h1>Robat Hardik<span>Photographer</span></h1>
+                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <div class="row">
+                                       <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                       <div class="col">
+                                          <h2>3 Years</h2>
+                                          <p>Experience</p>
+                                       </div>
+                                        <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <button>follow</button>
+                                       <a href="#"><img src="images/instagram.png" alt=""></a>
+                                       <a href="#"><img src="images/pinterest.png" alt=""></a>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+
+                     </div>
+                     </section>
                   
-            </div>
+   <!-- photography end -->
 
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo2.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-            </div>
 
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo3.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo4.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-            </div>
-</div>
-</div>
-</div>
-            
-            <div class="two">
-            <div class="photography">
-                  <h2>DRONE SHOT</h2>
-                        <div class="row">
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron1.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                 
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron2.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron9.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron6.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-            </div>
-</div>
-</div>
-</div>
-
-            
-      </div>
-      </div>
-            </section>
-
+<!-- team start -->
             
 <section class="our-team">
         <div class="title">
-                   <h2>Transport Team</h2>
+                   <h1>Transport Team</h1>
                    <h5>Welcome to the world of our dedicated and professional wedding transport team! With their 
                      commitment to excellence and attention to detail, they are here to ensure that your journey 
                      to and from your wedding venue is seamless and memorable.Each member of our team brings a 
@@ -282,66 +395,50 @@
                       guests to relax and enjoy the ride.</h5>
                    </div>
             <div class="main">
-                
         <div class="profile-card">
             <div class="img">
-                <img src="images/dron6.jpg">
+                <img src="images/team-1.jpg">
             </div>
             <div class="caption">
                 <h3>Vin Diesel</h3>
-                <p>Senior App Developer</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
+                <p>Proffessional Photographer</p>
+                <p>Contact : +94761434955</p>
             </div>
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="images/dron6.jpg">
+                <img src="images/team-2.jpg">
             </div>
             <div class="caption">
                 <h3>David Corner</h3>
-                <p>Front End Developer</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
+                <p>Proffessional Photographer</p>
+                <p>Contact : +94761434955</p>
             </div>
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="images/dron6.jpg">
+                <img src="images/team-3.jpg">
             </div>
             <div class="caption">
                 <h3>Tom Cruise</h3>
-                <p>Full Stact Developer</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
+                <p>Proffessional Photographer</p>
+                <p>Contact : +94761434955</p>
             </div>
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="images/dron6.jpg">
+                <img src="images/team-4.jpg">
             </div>
             <div class="caption">
                 <h3>Tom Cruise</h3>
-                <p>Full Stact Developer</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
+                <p>Proffessional Photographer </p>
+                <p>Contact : +94761434955</p>
             </div>
         </div>
     </div>
 
-</section>
+</section> 
+<!-- team end -->
 
  <!-- footer section starts  -->
 

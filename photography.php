@@ -35,7 +35,7 @@
       <nav class="navbar navbar-expand-lg header fixed-top py-4 px-5">
          <div class="w-100 d-lg-flex justify-content-between align-items-center">
 
-            <img src="images/logo.png" alt="">
+            <img src="images/Dream-Day.png" alt="">
             <a href="/wedding-plan" class="logo">Dream<span>Day</span></a>
             
 
@@ -51,17 +51,17 @@
                      <a class="nav-link active" aria-current="page" href="/wedding-plan">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#about">About</a>
+                     <a class="nav-link" href="/wedding-plan/#about">About</a>
                   </li>
                   
                   <li class="nav-item">
-                     <a class="nav-link" href="#packages">Packages</a>
+                     <a class="nav-link" href="/wedding-plan/#packages">Packages</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#services">Services</a>
+                     <a class="nav-link" href="/wedding-plan/#services">Services</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#review">Reviews</a>
+                     <a class="nav-link" href="/wedding-plan/#review">Reviews</a>
                   </li>
 
                   
@@ -126,9 +126,8 @@
                      <div class="containers">
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <img src="images/photo1.jpg" alt="">
-                                 <button>Hover Me</button>
+                              <div class="front1">
+                              
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -158,10 +157,8 @@
                         </div>
                          <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <img src="images/photo2.jpg" alt="">
-                                 
-                                 <button>Hover Me</button>
+                              <div class="front2">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -191,10 +188,8 @@
                         </div>
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <img src="images/photo3.jpg" alt="">
-                              
-                                 <button>Hover Me</button>
+                              <div class="front3">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -224,10 +219,8 @@
                         </div>
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <img src="images/photo4.jpg" alt="">
-                               
-                                 <button>Hover Me</button>
+                              <div class="front4">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -260,16 +253,8 @@
                      <div class="containers">
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-<<<<<<< HEAD
-                                 <img src="images/dron6.jpg" alt="">
-                             
-=======
-                                 <img src="images/photo1.jpg" alt="">
-                                 <h2>Romantic Image</h2>
-                                 <p>By : Mr.Robat Hardik</p>
->>>>>>> a818a0b84eba0d3397527ec9cdf2d32a650d955f
-                                 <button>Hover Me</button>
+                              <div class="front5">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -299,10 +284,8 @@
                         </div>
                          <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <img src="images/dron1.jpg" alt="">
+                              <div class="front6">
                                 
-                                 <button>Hover Me</button>
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -332,43 +315,39 @@
                         </div>
                         <div class="card">
                            <div class="card-inner">
-                              <div class="front">
-                                 <img src="images/dron2.jpg" alt="">
-                              
-                                 <button>Hover Me</button>
-                              </div>
-                                 <div class="back">
-                                    <img src="images/waving-hand.png" alt="">
-                                    <h1>Robat Hardik<span>Photographer</span></h1>
-                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
-                                    <div class="row">
-                                       <div class="col">
-                                          <h2>5K</h2>
-                                          <p>Likes</p>
-                                       </div>
-                                       <div class="col">
-                                          <h2>3 Years</h2>
-                                          <p>Experience</p>
-                                       </div>
-                                        <div class="col">
-                                          <h2>5K</h2>
-                                          <p>Likes</p>
-                                       </div>
-                                    </div>
-                                    <div class="row">
-                                       <button>follow</button>
-                                       <a href="#"><img src="images/instagram.png" alt=""></a>
-                                       <a href="#"><img src="images/pinterest.png" alt=""></a>
-                                    </div>
-                                 </div>
-                           </div>
-                        </div>
-                        <div class="card">
-                           <div class="card-inner">
-                              <div class="front">
-                                 <img src="images/dron9.jpg" alt="">
+                              <div class="front7">
                                
-                                 <button>Hover Me</button>
+                              </div>
+                                 <div class="back">
+                                    <img src="images/waving-hand.png" alt="">
+                                    <h1>Robat Hardik<span>Photographer</span></h1>
+                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <div class="row">
+                                       <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                       <div class="col">
+                                          <h2>3 Years</h2>
+                                          <p>Experience</p>
+                                       </div>
+                                        <div class="col">
+                                          <h2>5K</h2>
+                                          <p>Likes</p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <button>follow</button>
+                                       <a href="#"><img src="images/instagram.png" alt=""></a>
+                                       <a href="#"><img src="images/pinterest.png" alt=""></a>
+                                    </div>
+                                 </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-inner">
+                              <div class="front8">
+                                
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
@@ -403,173 +382,11 @@
    <!-- photography end -->
 
 
-   
-   <!-- <section class="photo">
-          <div class="one">
-      <div class="photography">
-            <p>Welcome to Our Photography Wonderland!</p>
-            <h2>Capturing Moments</h2>
-            <div class="row">
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo1.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                  
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo2.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo3.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/photo4.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-            </div>
-</div>
-</div>
-</div>
-            
-            <div class="two">
-            <div class="photography">
-                  <h2>DRONE SHOT</h2>
-                        <div class="row">
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron1.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                 
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron2.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron9.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-                
-            </div>
-
-            <div class="col-mod-6">
-                  <div class="photo">
-                  <img src="images/dron6.jpg" alt="">
-                        <div class="overlay">
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-sharp fa-solid fa-heart"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary" title="quick shop">
-                        <i class="fa-solid fa-star"></i>
-                        </button>
-                        </div>
-                  </div>
-            </div>
-</div>
-</div>
-</div>
-
-            
-      </div>
-      </div>
-            </section> -->
-
+<!-- team start -->
             
 <section class="our-team">
         <div class="title">
-                   <h2>Photography Team</h2>
+                   <h1>Photography Team</h1>
                    <h5>At "DreamDay", we have a team of talented photographers who are passionate about 
                      their craft and dedicated to capturing the essence of your special day. With their skillful
                       expertise, they freeze moments in time, preserving the love, joy, and beauty that unfold 
@@ -622,6 +439,7 @@
     </div>
 
 </section> 
+<!-- team end -->
 
  <!-- footer section starts  -->
 
