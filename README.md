@@ -19,3 +19,10 @@ If you have made any changes to your code base.
     `git merge <branch-name>`
 8. Again push the changes to the remote repository
     `git push`
+
+
+new changes 
+1. appoinment sending --> save in admin page
+2. mail --> message & google form
+3. after fillng google form --> appoinment booked message
+4. packages page --> add explore more buttin with details
