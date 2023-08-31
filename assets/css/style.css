@@ -4,8 +4,8 @@
   --orange: #de0000;
   --black: #333;
   --white: #fff;
-  --blue:#021626;
-  --light-color :#606060;
+  --blue: #021626;
+  --light-color: #606060;
   --light-body: #d8cdcd;
   --border: 0.2rem solid rgba(0, 0, 0, 0.1);
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -48,7 +48,7 @@ section {
 
 body {
   background: var(--white);
-  
+
 }
 
 
@@ -187,7 +187,8 @@ nav.navbar {
 .navbar ul li:hover::after {
   width: 100%;
 }
-.scrolling-message{
+
+.scrolling-message {
   color: var(--orange);
   font-weight: bold;
   font-style: italic;
@@ -198,11 +199,13 @@ nav.navbar {
   white-space: nowrap;
   animation: scrollText 20s linear infinite;
 }
-@keyframes scrollText{
-  0%{
+
+@keyframes scrollText {
+  0% {
     left: 100%;
   }
-  100%{
+
+  100% {
     left: -100%;
   }
 }
@@ -292,6 +295,7 @@ nav.navbar {
   color: var(--blue);
   background-color: var(--white);
 }
+
 /* appoinment end */
 
 
@@ -380,6 +384,7 @@ nav.navbar {
 .bootstrap-datetimepicker-widget table td.today::before {
   border-bottom-color: var(--primary);
 }
+
 .services h1 {
   padding-top: 5rem;
   font-size: 30px;
@@ -473,6 +478,7 @@ nav.navbar {
   width: 100%;
   height: 130vh;
 }
+
 .packages h1 {
   padding-top: 8rem;
   text-align: center;
@@ -543,6 +549,7 @@ nav.navbar {
   font-weight: bold;
   margin-right: 8px;
 }
+
 /* package end */
 
 
@@ -612,6 +619,11 @@ nav.navbar {
   font-size: 26px;
   color: var(--orange);
   margin-bottom: 8px;
+  padding-left: 70px;
+}
+
+.review .profile p {
+  padding-left: 70px;
 }
 
 #slider {
@@ -693,6 +705,7 @@ footer .box-container .box h3 {
   margin: 2rem 0;
   color: #606060;
 }
+
 footer .box-container .box h6 {
   font-size: 1.4rem;
   font-weight: 600;
@@ -723,7 +736,8 @@ footer .credit span {
   color: var(--white);
   font-weight: bold;
 }
-footer .link i{
+
+footer .link i {
   color: var(--blue);
 }
 
@@ -759,7 +773,7 @@ footer .link i{
 .carousel-caption h3 {
   text-shadow: black -2px -2px;
   color: #fff;
-  text-align:left;
+  text-align: left;
   padding-top: 15rem;
   font-variant: small-caps;
   font-weight: 900;
@@ -867,6 +881,7 @@ footer .link i{
   left: 50%;
   transform: translateX(-50%);
 }
+
 .book_section form {
   padding: 35px 45px;
   background-color: var(--blue);
@@ -888,6 +903,7 @@ footer .link i{
   border-radius: 5px;
   padding: 0 15px;
 }
+
 .book_section .date_icon {
   right: 10px;
   height: 100%;
@@ -924,6 +940,7 @@ footer .link i{
 .book_section .nice-select.open:after {
   content: "\f106";
 }
+
 .btn-box .btn {
   display: inline-block;
   padding: 0.8rem 2.5rem;
@@ -931,9 +948,9 @@ footer .link i{
   font-weight: 600;
   cursor: pointer;
   font-size: 2rem;
-  
+
   background-color: var(--white);
-    color: var(--orange);
+  color: var(--orange);
 }
 
 .btn-box .btn:hover {
@@ -941,10 +958,12 @@ footer .link i{
   color: var(--white);
   font-weight: bold;
 }
+
 .btn-box {
   padding-left: 430px;
   padding-top: 2rem;
 }
+
 /** book now end **/
 
 
@@ -974,7 +993,8 @@ footer .link i{
   font-weight: bold;
 }
 
-.contact input, textarea {
+.contact input,
+textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -1004,4 +1024,5 @@ footer .link i{
   color: var(--blue);
   background-color: var(--orange);
 }
+
 /** review end **/

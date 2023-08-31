@@ -439,46 +439,25 @@
          <h1>CUSTOMER REVIEWS</h1>
          <div class="review-box">
             <div id="slider">
-               <div class="card">
-                  <div class="profile">
-                     <img src="images/reviews/pic1.jpg" alt="">
+               <?php
+               include_once 'database.php';
+
+               $query = "SELECT * FROM review";
+
+               $stmt = $db->query($query);
+
+               while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                  echo                "<div class='card'>
+                  <div class='profile'>
+
                      <div>
-                        <h3>Emily and James</h3>
+                        <h3>" . $row['name'] . "</h3>
                         <p>Satisfied Client</p>
                      </div>
                   </div>
-                  <p>Working with "DreamDay" was an absolute pleasure. They took care of every detail and made our wedding day stress-free and magical. The team's professionalism and attention to detail exceeded our expectations. Highly recommended!</p>
-               </div>
-               <div class="card">
-                  <div class="profile">
-                     <img src="images/reviews/pic2.jpg" alt="">
-                     <div>
-                        <h3>Hardik Ali</h3>
-                        <p>Satisfied Client</p>
-                     </div>
-                  </div>
-                  <p>We cannot thank "DreamDay" enough for their exceptional service. From the initial planning stages to the actual day, they were dedicated and attentive. Our guests were blown away by the stunning decorations and seamless coordination. It was the wedding of our dreams!</p>
-               </div>
-               <div class="card">
-                  <div class="profile">
-                     <img src="images/reviews/pic3.jpg" alt="">
-                     <div>
-                        <h3>Jessica and David</h3>
-                        <p>Satisfied Client</p>
-                     </div>
-                  </div>
-                  <p>We were impressed by the expertise and professionalism of "DreamDay". The team guided us throughout the planning process, offering valuable insights and recommendations. On the day of our wedding, everything ran smoothly, allowing us to fully enjoy our celebration. Thank you!</p>
-               </div>
-               <div class="card">
-                  <div class="profile">
-                     <img src="images/reviews/pic4.jpg" alt="">
-                     <div>
-                        <h3>Jennifer and Mark</h3>
-                        <p>Satisfied Client</p>
-                     </div>
-                  </div>
-                  <p>Choosing "DreamDay" was the best decision we made for our wedding. They went above and beyond to bring our vision to life. The photography captured every special moment beautifully, and the transportation arrangements were flawless. We are forever grateful!</p>
-               </div>
+                  <p> " . $row['review'] . "</p></div>";
+               }
+               ?>
             </div>
             <div class="sidebar">
                <!-- <img src="images/up-img.jpeg" alt="" id="upArrow"> -->
@@ -499,7 +478,7 @@
          <div class="heading">
             <h1>Add Your Review Here....</h1>
          </div>
-         <form action="#" method="post">
+         <form action="review.php" method="post">
             <div class="form-group">
                <label for="name">Your Name:</label>
                <input type="text" id="name" name="name" required>
@@ -564,7 +543,7 @@
 
    <!-- java script link -->
 
-   <script>
+   <!-- <script>
       var slider = document.getElementById("slider");
       var upArrow = document.getElementById("upArrow");
       var downArrow = document.getElementById("downArrow");
@@ -572,7 +551,7 @@
       let x = 0;
 
       upArrow.onclick = function() {
-         if (x > "-900") {
+         if (x > "-1200") {
             x = x - 300;
             slider.style.top = x + "px";
          }
@@ -585,7 +564,41 @@
          }
 
       }
-   </script>
+   </script> -->
+   <?php
+   include_once 'database.php';
+
+   $query = "SELECT * FROM review";
+
+   $stmt = $db->query($query);
+
+   $count = $stmt->rowCount();
+
+   $height = 300 * $count - 300;
+
+   echo '<script>
+      var slider = document.getElementById("slider");
+      var upArrow = document.getElementById("upArrow");
+      var downArrow = document.getElementById("downArrow");
+
+      let x = 0;
+
+      upArrow.onclick = function() {
+         if (x > "-' . $height . '") {
+            x = x - 300;
+            slider.style.top = x + "px";
+         }
+
+      }
+      downArrow.onclick = function() {
+         if (x < 0) {
+            x = x + 300;
+            slider.style.top = x + "px";
+         }
+
+      }
+   </script>';
+   ?>
 
    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
    <script>
