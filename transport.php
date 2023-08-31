@@ -442,44 +442,47 @@
 
  <!-- footer section starts  -->
 
-   <footer class="p-5">
+ <footer class="p-5">
 
-      <div class="box-container container">
+<div class="box-container container">
 
-         <div class="box">
-            <i class="fas fa-phone"></i>
-            <h3>Contact Number</h3>
-            <p>0761434955</p>
-            <p>0327913020</p>
-         </div>
+   <div class="box">
+      <i class="fas fa-phone"></i>
+      <h3>Contact Number</h3>
+      <p>0761434955</p>
+      <p>0327913020</p>
+   </div>
 
-         <div class="box">
-            <i class="fas fa-map-marker-alt"></i>
-            <h3>Address</h3>
-            <p> no-155/A , Kurunegala</p>
-         </div>
+   <div class="box">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Address</h3>
+      <p> no-155/A , Kurunegala</p>
+   </div>
 
-         <div class="box">
-            <i class="fas fa-clock"></i>
-            <h3>Opening Hours</h3>
-            <p>8.00am to 8.00pm</p>
-         </div>
+   <div class="box">
+      <i class="fas fa-clock"></i>
+      <h3>Opening Hours</h3>
+      <h6>Monday - Friday :</h6>
+      <p>09.00 AM - 09.00 PM</p>
+      <h6>Saturday - Sunday :</h6>
+      <p>09.00 AM - 12.00 PM</p>
+   </div>
 
-         <div class="box">
-            <i class="fas fa-envelope"></i>
-            <h3>Email Address</h3>
-            <p><a href="mailto:dreamday@gmail.com">dreamday@gmail.com</a></p>
-         </div>
+   <div class="box">
+      <i class="fas fa-envelope"></i>
+      <h3>Email Address</h3>
+      <p><a href="mailto:dreamday@gmail.com">dreamday@gmail.com</a></p>
+   </div>
 
-      </div>
+</div>
 
-      <div class="credit"> &copy; copyright @
-         <?php echo date('Y'); ?> by <span> Wedding-Plan</span>
-      </div>
+<div class="credit"> &copy; copyright @
+   <?php echo date('Y'); ?> by <span> Wedding-Plan</span>
+</div>
 
-   </footer>
+</footer>
 
-   <!-- footer section ends -->
+<!-- footer section ends -->
    
     <script src="./Font-Awesome/all.min.js"></script>
 </body>

@@ -26,7 +26,6 @@
    <link rel="stylesheet" href="assets/css/cal.css">
 
 
-
 </head>
 
 <body>
@@ -128,6 +127,9 @@
       <div class="carousel-caption d-none d-md-block">
         <h3>Welcome to our love-filled world!
                   <br><span class="auto-type"></span></h3>
+      </div>
+      <div class="scrolling-message">
+         If you want to contact us, Please first register and then make an Appointment
       </div>
     </div>
     </div>
@@ -261,7 +263,6 @@
                <li>Exceptional catering service with a tailored menu for your taste buds.</li>
                <li>Beautifully crafted wedding cakes as the centerpiece of your celebration.</li>
             </ul>
-            
          </div>
          <div class="price-col">
             <p>Platinum Package</p>
@@ -273,7 +274,6 @@
                <li>Create memorable moments with mesmerizing entertainment.</li>
                <li>Receive complimentary guidance for an unforgettable day.</li>
             </ul>
-           
          </div>
       </div>
    </section>
@@ -300,7 +300,9 @@
             decoration and lighting services. Welcome to our "DreamDay", where dreams are transformed 
             into breathtaking realities. 
             Discover the magic of captivating ambiance and create memories that will glow forever.</p>
-                  <a class="btn btn-primary transparent-button px-3" href="decoration.php" role="button">EXPLORE MORE</a>
+            <div class="button-box">
+              <a class="button" href="decoration.php">Explore More</a>
+            </div>
       </div>
 
       <div class="box">
@@ -309,7 +311,9 @@
          <p>Capture the love, the joy, and the cherished memories with our wedding photography services. 
             Our talented photographers are dedicated to preserving every beautiful moment of your special day. 
             Welcome to our "DreamDay", where your love story becomes timeless art.</p>
-         <a class="btn btn-primary transparent-button px-3" href="photography.php" role="button">EXPLORE MORE</a>
+            <div class="button-box">
+              <a class="button" href="photography.php">Explore More</a>
+            </div>
       </div>
 
       <div class="box">
@@ -319,7 +323,9 @@
              Welcome to our "DreamDay", where culinary artistry meets passion, creating a feast that reflects 
              your unique taste. Indulge in a culinary experience that will leave a lasting impression on you 
              and your guests.</p>
-         <a class="btn btn-primary transparent-button px-3" href="catering.php" role="button">EXPLORE MORE</a>
+             <div class="button-box">
+              <a class="button" href="catering.php">Explore More</a>
+            </div>
       </div>
 
       <div class="box">
@@ -328,7 +334,9 @@
          <p>Indulge in a symphony of flavors and artistry with our divine wedding cakes. Welcome to our "DreamDay", 
             where sweetness takes center stage and dreams are sculpted into edible masterpieces. Let us create 
             the perfect confectionery centerpiece for your unforgettable day.</p>
-         <a class="btn btn-primary transparent-button px-3" href="cake.php" role="button">EXPLORE MORE</a>
+            <div class="button-box">
+              <a class="button" href="cake.php">Explore More</a>
+            </div>
       </div>
 
       <div class="box">
@@ -337,7 +345,9 @@
          <p>Elevate the anticipation and set the tone for your perfect day with our exquisite wedding invitations. 
             Welcome to our "DreamDay", where elegance meets personalization, creating invitations that reflect your
              unique love story. Join us as we unveil a world of enchanting possibilities.</p>
-         <a class="btn btn-primary transparent-button px-3" href="invitation.php" role="button">EXPLORE MORE</a>
+             <div class="button-box">
+              <a class="button" href="invitation.php">Explore More</a>
+            </div>
       </div>
 
       <div class="box">
@@ -347,7 +357,9 @@
             Welcome to our "DreamDay", where joy fills the air and moments of bliss come alive. 
             Let us create an unforgettable experience, where laughter, music, and dance weave a tapestry of 
             happiness on your special day.</p>
-     <a class="btn btn-primary transparent-button px-3" href="entertainment.php" role="button">EXPLORE MORE</a>
+            <div class="button-box">
+              <a class="button" href="entertainment.php">Explore More</a>
+            </div>   
       </div>
 
 
@@ -358,7 +370,9 @@
             dress and makeup services. Welcome to our "DreamDay", where dreams are adorned and inner beauty
              shines through. Let us create a stunning bridal look that captures your essence and leaves you 
              feeling truly exquisite.</p>
-      <a class="btn btn-primary transparent-button px-3" href="dress.php" role="button">EXPLORE MORE</a>
+             <div class="button-box">
+              <a class="button" href="dress.php">Explore More</a>
+            </div>
       </div>
 
       <div class="box">
@@ -367,7 +381,9 @@
          <p>Embark on a journey of love and elegance with our exceptional wedding transport services. 
             Welcome to our "DreamDay", where we ensure your arrival is as remarkable as your love story. 
             Let us whisk you away in style, creating memories that will forever be etched in your heart.</p>
-      <a class="btn btn-primary transparent-button px-3" href="transport.php" role="button">EXPLORE MORE</a>
+            <div class="button-box">
+              <a class="button" href="transport.php">Explore More</a>
+            </div>
       </div>
       <div class="box">
          <img src="images/services/wedding-photos.png" alt="">
@@ -376,7 +392,9 @@
             our package. Our talented photographers will skillfully capture the emotions, joy, and love shared
              on your big day, creating a stunning collection of photos that will be carefully crafted into a
               timeless album.</p>
-      <a class="btn btn-primary transparent-button px-3" href="album.php" role="button">EXPLORE MORE</a>
+              <div class="button-box">
+              <a class="button" href="album.php">Explore More</a>
+            </div>
       </div>
 
    </div>
@@ -397,17 +415,17 @@
                 </div>
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
                    <i class="fa fa-users fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">120</h2>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">80</h2>
                     <p class="text-white mb-0">Expert Team Members</p>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
                     <i class="fa fa-users fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">120</h2>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">100</h2>
                     <p class="text-white mb-0">Satisfied Clients</p>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
                     <i class="fa fa-ring fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">120</h2>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">100</h2>
                     <p class="text-white mb-0">Compleate Projects</p>
                 </div>
             </div>
@@ -479,6 +497,7 @@
  </section>
 
  <!-- rewieve end -->
+
 
    <!-- footer section starts  -->
 

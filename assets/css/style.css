@@ -187,6 +187,25 @@ nav.navbar {
 .navbar ul li:hover::after {
   width: 100%;
 }
+.scrolling-message{
+  color: var(--orange);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2rem;
+  position: absolute;
+  top: 95%;
+  left: -100%;
+  white-space: nowrap;
+  animation: scrollText 20s linear infinite;
+}
+@keyframes scrollText{
+  0%{
+    left: 100%;
+  }
+  100%{
+    left: -100%;
+  }
+}
 
 /* header end */
 
@@ -381,7 +400,7 @@ nav.navbar {
   transform: translateX(-50%);
 }
 
-.services .btn {
+.services .button {
   display: inline-block;
   padding: 1rem 3rem;
   border-radius: 0.5rem;
@@ -391,7 +410,7 @@ nav.navbar {
   color: var(--white);
 }
 
-.services .btn:hover {
+.services .button:hover {
   background-color: var(--blue);
   color: var(--orange);
   font-weight: bold;
@@ -452,14 +471,14 @@ nav.navbar {
 .packages {
   background: url(../../images/about_bg.jpg);
   width: 100%;
-  height: 170vh;
+  height: 130vh;
 }
 .packages h1 {
-  padding-top: 18rem;
+  padding-top: 8rem;
   text-align: center;
   font-size: 30px;
   font-weight: 600;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   position: relative;
   color: var(--black);
 }
@@ -524,28 +543,6 @@ nav.navbar {
   font-weight: bold;
   margin-right: 8px;
 }
-
-.transparent-button {
-  padding: 12px 0;
-  background: transparent;
-  color: var(--orange);
-  font-size: 18px;
-  border: 1px solid var(--orange);
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.5s;
-}
-
-.price-col button {
-  width: 100%;
-}
-
-.transparent-button:hover {
-  font-weight: bold;
-  background: var(--white);
-  color: var(--orange);
-}
-
 /* package end */
 
 
@@ -697,14 +694,14 @@ footer .box-container .box h3 {
   color: #606060;
 }
 footer .box-container .box h6 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin: 0.5rem 0;
   color: var(--white);
 }
 
 footer .box-container .box p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: var(--white);
   text-transform: none;
 }
@@ -846,8 +843,8 @@ footer .link i{
   height: 50%;
 }
 
-
 /** end couple **/
+
 .book_section h1 {
   text-align: center;
   font-size: 30px;
@@ -946,3 +943,5 @@ footer .link i{
   padding-left: 430px;
   padding-top: 2rem;
 }
+
+

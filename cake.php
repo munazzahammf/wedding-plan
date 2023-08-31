@@ -463,7 +463,10 @@
          <div class="box">
             <i class="fas fa-clock"></i>
             <h3>Opening Hours</h3>
-            <p>8.00am to 8.00pm</p>
+            <h6>Monday - Friday :</h6>
+            <p>09.00 AM - 09.00 PM</p>
+            <h6>Saturday - Sunday :</h6>
+            <p>09.00 AM - 12.00 PM</p>
          </div>
 
          <div class="box">
