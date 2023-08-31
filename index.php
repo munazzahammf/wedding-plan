@@ -36,7 +36,7 @@
 
             <img src="images/Dream-Day.png" alt="">
             <a href="/wedding-plan" class="logo">Dream<span>Day</span></a>
-            
+
 
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
                   <li class="nav-item">
                      <a class="nav-link" href="#about">About</a>
                   </li>
-                  
+
                   <li class="nav-item">
                      <a class="nav-link" href="#packages">Packages</a>
                   </li>
@@ -63,7 +63,7 @@
                      <a class="nav-link" href="#review">Reviews</a>
                   </li>
 
-                  
+
 
 
                   <?php
@@ -115,71 +115,72 @@
 
 
 
- <div id="carouselExampleCaptions" class="carousel-slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/cover/banner1.jpg" class="d-block w-100"  alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h3>Welcome to our love-filled world!
-                  <br><span class="auto-type"></span></h3>
+   <div id="carouselExampleCaptions" class="carousel-slide">
+      <div class="carousel-indicators">
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class="scrolling-message">
-         If you want to contact us, Please first register and then make an Appointment
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="images/cover/banner1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+               <h3>Welcome to our love-filled world!
+                  <br><span class="auto-type"></span>
+               </h3>
+            </div>
+            <div class="scrolling-message">
+               If you want to contact us, Please first register and then make an Appointment
+            </div>
+         </div>
       </div>
-    </div>
-    </div>
-  </div>
-</div>
+   </div>
+   </div>
 
 
- <!-- book section -->
+   <!-- book section -->
 
-  <section class="book_section layout_padding">
-   <h1>MAKE AN APPOINMENT</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <form>
-            <div class="form-row ">
-              <div class="form-group col-lg-6">
-                <label for="inputPatientName">Name: </label>
-                <input type="text" class="form-control" id="inputPatientName" placeholder="">
-              </div>
-              <div class="form-group col-lg-6">
-                <label for="inputPatientName">Contact Number: </label>
-                <input type="text" class="form-control" id="inputPatientName" placeholder="">
-              </div>
+   <section class="book_section layout_padding">
+      <h1>MAKE AN APPOINMENT</h1>
+      <div class="container">
+         <div class="row">
+            <div class="col">
+               <form action="/wedding-plan/mail.php" method="post">
+                  <div class="form-row">
+                     <div class="form-group col-lg-6">
+                        <label for="name">Name: </label>
+                        <input name="name" type="text" class="form-control" id="name" placeholder="">
+                     </div>
+                     <div class="form-group col-lg-6">
+                        <label for="contact-no">Contact Number: </label>
+                        <input name="contact-no" type="tel" class="form-control" id="contact-no" placeholder="">
+                     </div>
+                  </div>
+                  <div class="form-row ">
+                     <div class="form-group col-lg-6">
+                        <label for="email">E-Mail: </label>
+                        <input name="email" type="email" class="form-control" id="email" placeholder="">
+                     </div>
+                     <div class="form-group col-lg-6">
+                        <label for="date">Booking Date: </label>
+                        <input name="booking-date" type="date" class="form-control" id="" placeholder="">
+                     </div>
+                  </div>
+                  <div class="btn-box">
+                     <button type="submit" class="btn">Submit Now</button>
+                  </div>
+               </form>
             </div>
-            <div class="form-row ">
-              <div class="form-group col-lg-6">
-                <label for="inputPatientName">E-Mail: </label>
-                <input type="text" class="form-control" id="inputPatientName" placeholder="">
-              </div>
-              <div class="form-group col-lg-6">
-                <label for="inputPatientName">Booking Date: </label>
-                <input type="text" class="form-control" id="inputPatientName" placeholder="">
-              </div>
-            </div>
-            <div class="btn-box">
-              <button type="submit" class="btn ">Submit Now</button>
-            </div>
-          </form>
-        </div>
+         </div>
       </div>
-    </div>
-  </section>
+   </section>
 
 
-  <!-- end book section -->
+   <!-- end book section -->
 
 
 
-    <!-- about section starts  -->
+   <!-- about section starts  -->
 
    <section class="about" id="about">
 
@@ -210,35 +211,35 @@
 
    <!-- about section ends -->
 
- <!-- couple -->
-    <div class="couple">
+   <!-- couple -->
+   <div class="couple">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-7">
-            <div class="titlepage text_align_left">
-             <h2>Your Gateway to Timeless Weddings................</h2>
-              <p>
-                Welcome to our "DreamDay", where dreams come true and love takes center stage!
+         <div class="row">
+            <div class="col-md-7">
+               <div class="titlepage text_align_left">
+                  <h2>Your Gateway to Timeless Weddings................</h2>
+                  <p>
+                     Welcome to our "DreamDay", where dreams come true and love takes center stage!
 
-               We are thrilled to have you here as we embark on this enchanting journey filled with love, joy, and 
-               unforgettable memories. Whether you are a soon-to-be bride, groom, or a cherished guest, this is the 
-               perfect place to discover everything you need to create the wedding of your dreams.
+                     We are thrilled to have you here as we embark on this enchanting journey filled with love, joy, and
+                     unforgettable memories. Whether you are a soon-to-be bride, groom, or a cherished guest, this is the
+                     perfect place to discover everything you need to create the wedding of your dreams.
 
-               At our "DreamDay", we believe that every love story deserves to be celebrated in its own unique way. 
-               From intimate gatherings to grand celebrations, we are here to guide you through the process, 
-               providing you with inspiration, ideas, and expert advice to make your special day truly extraordinary.
-                           </p>
+                     At our "DreamDay", we believe that every love story deserves to be celebrated in its own unique way.
+                     From intimate gatherings to grand celebrations, we are here to guide you through the process,
+                     providing you with inspiration, ideas, and expert advice to make your special day truly extraordinary.
+                  </p>
+               </div>
             </div>
-          </div>
-          <div class="col-md-5">
-            <div class="doi">
-              <figure><img src="images/photo5.jpg" alt="#" /></figure>
+            <div class="col-md-5">
+               <div class="doi">
+                  <figure><img src="images/photo5.jpg" alt="#" /></figure>
+               </div>
             </div>
-          </div>
-        </div>
+         </div>
       </div>
-    </div>
-    <!-- couple -->
+   </div>
+   <!-- couple -->
 
    <!-- packages section starts  -->
    <section class="packages" id="packages">
@@ -280,223 +281,223 @@
    <!-- packages section Ends  -->
 
 
-  
 
 
 
 
-<!-- services section starts  -->
 
-<section class="services" id="services">
+   <!-- services section starts  -->
 
-   <h1 class="heading">our services</h1>
+   <section class="services" id="services">
 
-   <div class="box-container container">
+      <h1 class="heading">our services</h1>
 
-      <div class="box">
-         <img src="images/services/lightning.png" alt="">
-         <h3>Decoration & Lightning</h3>
-         <p>Step into a world of enchantment and let us illuminate your love story with our exquisite 
-            decoration and lighting services. Welcome to our "DreamDay", where dreams are transformed 
-            into breathtaking realities. 
-            Discover the magic of captivating ambiance and create memories that will glow forever.</p>
+      <div class="box-container container">
+
+         <div class="box">
+            <img src="images/services/lightning.png" alt="">
+            <h3>Decoration & Lightning</h3>
+            <p>Step into a world of enchantment and let us illuminate your love story with our exquisite
+               decoration and lighting services. Welcome to our "DreamDay", where dreams are transformed
+               into breathtaking realities.
+               Discover the magic of captivating ambiance and create memories that will glow forever.</p>
             <div class="button-box">
-              <a class="button" href="decoration.php">Explore More</a>
+               <a class="button" href="decoration.php">Explore More</a>
             </div>
-      </div>
+         </div>
 
-      <div class="box">
-         <img src="images/services/camera.png" alt="">
-         <h3>Photography</h3>
-         <p>Capture the love, the joy, and the cherished memories with our wedding photography services. 
-            Our talented photographers are dedicated to preserving every beautiful moment of your special day. 
-            Welcome to our "DreamDay", where your love story becomes timeless art.</p>
+         <div class="box">
+            <img src="images/services/camera.png" alt="">
+            <h3>Photography</h3>
+            <p>Capture the love, the joy, and the cherished memories with our wedding photography services.
+               Our talented photographers are dedicated to preserving every beautiful moment of your special day.
+               Welcome to our "DreamDay", where your love story becomes timeless art.</p>
             <div class="button-box">
-              <a class="button" href="photography.php">Explore More</a>
+               <a class="button" href="photography.php">Explore More</a>
             </div>
-      </div>
+         </div>
 
-      <div class="box">
-         <img src="images/services/dinner.png" alt="">
-         <h3>Catering</h3>
-         <p>Delight your senses and savor the flavors of love with our exquisite wedding catering services.
-             Welcome to our "DreamDay", where culinary artistry meets passion, creating a feast that reflects 
-             your unique taste. Indulge in a culinary experience that will leave a lasting impression on you 
-             and your guests.</p>
-             <div class="button-box">
-              <a class="button" href="catering.php">Explore More</a>
-            </div>
-      </div>
-
-      <div class="box">
-         <img src="images/services/wedding-cake.png" alt="">
-         <h3>Wedding Cakes</h3>
-         <p>Indulge in a symphony of flavors and artistry with our divine wedding cakes. Welcome to our "DreamDay", 
-            where sweetness takes center stage and dreams are sculpted into edible masterpieces. Let us create 
-            the perfect confectionery centerpiece for your unforgettable day.</p>
+         <div class="box">
+            <img src="images/services/dinner.png" alt="">
+            <h3>Catering</h3>
+            <p>Delight your senses and savor the flavors of love with our exquisite wedding catering services.
+               Welcome to our "DreamDay", where culinary artistry meets passion, creating a feast that reflects
+               your unique taste. Indulge in a culinary experience that will leave a lasting impression on you
+               and your guests.</p>
             <div class="button-box">
-              <a class="button" href="cake.php">Explore More</a>
+               <a class="button" href="catering.php">Explore More</a>
             </div>
-      </div>
+         </div>
 
-      <div class="box">
-         <img src="images/services/wedding-invitation.png" alt="">
-         <h3>Invitation</h3>
-         <p>Elevate the anticipation and set the tone for your perfect day with our exquisite wedding invitations. 
-            Welcome to our "DreamDay", where elegance meets personalization, creating invitations that reflect your
-             unique love story. Join us as we unveil a world of enchanting possibilities.</p>
-             <div class="button-box">
-              <a class="button" href="invitation.php">Explore More</a>
-            </div>
-      </div>
-
-      <div class="box">
-         <img src="images/services/music.png" alt="">
-         <h3>Entertainment</h3>
-         <p>Ignite the spark of celebration with our captivating wedding entertainment services. 
-            Welcome to our "DreamDay", where joy fills the air and moments of bliss come alive. 
-            Let us create an unforgettable experience, where laughter, music, and dance weave a tapestry of 
-            happiness on your special day.</p>
+         <div class="box">
+            <img src="images/services/wedding-cake.png" alt="">
+            <h3>Wedding Cakes</h3>
+            <p>Indulge in a symphony of flavors and artistry with our divine wedding cakes. Welcome to our "DreamDay",
+               where sweetness takes center stage and dreams are sculpted into edible masterpieces. Let us create
+               the perfect confectionery centerpiece for your unforgettable day.</p>
             <div class="button-box">
-              <a class="button" href="entertainment.php">Explore More</a>
-            </div>   
-      </div>
-
-
-      <div class="box">
-         <img src="images/services/bride-dress.png" alt="">
-         <h3>Dress & Make-up</h3>
-         <p>Enhance your natural beauty and radiate confidence on your special day with our impeccable 
-            dress and makeup services. Welcome to our "DreamDay", where dreams are adorned and inner beauty
-             shines through. Let us create a stunning bridal look that captures your essence and leaves you 
-             feeling truly exquisite.</p>
-             <div class="button-box">
-              <a class="button" href="dress.php">Explore More</a>
+               <a class="button" href="cake.php">Explore More</a>
             </div>
-      </div>
+         </div>
 
-      <div class="box">
-         <img src="images/services/car-wash.png" alt="">
-         <h3>Transport</h3>
-         <p>Embark on a journey of love and elegance with our exceptional wedding transport services. 
-            Welcome to our "DreamDay", where we ensure your arrival is as remarkable as your love story. 
-            Let us whisk you away in style, creating memories that will forever be etched in your heart.</p>
+         <div class="box">
+            <img src="images/services/wedding-invitation.png" alt="">
+            <h3>Invitation</h3>
+            <p>Elevate the anticipation and set the tone for your perfect day with our exquisite wedding invitations.
+               Welcome to our "DreamDay", where elegance meets personalization, creating invitations that reflect your
+               unique love story. Join us as we unveil a world of enchanting possibilities.</p>
             <div class="button-box">
-              <a class="button" href="transport.php">Explore More</a>
+               <a class="button" href="invitation.php">Explore More</a>
             </div>
-      </div>
-      <div class="box">
-         <img src="images/services/wedding-photos.png" alt="">
-         <h3>Free Wedding Album</h3>
-         <p>We are delighted to offer a complimentary wedding album as part of 
-            our package. Our talented photographers will skillfully capture the emotions, joy, and love shared
-             on your big day, creating a stunning collection of photos that will be carefully crafted into a
-              timeless album.</p>
-              <div class="button-box">
-              <a class="button" href="album.php">Explore More</a>
+         </div>
+
+         <div class="box">
+            <img src="images/services/music.png" alt="">
+            <h3>Entertainment</h3>
+            <p>Ignite the spark of celebration with our captivating wedding entertainment services.
+               Welcome to our "DreamDay", where joy fills the air and moments of bliss come alive.
+               Let us create an unforgettable experience, where laughter, music, and dance weave a tapestry of
+               happiness on your special day.</p>
+            <div class="button-box">
+               <a class="button" href="entertainment.php">Explore More</a>
             </div>
+         </div>
+
+
+         <div class="box">
+            <img src="images/services/bride-dress.png" alt="">
+            <h3>Dress & Make-up</h3>
+            <p>Enhance your natural beauty and radiate confidence on your special day with our impeccable
+               dress and makeup services. Welcome to our "DreamDay", where dreams are adorned and inner beauty
+               shines through. Let us create a stunning bridal look that captures your essence and leaves you
+               feeling truly exquisite.</p>
+            <div class="button-box">
+               <a class="button" href="dress.php">Explore More</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <img src="images/services/car-wash.png" alt="">
+            <h3>Transport</h3>
+            <p>Embark on a journey of love and elegance with our exceptional wedding transport services.
+               Welcome to our "DreamDay", where we ensure your arrival is as remarkable as your love story.
+               Let us whisk you away in style, creating memories that will forever be etched in your heart.</p>
+            <div class="button-box">
+               <a class="button" href="transport.php">Explore More</a>
+            </div>
+         </div>
+         <div class="box">
+            <img src="images/services/wedding-photos.png" alt="">
+            <h3>Free Wedding Album</h3>
+            <p>We are delighted to offer a complimentary wedding album as part of
+               our package. Our talented photographers will skillfully capture the emotions, joy, and love shared
+               on your big day, creating a stunning collection of photos that will be carefully crafted into a
+               timeless album.</p>
+            <div class="button-box">
+               <a class="button" href="album.php">Explore More</a>
+            </div>
+         </div>
+
       </div>
 
+   </section>
+
+   <!-- services section ends -->
+
+
+   <!-- Fact Start -->
+   <div class="container-fluid fact bg-dark my-5 py-5">
+      <div class="container">
+         <div class="row g-4">
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+               <i class="fa fa-check fa-2x text-white mb-3"></i>
+               <h2 class="text-white mb-2" data-toggle="counter-up">28</h2>
+               <p class="text-white mb-0">Years Experience</p>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+               <i class="fa fa-users fa-2x text-white mb-3"></i>
+               <h2 class="text-white mb-2" data-toggle="counter-up">80</h2>
+               <p class="text-white mb-0">Expert Team Members</p>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+               <i class="fa fa-users fa-2x text-white mb-3"></i>
+               <h2 class="text-white mb-2" data-toggle="counter-up">100</h2>
+               <p class="text-white mb-0">Satisfied Clients</p>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+               <i class="fa fa-ring fa-2x text-white mb-3"></i>
+               <h2 class="text-white mb-2" data-toggle="counter-up">100</h2>
+               <p class="text-white mb-0">Compleate Projects</p>
+            </div>
+         </div>
+      </div>
    </div>
-
-</section>
-
-<!-- services section ends -->
+   <!-- Fact End -->
 
 
-<!-- Fact Start -->
-    <div class="container-fluid fact bg-dark my-5 py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <i class="fa fa-check fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">28</h2>
-                    <p class="text-white mb-0">Years Experience</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                   <i class="fa fa-users fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">80</h2>
-                    <p class="text-white mb-0">Expert Team Members</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <i class="fa fa-users fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">100</h2>
-                    <p class="text-white mb-0">Satisfied Clients</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <i class="fa fa-ring fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">100</h2>
-                    <p class="text-white mb-0">Compleate Projects</p>
-                </div>
+   <!-- rewiev start -->
+
+   <section class="cus-review">
+      <div class="review" id="review">
+         <h1>CUSTOMER REVIEWS</h1>
+         <div class="review-box">
+            <div id="slider">
+               <div class="card">
+                  <div class="profile">
+                     <img src="images/reviews/pic1.jpg" alt="">
+                     <div>
+                        <h3>Emily and James</h3>
+                        <p>Satisfied Client</p>
+                     </div>
+                  </div>
+                  <p>Working with "DreamDay" was an absolute pleasure. They took care of every detail and made our wedding day stress-free and magical. The team's professionalism and attention to detail exceeded our expectations. Highly recommended!</p>
+               </div>
+               <div class="card">
+                  <div class="profile">
+                     <img src="images/reviews/pic2.jpg" alt="">
+                     <div>
+                        <h3>Hardik Ali</h3>
+                        <p>Satisfied Client</p>
+                     </div>
+                  </div>
+                  <p>We cannot thank "DreamDay" enough for their exceptional service. From the initial planning stages to the actual day, they were dedicated and attentive. Our guests were blown away by the stunning decorations and seamless coordination. It was the wedding of our dreams!</p>
+               </div>
+               <div class="card">
+                  <div class="profile">
+                     <img src="images/reviews/pic3.jpg" alt="">
+                     <div>
+                        <h3>Jessica and David</h3>
+                        <p>Satisfied Client</p>
+                     </div>
+                  </div>
+                  <p>We were impressed by the expertise and professionalism of "DreamDay". The team guided us throughout the planning process, offering valuable insights and recommendations. On the day of our wedding, everything ran smoothly, allowing us to fully enjoy our celebration. Thank you!</p>
+               </div>
+               <div class="card">
+                  <div class="profile">
+                     <img src="images/reviews/pic4.jpg" alt="">
+                     <div>
+                        <h3>Jennifer and Mark</h3>
+                        <p>Satisfied Client</p>
+                     </div>
+                  </div>
+                  <p>Choosing "DreamDay" was the best decision we made for our wedding. They went above and beyond to bring our vision to life. The photography captured every special moment beautifully, and the transportation arrangements were flawless. We are forever grateful!</p>
+               </div>
             </div>
-        </div>
-    </div>
-    <!-- Fact End -->
+            <div class="sidebar">
+               <!-- <img src="images/up-img.jpeg" alt="" id="upArrow"> -->
+               <div class="img-container d-flex align-items-center justify-content-center" id="upArrow">
+                  <i class="bi bi-caret-up d-block h1"></i>
+               </div>
+               <div class="img-container d-flex align-items-center justify-content-center" id="downArrow">
+                  <i class="bi bi-caret-down d-block pt-4 h1"></i>
+               </div>
+            </div>
 
-
- <!-- rewiev start -->
-
-<section class="cus-review">
- <div class="review" id="review">
-   <h1>CUSTOMER REVIEWS</h1>
-   <div class="review-box">
-      <div id="slider">
-      <div class="card">
-         <div class="profile">
-               <img src="images/reviews/pic1.jpg" alt="">
-            <div>
-               <h3>Emily and James</h3>
-               <p>Satisfied Client</p>
-            </div>
-         </div>
-         <p>Working with "DreamDay" was an absolute pleasure. They took care of every detail and made our wedding day stress-free and magical. The team's professionalism and attention to detail exceeded our expectations. Highly recommended!</p>
-      </div>   
-      <div class="card">
-         <div class="profile">
-               <img src="images/reviews/pic2.jpg" alt="">
-            <div>
-               <h3>Hardik Ali</h3>
-               <p>Satisfied Client</p>
-            </div>
-         </div>
-         <p>We cannot thank "DreamDay" enough for their exceptional service. From the initial planning stages to the actual day, they were dedicated and attentive. Our guests were blown away by the stunning decorations and seamless coordination. It was the wedding of our dreams!</p>
-      </div>   
-      <div class="card">
-         <div class="profile">
-               <img src="images/reviews/pic3.jpg" alt="">
-            <div>
-               <h3>Jessica and David</h3>
-               <p>Satisfied Client</p>
-            </div>
-         </div>
-         <p>We were impressed by the expertise and professionalism of "DreamDay". The team guided us throughout the planning process, offering valuable insights and recommendations. On the day of our wedding, everything ran smoothly, allowing us to fully enjoy our celebration. Thank you!</p>
-      </div>   
-      <div class="card">
-         <div class="profile">
-               <img src="images/reviews/pic4.jpg" alt="">
-            <div>
-               <h3>Jennifer and Mark</h3>
-               <p>Satisfied Client</p>
-            </div>
-         </div>
-         <p>Choosing "DreamDay" was the best decision we made for our wedding. They went above and beyond to bring our vision to life. The photography captured every special moment beautifully, and the transportation arrangements were flawless. We are forever grateful!</p>
-      </div>   
- </div>
-      <div class="sidebar">
-         <!-- <img src="images/up-img.jpeg" alt="" id="upArrow"> -->
-         <div class="img-container d-flex align-items-center justify-content-center" id="upArrow">
-            <i class="bi bi-caret-up d-block h1"></i>
-         </div>
-         <div class="img-container d-flex align-items-center justify-content-center" id="downArrow">
-            <i class="bi bi-caret-down d-block pt-4 h1"></i>
          </div>
       </div>
+   </section>
 
-   </div>
- </div>
- </section>
-
- <!-- rewieve end -->
+   <!-- rewieve end -->
 
 
    <!-- footer section starts  -->
@@ -554,30 +555,29 @@
       let x = 0;
 
       upArrow.onclick = function() {
-         if(x > "-900"){
-               x = x - 300;
-               slider.style.top = x + "px";
+         if (x > "-900") {
+            x = x - 300;
+            slider.style.top = x + "px";
          }
-        
+
       }
       downArrow.onclick = function() {
-         if(x < 0){
-               x = x + 300;
-               slider.style.top = x + "px";
+         if (x < 0) {
+            x = x + 300;
+            slider.style.top = x + "px";
          }
-        
-      }
 
+      }
    </script>
 
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> 
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
    <script>
-       var typed = new Typed (".auto-type" , {
-          strings:["Let's Make Your Special Day Unforgettable!"],
-          typeSpeed: 80,
-          backSpeed: 80,
-          loop: true
-       })
+      var typed = new Typed(".auto-type", {
+         strings: ["Let's Make Your Special Day Unforgettable!"],
+         typeSpeed: 80,
+         backSpeed: 80,
+         loop: true
+      })
    </script>
    <script src="scripts/service.js"></script>
    <script src="scripts/cal.js"></script>
@@ -586,8 +586,8 @@
    <script src="scripts/script.js"></script>
    <script src="scripts/index.js"></script>
 
-	
-<script src="jsfile.js"></script>
+
+   <script src="jsfile.js"></script>
 
 </body>
 
