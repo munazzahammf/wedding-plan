@@ -434,9 +434,6 @@
    </div>
    <!-- Fact End -->
 
-
-   <!-- rewiev start -->
-
    <section class="cus-review">
       <div class="review" id="review">
          <h1>CUSTOMER REVIEWS</h1>
@@ -491,118 +488,34 @@
                <div class="img-container d-flex align-items-center justify-content-center" id="downArrow">
                   <i class="bi bi-caret-down d-block pt-4 h1"></i>
                </div>
-<!-- Fact Start -->
-    <div class="container-fluid fact bg-dark my-5 py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <i class="fa fa-check fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">28</h2>
-                    <p class="text-white mb-0">Years Experience</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                   <i class="fa fa-users fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">80</h2>
-                    <p class="text-white mb-0">Expert Team Members</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <i class="fa fa-users fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">100</h2>
-                    <p class="text-white mb-0">Satisfied Clients</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <i class="fa fa-ring fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">120</h2>
-                    <p class="text-white mb-0">Compleate Projects</p>
-                </div>
             </div>
-
-
- <!-- rewiev start -->
-
- 
-<section class="cus-review">
- <div class="review" id="review">
-   <h1>CUSTOMER REVIEWS</h1>
-   <div class="review-box">
-      <div id="slider">
-      <div class="card">
-         <div class="profile">
-               <img src="images/reviews/pic1.jpg" alt="">
-            <div>
-               <h3>Emily and James</h3>
-               <p>Satisfied Client</p>
-            </div>
-         </div>
-         <p>Working with "DreamDay" was an absolute pleasure. They took care of every detail and made our wedding day stress-free and magical. The team's professionalism and attention to detail exceeded our expectations. Highly recommended!</p>
-      </div>   
-      <div class="card">
-         <div class="profile">
-               <img src="images/reviews/pic2.jpg" alt="">
-            <div>
-               <h3>Hardik Ali</h3>
-               <p>Satisfied Client</p>
-            </div>
-         </div>
-         <p>We cannot thank "DreamDay" enough for their exceptional service. From the initial planning stages to the actual day, they were dedicated and attentive. Our guests were blown away by the stunning decorations and seamless coordination. It was the wedding of our dreams!</p>
-      </div>   
-      <div class="card">
-         <div class="profile">
-               <img src="images/reviews/pic3.jpg" alt="">
-            <div>
-               <h3>Jessica and David</h3>
-               <p>Satisfied Client</p>
-            </div>
-         </div>
-         <p>We were impressed by the expertise and professionalism of "DreamDay". The team guided us throughout the planning process, offering valuable insights and recommendations. On the day of our wedding, everything ran smoothly, allowing us to fully enjoy our celebration. Thank you!</p>
-      </div>   
-      <div class="card">
-         <div class="profile">
-               <img src="images/reviews/pic4.jpg" alt="">
-            <div>
-               <h3>Jennifer and Mark</h3>
-               <p>Satisfied Client</p>
-            </div>
-         </div>
-         <p>Choosing "DreamDay" was the best decision we made for our wedding. They went above and beyond to bring our vision to life. The photography captured every special moment beautifully, and the transportation arrangements were flawless. We are forever grateful!</p>
-      </div>   
- </div>
-      <div class="sidebar">
-         <!-- <img src="images/up-img.jpeg" alt="" id="upArrow"> -->
-         <div class="img-container d-flex align-items-center justify-content-center" id="upArrow">
-            <i class="bi bi-caret-up d-block h1"></i>
-         </div>
-         <div class="img-container d-flex align-items-center justify-content-center" id="downArrow">
-            <i class="bi bi-caret-down d-block pt-4 h1"></i>
-         </div>
-      </div>
    </section>
 
    <!-- rewieve end -->
 
 
- <section class="contact-us">
- <div class="contact">
-   <div class="heading">
-    <h1>Add Your Review Here....</h1>
-    </div>
-    <form action="#" method="post">
-      <div class="form-group">
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required>
+   <section class="contact-us">
+      <div class="contact">
+         <div class="heading">
+            <h1>Add Your Review Here....</h1>
+         </div>
+         <form action="#" method="post">
+            <div class="form-group">
+               <label for="name">Your Name:</label>
+               <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+               <label for="email">Your Email:</label>
+               <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+               <label for="review">Your Review:</label>
+               <textarea id="review" name="review" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit Review</button>
+         </form>
       </div>
-      <div class="form-group">
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="review">Your Review:</label>
-        <textarea id="review" name="review" rows="4" required></textarea>
-      </div>
-      <button type="submit">Submit Review</button>
-    </form>
-  </div>
-  </section>
+   </section>
 
    <!-- footer section starts  -->
 
