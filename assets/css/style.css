@@ -845,6 +845,8 @@ footer .link i{
 
 /** end couple **/
 
+
+/** book now start **/
 .book_section h1 {
   text-align: center;
   font-size: 30px;
@@ -943,5 +945,63 @@ footer .link i{
   padding-left: 430px;
   padding-top: 2rem;
 }
+/** book now end **/
 
 
+/** review start **/
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.contact h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact .form-group {
+  margin-bottom: 20px;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact textarea {
+  resize: vertical;
+}
+
+.contact button {
+  width: 150px;
+  height: 50px;
+  padding: 10px 10px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background-color: var(--blue);
+  color: var(--white);
+  border: 0;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+}
+
+.contact button:hover {
+  color: var(--blue);
+  background-color: var(--orange);
+}
+/** review end **/
