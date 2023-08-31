@@ -129,9 +129,9 @@
                   <br><span class="auto-type"></span>
                </h3>
             </div>
-            <div class="scrolling-message">
+            <!-- <div class="scrolling-message">
                If you want to contact us, Please first register and then make an Appointment
-            </div>
+            </div> -->
          </div>
       </div>
    </div>
@@ -200,7 +200,7 @@
             </div>
 
             <div class="col-md-2 image d-flex">
-               <video src="images/video2.mp4" width="500px" height="500px" autoplay muted></video>
+               <video src="images/video2.mp4" width="500px" height="500px" loop autoplay muted></video>
             </div>
 
          </div>
@@ -539,32 +539,6 @@
    </footer>
 
    <!-- footer section ends -->
-
-
-   <!-- java script link -->
-
-   <!-- <script>
-      var slider = document.getElementById("slider");
-      var upArrow = document.getElementById("upArrow");
-      var downArrow = document.getElementById("downArrow");
-
-      let x = 0;
-
-      upArrow.onclick = function() {
-         if (x > "-1200") {
-            x = x - 300;
-            slider.style.top = x + "px";
-         }
-
-      }
-      downArrow.onclick = function() {
-         if (x < 0) {
-            x = x + 300;
-            slider.style.top = x + "px";
-         }
-
-      }
-   </script> -->
    <?php
    include_once 'database.php';
 
