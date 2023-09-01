@@ -1026,3 +1026,8 @@ textarea {
 }
 
 /** review end **/
+
+.book_section input {
+  color: white !important;
+  font-size: larger;
+}

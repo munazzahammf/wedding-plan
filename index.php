@@ -442,7 +442,7 @@
                <?php
                include_once 'database.php';
 
-               $query = "SELECT * FROM review";
+               $query = "SELECT * FROM review WHERE visibility = '1'";
 
                $stmt = $db->query($query);
 
@@ -542,7 +542,7 @@
    <?php
    include_once 'database.php';
 
-   $query = "SELECT * FROM review";
+   $query = "SELECT * FROM review WHERE visibility = '1'";
 
    $stmt = $db->query($query);
 
