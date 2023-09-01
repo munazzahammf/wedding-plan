@@ -131,8 +131,8 @@
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
-                                    <h1>Robat Hardik<span>Photographer</span></h1>
-                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <h1>Robat Hardik<span>Cake Baker</span></h1>
+                                    <p>I'm the Cake Baker Currently work <span>@DreamDay</span> Company</p>
                                     <div class="row">
                                        <div class="col">
                                           <h2>5K</h2>
@@ -162,8 +162,8 @@
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
-                                    <h1>Robat Hardik<span>Photographer</span></h1>
-                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <h1>Robat Hardik<span>Cake Baker</span></h1>
+                                    <p>I'm the Cake Baker Currently work <span>@DreamDay</span> Company</p>
                                     <div class="row">
                                        <div class="col">
                                           <h2>5K</h2>
@@ -193,8 +193,8 @@
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
-                                    <h1>Robat Hardik<span>Photographer</span></h1>
-                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <h1>Robat Hardik<span>Cake Baker</span></h1>
+                                    <p>I'm the Cake Baker Currently work <span>@DreamDay</span> Company</p>
                                     <div class="row">
                                        <div class="col">
                                           <h2>5K</h2>
@@ -224,8 +224,8 @@
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
-                                    <h1>Robat Hardik<span>Photographer</span></h1>
-                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <h1>Robat Hardik<span>Cake Baker</span></h1>
+                                    <p>I'm the Cake Baker Currently work <span>@DreamDay</span> Company</p>
                                     <div class="row">
                                        <div class="col">
                                           <h2>5K</h2>
@@ -258,8 +258,8 @@
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
-                                    <h1>Robat Hardik<span>Photographer</span></h1>
-                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <h1>Robat Hardik<span>Cake Baker</span></h1>
+                                    <p>I'm the Cake Baker Currently work <span>@DreamDay</span> Company</p>
                                     <div class="row">
                                        <div class="col">
                                           <h2>5K</h2>
@@ -289,8 +289,8 @@
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
-                                    <h1>Robat Hardik<span>Photographer</span></h1>
-                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <h1>Robat Hardik<span>Cake Baker</span></h1>
+                                    <p>I'm the Cake Baker Currently work <span>@DreamDay</span> Company</p>
                                     <div class="row">
                                        <div class="col">
                                           <h2>5K</h2>
@@ -320,8 +320,8 @@
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
-                                    <h1>Robat Hardik<span>Photographer</span></h1>
-                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <h1>Robat Hardik<span>Cake Baker</span></h1>
+                                    <p>I'm the Cake Baker Currently work <span>@DreamDay</span> Company</p>
                                     <div class="row">
                                        <div class="col">
                                           <h2>5K</h2>
@@ -351,8 +351,8 @@
                               </div>
                                  <div class="back">
                                     <img src="images/waving-hand.png" alt="">
-                                    <h1>Robat Hardik<span>Photographer</span></h1>
-                                    <p>I'm the Photographer Currently work <span>@DreamDay</span> Company</p>
+                                    <h1>Robat Hardik<span>Cake Baker</span></h1>
+                                    <p>I'm the Cake Baker Currently work <span>@DreamDay</span> Company</p>
                                     <div class="row">
                                        <div class="col">
                                           <h2>5K</h2>
@@ -402,7 +402,7 @@
             </div>
             <div class="caption">
                 <h3>Vin Diesel</h3>
-                <p>Proffessional Photographer</p>
+                <p>Proffessional Cake Baker</p>
                 <p>Contact : +94761434955</p>
             </div>
         </div>
@@ -412,7 +412,7 @@
             </div>
             <div class="caption">
                 <h3>David Corner</h3>
-                <p>Proffessional Photographer</p>
+                <p>Proffessional Cake Baker</p>
                 <p>Contact : +94761434955</p>
             </div>
         </div>
@@ -422,7 +422,7 @@
             </div>
             <div class="caption">
                 <h3>Tom Cruise</h3>
-                <p>Proffessional Photographer</p>
+                <p>Proffessional Cake Baker</p>
                 <p>Contact : +94761434955</p>
             </div>
         </div>
@@ -432,7 +432,7 @@
             </div>
             <div class="caption">
                 <h3>Tom Cruise</h3>
-                <p>Proffessional Photographer </p>
+                <p>Proffessional Cake Baker</p>
                 <p>Contact : +94761434955</p>
             </div>
         </div>
