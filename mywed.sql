@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 01, 2023 at 04:41 AM
+-- Generation Time: Sep 01, 2023 at 05:52 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -20,6 +20,29 @@ SET time_zone = "+00:00";
 --
 -- Database: `mywed`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `order`
+--
+
+CREATE TABLE `order` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `email` varchar(256) DEFAULT NULL,
+  `date` date DEFAULT NULL,
+  `status` enum('ACCEPTED','APPLIED','REQUESTED','DECLINED') DEFAULT NULL,
+  `phone` char(12) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `order`
+--
+
+INSERT INTO `order` (`id`, `name`, `email`, `date`, `status`, `phone`) VALUES
+(1, 'Fathima Munazzaha', 'munazzahammf@gmail.com', '2024-07-18', 'REQUESTED', '0768597177'),
+(2, 'Fathima Ifla', 'ifla4d@gmail.com', '2024-07-08', 'ACCEPTED', '0768445556');
 
 -- --------------------------------------------------------
 
@@ -71,6 +94,12 @@ INSERT INTO `user` (`id`, `firstname`, `lastname`, `username`, `password`, `emai
 --
 
 --
+-- Indexes for table `order`
+--
+ALTER TABLE `order`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `review`
 --
 ALTER TABLE `review`
@@ -86,6 +115,12 @@ ALTER TABLE `user`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `order`
+--
+ALTER TABLE `order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `review`

@@ -153,7 +153,7 @@
                      </div>
                      <div class="form-group col-lg-6">
                         <label for="contact-no">Contact Number: </label>
-                        <input name="contact-no" type="tel" class="form-control" id="contact-no" placeholder="">
+                        <input name="tel" type="tel" class="form-control" id="contact-no" placeholder="">
                      </div>
                   </div>
                   <div class="form-row ">
@@ -163,7 +163,7 @@
                      </div>
                      <div class="form-group col-lg-6">
                         <label for="date">Booking Date: </label>
-                        <input name="booking-date" type="date" class="form-control" id="" placeholder="">
+                        <input name="date" type="date" class="form-control" id="" placeholder="">
                      </div>
                   </div>
                   <div class="btn-box">

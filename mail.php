@@ -1,5 +1,6 @@
 <?php
 require 'vendor/autoload.php'; // Load PHPMailer library
+require_once 'database.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -20,6 +21,19 @@ try {
     if (isset($_POST['name'])) {
         $name = $_POST['name'];
         $email = $_POST['email'];
+        $date = $_POST['date'];
+        $phone = $_POST['tel'];
+
+        $sql = "INSERT INTO `order` (`name`, `email`, `date`, `phone`, `status`) VALUES (:name, :email, :date, :phone, 'REQUESTED')";
+
+        $stmt = $db->prepare($sql);
+
+        $stmt->execute([
+            'name' => $name,
+            'email' => $email,
+            'date' => $date,
+            'phone' => $phone
+        ]);
 
         // Recipients
         $mail->setFrom('dreamday1119@gmail.com', 'Dream Day'); // Use the temporary email here
